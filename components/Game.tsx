@@ -137,7 +137,7 @@ export default function Game() {
 
   // Image error handler - tracks which images failed to load
   const onImgError = useCallback((path: string) => {
-    setImgErrors(prev => new Set([...prev, path]));
+    setImgErrors(prev => new Set([...Array.from(prev), path]));
   }, []);
 
   // Load saved game on mount
@@ -297,7 +297,7 @@ export default function Game() {
     if (totalAct > 0 && doneAct === totalAct && !masteredCities.includes(currentNode)) {
       setMasteredCities(prev => [...prev, currentNode]);
       if (!cityMissed) {
-        setPerfectCities(prev => new Set([...prev, currentNode]));
+        setPerfectCities(prev => new Set([...Array.from(prev), currentNode]));
       }
     }
 
@@ -335,7 +335,7 @@ export default function Game() {
       if (catAvail.length > 0) avail = catAvail;
     }
     const pick = avail[Math.floor(Math.random() * avail.length)];
-    setUsedQs(prev => new Set([...prev, `r-${edge.region}-${pool.indexOf(pick)}`]));
+    setUsedQs(prev => new Set([...Array.from(prev), `r-${edge.region}-${pool.indexOf(pick)}`]));
     const sh = shuffleAnswers(pick as any);
     setCurQ(pick);
     setShuf(sh);
@@ -458,7 +458,7 @@ export default function Game() {
     setQStartTime(Date.now());
     setHintUsed(false);
     setHintElim([]);
-    setVisitedDetours(prev => new Set([...prev, `${currentNode}-${stopIdx}`]));
+    setVisitedDetours(prev => new Set([...Array.from(prev), `${currentNode}-${stopIdx}`]));
     audio.speakQuestion(stop.q, sh.a);
     setPhase('detour_q');
   }
@@ -485,7 +485,7 @@ export default function Game() {
     setQStartTime(Date.now());
     setHintUsed(false);
     setHintElim([]);
-    setVisitedDetours(prev => new Set([...prev, `exc-${currentNode}-${excIdx}`]));
+    setVisitedDetours(prev => new Set([...Array.from(prev), `exc-${currentNode}-${excIdx}`]));
     audio.speakQuestion(stop.q, sh.a);
     setPhase('detour_q');
   }
@@ -597,7 +597,7 @@ export default function Game() {
     setRestIdx(0);
     setRestSel(null);
     setRestPts(0);
-    setRestedNodes(prev => new Set([...prev, currentNode]));
+    setRestedNodes(prev => new Set([...Array.from(prev), currentNode]));
     setTripMinutes(t => t + STOP_TIME['rest']);
     setDayMinutes(d => Math.max(0, d - 120)); // Rest stop takes the edge off — 2 hours of fatigue relief
     setPhase('rest_stop');
@@ -620,7 +620,7 @@ export default function Game() {
     const d = correct ? POINTS.REST_CORRECT : POINTS.REST_WRONG;
     setRestPts(p => p + d);
     setPoints(p => p + d);
-    setUsedQs(prev => new Set([...prev, `rest-${currentNode}-${restIdx}`]));
+    setUsedQs(prev => new Set([...Array.from(prev), `rest-${currentNode}-${restIdx}`]));
     if (correct) { setQCorr(c => c + 1); audio.correct(); }
     setQAns(a => a + 1);
     // Announce result

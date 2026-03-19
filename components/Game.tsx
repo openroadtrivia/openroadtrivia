@@ -5,7 +5,7 @@ import { NODES, EDGES, HAZARD_QUESTIONS, EXCURSIONS, POINTS, QUESTION_TIME, STOP
 import { shuffleAnswers, calculateRoadPoints, getSpeedRating, getStreakLabel, getStarRating, formatTripTime, saveGame, loadGame, clearSave, getResultMessage, type ShuffledQuestion, type SaveData } from '@/lib/game-engine';
 import { getQuestionsForRegion, getExploresForCity, getRestQuestionsForRegion, getLightningQuestions, type RawQuestion, type RawExploreStop } from '@/lib/questions';
 import { getCityImage, getRegionImage, getStopImage, getResultImage } from '@/lib/images';
-import { audio } from '@/lib/audio';
+import { audio, setAudioMuted } from '@/lib/audio';
 
 import LocationHeader from '@/components/LocationHeader';
 import DecoHeader from '@/components/DecoHeader';

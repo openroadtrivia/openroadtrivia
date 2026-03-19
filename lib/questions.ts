@@ -3,6 +3,7 @@
 
 import questionsData from '@/data/route66-questions.json';
 import exploresData from '@/data/route66-explores.json';
+import lightningData from '@/data/route66-lightning.json';
 
 export interface RawQuestion {
   q: string;
@@ -132,8 +133,6 @@ if (typeof window !== 'undefined') {
 }
 
 // Lightning Round questions
-import lightningData from '@/data/route66-lightning.json';
-
 const lightningPool: RawQuestion[] = (lightningData as any).questions || [];
 
 export function getLightningQuestions(count: number = 10): RawQuestion[] {

@@ -1,0 +1,1829 @@
+{
+  "Chicago": [
+    {
+      "name": "Art Institute of Chicago",
+      "type": "d",
+      "q": "The Art Institute of Chicago's building was originally constructed for what 1893 event?",
+      "a": [
+        "The World's Columbian Exposition",
+        "The Century of Progress fair",
+        "Abraham Lincoln's memorial",
+        "The Chicago Board of Trade opening"
+      ],
+      "correct": 0,
+      "bonus": "In 2014, TripAdvisor named the Art Institute the best museum in the world. Its collection of nearly 300,000 works includes Nighthawks, American Gothic, and A Sunday on La Grande Jatte.",
+      "synopsis": "The Art Institute is the second-largest art museum in the United States, after the Met in New York.",
+      "desc": "World-class art from ancient to modern. Home to American Gothic."
+    },
+    {
+      "name": "Field Museum of Natural History",
+      "type": "d",
+      "q": "The Field Museum paid a record-breaking sum in 1997 to acquire Sue the T. rex. How much?",
+      "a": [
+        "$8.4 million",
+        "$2.1 million",
+        "$15 million",
+        "$500,000"
+      ],
+      "correct": 0,
+      "bonus": "Sue is the largest, most complete, and best-preserved T. rex fossil ever discovered. She was found in South Dakota in 1990 by fossil hunter Sue Hendrickson.",
+      "synopsis": "The Field Museum sits on Chicago's Museum Campus alongside the Shedd Aquarium and Adler Planetarium.",
+      "desc": "Home to the world's most famous fossil. Tens of millions of artifacts under one roof."
+    },
+    {
+      "name": "Museum of Science and Industry",
+      "type": "d",
+      "q": "The Museum of Science and Industry in Chicago has a real what on display that was donated by United Airlines?",
+      "a": [
+        "A Boeing 727 jet airplane",
+        "A space shuttle",
+        "A steam locomotive",
+        "A submarine"
+      ],
+      "correct": 0,
+      "bonus": "The museum also has a captured German U-505 submarine from World War II, a coal mine visitors can descend into, and a full-scale replica of a human heart you can walk through.",
+      "synopsis": "The Museum of Science and Industry is housed in the only remaining building from the 1893 World's Columbian Exposition.",
+      "desc": "A captured German U-boat and a real coal mine underground."
+    },
+    {
+      "name": "Chicago Cultural Center",
+      "type": "d",
+      "q": "The Chicago Cultural Center contains the world's largest Tiffany stained glass dome. How wide is it?",
+      "a": [
+        "38 feet in diameter with 30,000 pieces of glass",
+        "20 feet with 10,000 pieces",
+        "50 feet with 50,000 pieces",
+        "15 feet with 5,000 pieces"
+      ],
+      "correct": 0,
+      "bonus": "The building was Chicago's first public library when it opened in 1897. It became the first free municipal cultural center in the United States.",
+      "synopsis": "The Cultural Center hosts over 1,000 free programs annually \u2014 concerts, exhibitions, lectures, and film screenings.",
+      "desc": "A place worth discovering in Chicago."
+    },
+    {
+      "name": "Shedd Aquarium",
+      "type": "d",
+      "q": "When the Shedd Aquarium opened in 1930, it held a world record. For what?",
+      "a": [
+        "The world's largest indoor aquarium",
+        "The most species of fish",
+        "The deepest tank",
+        "The first saltwater exhibit"
+      ],
+      "correct": 0,
+      "bonus": "The Shedd contains 5 million gallons of water and over 32,000 animals. It sits on Chicago's Museum Campus with the Field Museum and Adler Planetarium.",
+      "synopsis": "The Shedd Aquarium was a gift to the city from retail magnate John G. Shedd, a prot\u00e9g\u00e9 of Marshall Field.",
+      "desc": "Opened in 1930 with a record that stood for decades. Step inside."
+    },
+    {
+      "name": "Cloud Gate (The Bean)",
+      "type": "a",
+      "q": "Cloud Gate, the famous mirrored sculpture in Millennium Park known as 'The Bean,' was created by which artist?",
+      "a": [
+        "Anish Kapoor",
+        "Jeff Koons",
+        "Claes Oldenburg",
+        "Alexander Calder"
+      ],
+      "correct": 0,
+      "bonus": "The 110-ton stainless steel sculpture reflects Chicago's skyline in its curved surface. Kapoor was inspired by liquid mercury. It took 3 years to build and was unveiled in 2006.",
+      "synopsis": "Cloud Gate is the most photographed public artwork in America and the centerpiece of Millennium Park.",
+      "desc": "A classic roadside stop in Chicago."
+    },
+    {
+      "name": "Navy Pier",
+      "type": "a",
+      "q": "Navy Pier, Chicago's iconic lakefront attraction, was built atop 20,000 logs imported from which state?",
+      "a": [
+        "Oregon",
+        "Wisconsin",
+        "Michigan",
+        "Maine"
+      ],
+      "correct": 0,
+      "bonus": "The pier stretches 3,300 feet into Lake Michigan and draws over 9 million visitors annually. During WWII, about 10,000 Navy personnel lived and trained on the pier.",
+      "synopsis": "Navy Pier opened in 1916 as Municipal Pier and was renamed in 1927 to honor naval veterans of World War I.",
+      "desc": "A classic roadside stop in Chicago."
+    },
+    {
+      "name": "Wrigley Field",
+      "type": "a",
+      "q": "Wrigley Field is famous for the ivy-covered outfield walls. In what year was the ivy planted?",
+      "a": [
+        "1937",
+        "1914",
+        "1952",
+        "1926"
+      ],
+      "correct": 0,
+      "bonus": "Bill Veeck Jr. planted the Boston ivy and Japanese bittersweet. Balls hit into the ivy are ruled ground-rule doubles if the outfielder can't find them.",
+      "synopsis": "Wrigley Field is the second-oldest MLB ballpark (after Fenway Park) and a National Historic Landmark.",
+      "desc": "A classic roadside stop in Chicago."
+    },
+    {
+      "name": "Millennium Park",
+      "type": "a",
+      "q": "Millennium Park is considered the world's largest what?",
+      "a": [
+        "Rooftop garden \u2014 it sits atop parking garages and train lines",
+        "Outdoor art gallery",
+        "Free public park",
+        "Urban concert venue"
+      ],
+      "correct": 0,
+      "bonus": "The park cost $475 million and opened four years late in 2004. Despite the controversy, it draws 25 million visitors annually and transformed Chicago's downtown.",
+      "synopsis": "Millennium Park was built over railroad tracks and parking lots, turning industrial land into one of America's most celebrated public spaces.",
+      "desc": "A classic roadside stop in Chicago."
+    },
+    {
+      "name": "Route 66 Begin Sign",
+      "type": "a",
+      "q": "The 'Historic Route 66 Begin' sign in Chicago stands on Adams Street in front of which landmark?",
+      "a": [
+        "The Art Institute of Chicago",
+        "Willis Tower",
+        "Union Station",
+        "Buckingham Fountain"
+      ],
+      "correct": 0,
+      "bonus": "From this spot, Route 66 stretches 2,448 miles to Santa Monica Pier in California. The sign is one of the most photographed spots in Chicago for road trip enthusiasts.",
+      "synopsis": "Every Route 66 journey begins at the corner of Adams and Michigan Avenue in Grant Park.",
+      "desc": "The photo every road-tripper takes before heading west."
+    },
+    {
+      "name": "Palmer House Hilton",
+      "type": "h",
+      "q": "The Palmer House in Chicago claims to have invented what dessert for the 1893 World's Fair?",
+      "a": [
+        "The brownie",
+        "The banana split",
+        "The ice cream sundae",
+        "Cracker Jack"
+      ],
+      "correct": 0,
+      "bonus": "Bertha Palmer asked the hotel pastry chef to create a dessert ladies could eat in their gloved hands at the Columbian Exposition. The result was the brownie.",
+      "synopsis": "The Palmer House has operated continuously since 1871, making it one of the longest-running hotels in America.",
+      "desc": "A famous dessert was invented here. Continuously open since 1871."
+    },
+    {
+      "name": "Lou Mitchell's Restaurant",
+      "type": "r",
+      "q": "Lou Mitchell's on Route 66 has a famous tradition when you walk in the door. What do women and children receive?",
+      "a": [
+        "A free box of Milk Duds and a donut hole",
+        "A free slice of pie",
+        "A souvenir postcard",
+        "A miniature Route 66 sign"
+      ],
+      "correct": 0,
+      "bonus": "Lou Mitchell's has served breakfast at the start of Route 66 since 1923. The tradition of free Milk Duds has continued for decades.",
+      "synopsis": "Lou Mitchell's sits on Jackson Boulevard at the start of Route 66 and is a departure ritual for road trippers.",
+      "desc": "A beloved tradition greets every guest who walks in the door."
+    }
+  ],
+  "Joliet": [
+    {
+      "name": "Old Joliet Prison",
+      "type": "d",
+      "q": "Joliet's Old Prison was used as a filming location for which movie?",
+      "a": [
+        "The Blues Brothers",
+        "The Shawshank Redemption",
+        "Escape from Alcatraz",
+        "Cool Hand Luke"
+      ],
+      "bonus": "The prison was also used for the TV series Prison Break. It operated from 1858 to 2002.",
+      "synopsis": "Joliet's Gothic limestone prison connects Route 66 to both cinema and criminal justice history.",
+      "explore_type": "discovery",
+      "desc": "A legendary filming location. You've seen this place on screen."
+    },
+    {
+      "name": "Joliet Area Historical Museum",
+      "type": "d",
+      "q": "Joliet sits on what important waterway connecting Lake Michigan to the Mississippi?",
+      "a": [
+        "The Illinois and Michigan Canal",
+        "The Erie Canal",
+        "The Ohio River",
+        "The Missouri River"
+      ],
+      "bonus": "The canal opened in 1848 and made Chicago a major transportation hub.",
+      "synopsis": "The canal explains why Joliet exists and why Route 66 passes through it.",
+      "explore_type": "discovery",
+      "desc": "This town built its fortune from what lay beneath the ground."
+    },
+    {
+      "name": "Joliet Area Historical Museum",
+      "type": "d",
+      "q": "Joliet was once famous for what industry that earned it the nickname 'City of Stone'?",
+      "a": [
+        "Limestone quarrying",
+        "Coal mining",
+        "Steel production",
+        "Brick manufacturing"
+      ],
+      "correct": 0,
+      "bonus": "Joliet limestone was used to build the Illinois State Capitol and the Chicago Water Tower.",
+      "synopsis": "Joliet's quarries supplied building stone for much of the Midwest in the 19th century.",
+      "desc": "This town built its fortune from what lay beneath the ground."
+    },
+    {
+      "name": "Rich & Creamy Ice Cream",
+      "type": "r",
+      "q": "What is the official starting point sign for Route 66 in downtown Chicago?",
+      "a": [
+        "Begin Route 66 sign on Adams Street",
+        "A bronze plaque on Michigan Avenue",
+        "A painted highway shield on Lake Shore Drive",
+        "A neon arrow on State Street"
+      ],
+      "correct": 0,
+      "bonus": "The 'Begin' sign stands at Adams and Michigan. The 'End' sign is 2,448 miles away on the Santa Monica Pier.",
+      "synopsis": "Route 66 was officially designated in 1926, running from Chicago to Los Angeles.",
+      "desc": "A local favorite in Joliet."
+    }
+  ],
+  "Springfield": [
+    {
+      "name": "Lincoln's Tomb",
+      "type": "d",
+      "q": "Lincoln's tomb in Springfield features a bronze bust with what unusual feature?",
+      "a": [
+        "A shiny nose from visitors rubbing it for luck",
+        "A missing ear from vandalism",
+        "Gold-plated eyes",
+        "A removable hat"
+      ],
+      "bonus": "Millions of visitors have rubbed the nose. The rest of the bronze is dark with patina but the nose gleams.",
+      "synopsis": "The shiny nose makes Lincoln feel touchable and real.",
+      "explore_type": "discovery",
+      "desc": "A bronze bust with a curious feature visitors can't resist touching."
+    },
+    {
+      "name": "Abraham Lincoln Presidential Library",
+      "type": "d",
+      "q": "Lincoln delivered his famous 'House Divided' speech in 1858 in which building?",
+      "a": [
+        "The Old State Capitol",
+        "The White House",
+        "Ford's Theatre",
+        "Independence Hall"
+      ],
+      "bonus": "His law partner warned him the speech was 'a damn fool utterance.",
+      "synopsis": "The Old State Capitol gives Springfield its heaviest historical moment.",
+      "explore_type": "discovery",
+      "desc": "Where Lincoln gave the House Divided speech."
+    },
+    {
+      "name": "Cozy Dog Drive In",
+      "type": "a",
+      "q": "The Cozy Dog Drive In claims to have invented what food in 1946?",
+      "a": [
+        "The corn dog on a stick",
+        "The milkshake",
+        "The drive-through window",
+        "The curly fry"
+      ],
+      "bonus": "Ed Waldmire Jr. originally called it the 'Crusty Cur' before his wife convinced him that was terrible.",
+      "synopsis": "The corn dog claim is disputed and the backstory is funny. Perfect Route 66 food mythology.",
+      "explore_type": "attraction",
+      "desc": "They claim to have invented an iconic American food in 1946."
+    },
+    {
+      "name": "Cozy Dog Drive In",
+      "type": "r",
+      "q": "The Cozy Dog Drive In in Springfield claims to have invented what iconic food item?",
+      "a": [
+        "The corn dog",
+        "The chili dog",
+        "The footlong hot dog",
+        "The deep-fried Twinkie"
+      ],
+      "correct": 0,
+      "bonus": "Ed Waldmire Jr. created the 'Crusty Cur' in 1946, later renamed the Cozy Dog. The restaurant has been on Route 66 ever since.",
+      "synopsis": "The Cozy Dog Drive In is one of the most famous food stops on Route 66, located on 6th Street in Springfield.",
+      "desc": "They claim to have invented an iconic American food in 1946."
+    },
+    {
+      "name": "Route 66 Hotel and Conference Center",
+      "type": "h",
+      "q": "Springfield, Illinois is famous for being the hometown of which U.S. president?",
+      "a": [
+        "Abraham Lincoln",
+        "Ulysses S. Grant",
+        "Barack Obama",
+        "Ronald Reagan"
+      ],
+      "correct": 0,
+      "bonus": "Lincoln lived in Springfield for 24 years before leaving for Washington. His home on Eighth Street is now a National Historic Site.",
+      "synopsis": "Springfield embraces its Lincoln heritage with museums, monuments, and the only home Lincoln ever owned.",
+      "desc": "Sleep in a city shaped by one of America's greatest figures."
+    },
+    {
+      "name": "History Museum on the Square",
+      "type": "d",
+      "q": "The History Museum on the Square in Springfield has a 66-foot-long exhibit dedicated to what?",
+      "a": [
+        "The history of Route 66",
+        "The Civil War in Missouri",
+        "Springfield's founding",
+        "The Ozark Mountains"
+      ],
+      "correct": 0,
+      "bonus": "The exhibit features a colorful timeline, vintage signs, and artifacts from popular stops along the Mother Road through Missouri.",
+      "synopsis": "Springfield claims the title 'Birthplace of Route 66' \u2014 the highway's number was assigned there in 1926.",
+      "desc": "A 66-foot exhibit dedicated to the Mother Road."
+    },
+    {
+      "name": "Bass Pro Shops Outdoor World",
+      "type": "a",
+      "q": "The original Bass Pro Shops in Springfield, Missouri is one of the most visited tourist attractions in the state. What's inside?",
+      "a": [
+        "Aquariums, a shooting range, a bowling alley, and wildlife exhibits",
+        "Just fishing gear",
+        "A theme park",
+        "A car museum"
+      ],
+      "correct": 0,
+      "bonus": "The 500,000-square-foot store is more attraction than shop. Over 4 million people visit annually, making it Missouri's top tourist destination.",
+      "synopsis": "Bass Pro Shops started as a small fishing department in a Springfield liquor store in 1972. Now it's a retail empire.",
+      "desc": "A classic roadside stop in Springfield."
+    }
+  ],
+  "St. Louis": [
+    {
+      "name": "Gateway Arch National Park",
+      "type": "d",
+      "q": "The Gateway Arch was designed by architect Eero Saarinen. What shape is the Arch based on?",
+      "a": [
+        "A weighted catenary curve",
+        "A parabola",
+        "A semicircle",
+        "A Roman arch"
+      ],
+      "correct": 0,
+      "bonus": "A catenary is the curve a chain makes when hung from two points. Saarinen's design uses a flattened version \u2014 wider at the base, narrower at the top. The Gateway Arch isn't just a symbol \u2014 it's a promise of what's coming.",
+      "synopsis": "The Arch was completed in 1965 after two years of construction. Visitors ride a tram to the top for views up to 30 miles. The Gateway Arch isn't just a symbol \u2014 it's a promise of what's coming.",
+      "desc": "A place worth discovering in St. Louis."
+    },
+    {
+      "name": "Missouri Botanical Garden",
+      "type": "d",
+      "q": "The Missouri Botanical Garden features the Climatron, which was the world's first what?",
+      "a": [
+        "Geodesic dome greenhouse",
+        "Climate-controlled public garden",
+        "Tropical conservatory in the Midwest",
+        "Solar-powered building"
+      ],
+      "correct": 0,
+      "bonus": "The Climatron opened in 1960 and houses a tropical rainforest environment with waterfalls, live birds, and over 2,800 plants. The Gateway Arch isn't just a symbol \u2014 it's a promise of what's coming.",
+      "synopsis": "The Missouri Botanical Garden has been a center of plant research and public beauty since 1859. The Gateway Arch isn't just a symbol \u2014 it's a promise of what's coming.",
+      "desc": "A place worth discovering in St. Louis."
+    },
+    {
+      "name": "St. Louis Art Museum",
+      "type": "d",
+      "q": "The St. Louis Art Museum building in Forest Park was originally built for what event?",
+      "a": [
+        "The 1904 World's Fair",
+        "The 1876 Centennial",
+        "A Civil War memorial",
+        "The 1893 Chicago Exposition"
+      ],
+      "correct": 0,
+      "bonus": "Designed by Cass Gilbert (who also designed the Supreme Court building), it was the only permanent building constructed for the fair and has housed the museum ever since. Louis Art Museum are what make Route 66 more than just asphalt \u2014 they're the reason you pull off the highway and step inside. The Gateway Arch isn't just a symbol \u2014 it's a promise of what's coming.",
+      "synopsis": "Admission to the St. Louis Art Museum is free \u2014 one of five major free attractions in Forest Park. Louis Art Museum are what make Route 66 more than just asphalt \u2014 they're the reason you pull off the highway and step inside. The Gateway Arch isn't just a symbol \u2014 it's a promise of what's coming.",
+      "desc": "A place worth discovering in St. Louis."
+    },
+    {
+      "name": "City Museum",
+      "type": "a",
+      "q": "The City Museum in St. Louis is built largely from salvaged materials from what?",
+      "a": [
+        "Old buildings, bridges, and industrial equipment from the city",
+        "Recycled plastic bottles",
+        "Decommissioned military vehicles",
+        "Demolished theme park rides"
+      ],
+      "correct": 0,
+      "bonus": "Created by artist Bob Cassilly, the City Museum includes caves, slides, a rooftop Ferris wheel, and a school bus dangling over the edge of the building. It defies description. The Gateway Arch isn't just a symbol \u2014 it's a promise of what's coming.",
+      "synopsis": "The City Museum is part playground, part art installation, part architectural wonder \u2014 unlike anything else in America. The Gateway Arch isn't just a symbol \u2014 it's a promise of what's coming.",
+      "desc": "A ten-story playground made from salvaged pieces of the city itself."
+    },
+    {
+      "name": "Old Chain of Rocks Bridge",
+      "type": "a",
+      "q": "The Old Chain of Rocks Bridge, where Route 66 crossed the Mississippi, has a famous 22-degree bend. Why?",
+      "a": [
+        "To align with water intake towers in the river",
+        "To slow down traffic",
+        "Because the engineers miscalculated",
+        "To avoid a sandbar"
+      ],
+      "correct": 0,
+      "bonus": "The bridge served Route 66 traffic from 1929 to 1967. Today it's a pedestrian and bike bridge \u2014 the longest in the world dedicated to non-motorized traffic. The Gateway Arch isn't just a symbol \u2014 it's a promise of what's coming.",
+      "synopsis": "Walking across the Chain of Rocks Bridge is one of the quintessential Route 66 experiences. The Gateway Arch isn't just a symbol \u2014 it's a promise of what's coming.",
+      "desc": "A classic roadside stop in St. Louis."
+    },
+    {
+      "name": "Ted Drewes Frozen Custard",
+      "type": "r",
+      "q": "Ted Drewes Frozen Custard on Route 66 in St. Louis is famous for what signature item?",
+      "a": [
+        "The concrete \u2014 a shake so thick it's served upside down",
+        "The banana split",
+        "The root beer float",
+        "The waffle cone sundae"
+      ],
+      "correct": 0,
+      "bonus": "Ted Drewes has been on Chippewa Street (Route 66) since 1929. Lines stretch around the building on summer evenings. The Gateway Arch isn't just a symbol \u2014 it's a promise of what's coming.",
+      "synopsis": "A concrete is frozen custard blended so thick that the cup can be turned upside down without spilling. The Gateway Arch isn't just a symbol \u2014 it's a promise of what's coming.",
+      "desc": "A signature treat they serve with a daring upside-down move."
+    },
+    {
+      "name": "Hotel DeSoto",
+      "type": "h",
+      "q": "The Gateway Arch symbolizes St. Louis as the gateway to what?",
+      "a": [
+        "Westward expansion of the United States",
+        "The Mississippi River trade route",
+        "The Louisiana Territory",
+        "The Oregon Trail"
+      ],
+      "correct": 0,
+      "bonus": "Lewis and Clark, the Oregon Trail pioneers, the California Gold Rush \u2014 all passed through St. Louis on their way west. The Gateway Arch isn't just a symbol \u2014 it's a promise of what's coming.",
+      "synopsis": "St. Louis earned the 'Gateway City' nickname because it was the last major city before the frontier. The Gateway Arch isn't just a symbol \u2014 it's a promise of what's coming.",
+      "desc": "Sleep in the shadow of America's tallest man-made monument."
+    }
+  ],
+  "Rolla": [
+    {
+      "name": "Meramec Caverns",
+      "type": "d",
+      "q": "Meramec Caverns was famously advertised on what for decades?",
+      "a": [
+        "Painted barn roofs across the Midwest",
+        "Highway billboards only",
+        "Radio jingles",
+        "Newspaper ads"
+      ],
+      "bonus": "Owner Lester Dill painted over 300 barn roofs starting in the 1940s.",
+      "synopsis": "Meramec Caverns turned advertising into folk art. The barn-roof signs became attractions themselves.",
+      "explore_type": "attraction",
+      "desc": "A place worth discovering in Rolla."
+    },
+    {
+      "name": "Stonehenge Replica",
+      "type": "a",
+      "q": "The University of Missouri-Rolla built a partial replica of Stonehenge. How tall are the stones?",
+      "a": [
+        "About 13 feet \u2014 half the size of the originals",
+        "Full size \u2014 25 feet",
+        "About 6 feet \u2014 quarter size",
+        "About 20 feet \u2014 nearly full size"
+      ],
+      "correct": 0,
+      "bonus": "Built in 1984 by the university's engineering students, it functions as an astronomical calendar just like the original.",
+      "synopsis": "Rolla's Stonehenge is one of the most unexpected roadside attractions on Route 66 in Missouri.",
+      "desc": "A classic roadside stop in Rolla."
+    },
+    {
+      "name": "Zeno's Steak House",
+      "type": "r",
+      "q": "Rolla sits in the heart of the Missouri Ozarks. The Ozark Plateau is primarily made of what type of rock?",
+      "a": [
+        "Limestone and dolomite with caves and springs",
+        "Granite and quartz",
+        "Sandstone and shale",
+        "Volcanic basalt"
+      ],
+      "correct": 0,
+      "bonus": "The Ozarks contain over 6,000 known caves. Missouri is called the Cave State.",
+      "synopsis": "The Ozarks are one of the oldest mountain ranges in North America, worn down to rolling hills over hundreds of millions of years.",
+      "desc": "A local favorite in Rolla."
+    },
+    {
+      "name": "Red Cedar Inn",
+      "type": "d",
+      "desc": "A 1934 roadhouse built from local cedar logs. Now a Route 66 museum.",
+      "q": "The Red Cedar Inn in Pacific, Missouri was built in 1934 from what local material?",
+      "a": [
+        "Cedar logs from the surrounding Ozark forests",
+        "Missouri limestone",
+        "Railroad ties",
+        "Recycled brick from demolished buildings"
+      ],
+      "correct": 0,
+      "bonus": "The Red Cedar Inn is one of the most atmospheric buildings on Missouri's stretch of Route 66. Its rustic construction from local cedar gives it a warmth that modern buildings can't replicate. Listed on the National Register of Historic Places, it now serves as a museum dedicated to the road's Missouri heritage. The building itself is the exhibit \u2014 every log tells a story of Ozark craftsmanship.",
+      "synopsis": "Log construction was common in the Ozarks but rare for commercial roadside buildings. The Red Cedar Inn's builders chose local materials over mass-produced ones, creating a building that belongs to its landscape in a way that chain restaurants never could. This is what the Missouri SHPO means by 'vernacular architecture' \u2014 buildings that emerge from their place."
+    }
+  ],
+  "Joplin": [
+    {
+      "name": "Bonnie and Clyde Hideout",
+      "type": "d",
+      "q": "Joplin was a hideout for which infamous Depression-era outlaws?",
+      "a": [
+        "Bonnie and Clyde",
+        "John Dillinger",
+        "Pretty Boy Floyd",
+        "Ma Barker"
+      ],
+      "bonus": "Police found a camera in the apartment with photos of Bonnie and Clyde posing with guns - images that made them famous.",
+      "synopsis": "The Joplin apartment raid gave America its most iconic outlaw photographs.",
+      "explore_type": "attraction",
+      "desc": "The apartment where the outlaws were photographed."
+    },
+    {
+      "name": "Route 66 Mural Park",
+      "type": "a",
+      "q": "Joplin rebuilt after what devastating 2011 natural disaster?",
+      "a": [
+        "An EF5 tornado",
+        "A flood",
+        "An earthquake",
+        "A wildfire"
+      ],
+      "bonus": "158 people died. The new high school was designed as a community tornado shelter.",
+      "synopsis": "Joplin's rebuilding became a national model for disaster resilience.",
+      "explore_type": "discovery",
+      "desc": "A wall-sized tribute to the Mother Road's golden age."
+    },
+    {
+      "name": "Bonnie & Clyde Hideout",
+      "type": "a",
+      "q": "Bonnie Parker and Clyde Barrow had a hideout apartment in Joplin in 1933. How were they discovered?",
+      "a": [
+        "Neighbors called police about suspicious activity",
+        "A bank teller recognized them",
+        "They were spotted at a gas station",
+        "A postal worker noticed their wanted posters"
+      ],
+      "correct": 0,
+      "bonus": "Police raided the apartment and found rolls of undeveloped film. The photos of Bonnie posing with guns became iconic Depression-era images.",
+      "synopsis": "The Joplin raid produced the famous photographs of Bonnie and Clyde that were published in newspapers nationwide.",
+      "desc": "A classic roadside stop in Joplin."
+    },
+    {
+      "name": "Wilder's Steakhouse",
+      "type": "r",
+      "q": "Joplin is located in the tristate region where Missouri meets which two other states?",
+      "a": [
+        "Kansas and Oklahoma",
+        "Arkansas and Oklahoma",
+        "Kansas and Arkansas",
+        "Iowa and Nebraska"
+      ],
+      "correct": 0,
+      "bonus": "You can stand in three states at once at the nearby tri-state marker. Joplin's mining heritage comes from the rich zinc and lead deposits in this corner of Missouri.",
+      "synopsis": "Joplin was the center of a massive lead and zinc mining district in the late 1800s and early 1900s.",
+      "desc": "A local favorite in Joplin."
+    },
+    {
+      "name": "Joplin History & Mineral Museum",
+      "type": "d",
+      "q": "The Joplin Museum contains artifacts left behind by which infamous outlaws who hid in Joplin for 13 days in 1933?",
+      "a": [
+        "Bonnie Parker and Clyde Barrow",
+        "Jesse James and Frank James",
+        "Pretty Boy Floyd",
+        "John Dillinger"
+      ],
+      "correct": 0,
+      "bonus": "Bonnie and Clyde rented a garage apartment before being discovered by police. They fled in a shootout, leaving behind photos, jewelry, and a poem by Bonnie.",
+      "synopsis": "The museum also features an impressive mineral collection from Joplin's zinc and lead mining heritage.",
+      "desc": "A place worth discovering in Joplin."
+    }
+  ],
+  "Tulsa": [
+    {
+      "name": "Philbrook Museum of Art",
+      "type": "d",
+      "q": "Tulsa's Art Deco architecture rivals which famous cities?",
+      "a": [
+        "Miami Beach and New York",
+        "Chicago and San Francisco",
+        "Los Angeles and Las Vegas",
+        "Nashville and Austin"
+      ],
+      "bonus": "The 1920s oil boom coincided with the Art Deco movement. Newly rich oilmen built flamboyant buildings.",
+      "synopsis": "Tulsa's Art Deco gives Oklahoma a visual identity players don't expect.",
+      "explore_type": "discovery",
+      "desc": "Italian Renaissance villa filled with world-class art."
+    },
+    {
+      "name": "Greenwood Rising Museum",
+      "type": "d",
+      "q": "The 1921 Tulsa Race Massacre destroyed what prosperous neighborhood?",
+      "a": [
+        "Greenwood - known as Black Wall Street",
+        "Booker Heights",
+        "Freedman's District",
+        "Liberty Row"
+      ],
+      "bonus": "Greenwood was rebuilt by residents within a decade, only to be dismantled again by urban renewal.",
+      "synopsis": "Greenwood is handled with the dignity it demands.",
+      "explore_type": "discovery",
+      "desc": "A prosperous neighborhood destroyed in 1921. The museum tells the story."
+    },
+    {
+      "name": "Blue Whale of Catoosa",
+      "type": "a",
+      "q": "Who built the Blue Whale of Catoosa and why?",
+      "a": [
+        "Hugh Davis - as an anniversary gift for his wife",
+        "The state tourism board",
+        "A local school art class",
+        "A traveling circus that left it behind"
+      ],
+      "bonus": "His wife collected whale figurines. He built her an 80-foot one out of concrete.",
+      "synopsis": "The Blue Whale is Route 66 joy at its purest - handmade, cheerful, absurd.",
+      "explore_type": "attraction",
+      "desc": "A smiling blue whale beside a pond. Pure Route 66."
+    },
+    {
+      "name": "Desert Hills Motel",
+      "type": "h",
+      "q": "Tulsa's Art Deco district contains one of the largest collections of Art Deco architecture in the U.S., built primarily from wealth generated by what industry?",
+      "a": [
+        "Oil",
+        "Cattle ranching",
+        "Aviation",
+        "Banking"
+      ],
+      "correct": 0,
+      "bonus": "Tulsa was called the Oil Capital of the World in the early 20th century. The Philcade, Philtower, and Boston Avenue Methodist Church are among its finest Art Deco buildings.",
+      "synopsis": "Tulsa's Art Deco district downtown showcases the architecture funded by the 1920s oil boom.",
+      "desc": "Classic motor court with original neon in Oil Capital country."
+    },
+    {
+      "name": "Tally's Good Food Cafe",
+      "type": "r",
+      "q": "Tally's Good Food Cafe in Tulsa has been a Route 66 staple since 1986. What comfort food is Oklahoma most famous for?",
+      "a": [
+        "Chicken-fried steak",
+        "Deep dish pizza",
+        "Clam chowder",
+        "Barbecue brisket"
+      ],
+      "correct": 0,
+      "bonus": "Oklahoma designated chicken-fried steak as the official state meal in 1988, along with fried okra, cornbread, barbecue pork, and pecan pie.",
+      "synopsis": "Tally's serves classic Oklahoma comfort food on Route 66 in Tulsa, drawing locals and travelers alike.",
+      "desc": "Oklahoma comfort food that defines the state's official meal."
+    }
+  ],
+  "Oklahoma City": [
+    {
+      "name": "Oklahoma City National Memorial",
+      "type": "d",
+      "q": "The Oklahoma City National Memorial has two gates marked with specific times. What times do they show?",
+      "a": [
+        "9:01 and 9:03 \u2014 the minute before and after the bombing",
+        "8:00 and 5:00 \u2014 the workday hours",
+        "12:00 and 12:01 \u2014 noon on April 19",
+        "1995 and 2000 \u2014 the bombing and memorial years"
+      ],
+      "correct": 0,
+      "bonus": "The east gate reads 9:01, the moment of innocence. The west gate reads 9:03, the moment of recovery. The bombing happened at 9:02.",
+      "synopsis": "The gates frame the reflecting pool and the field of 168 empty chairs, creating a powerful chronological narrative of before and after.",
+      "desc": "168 empty chairs. Silence where a building once stood."
+    },
+    {
+      "name": "National Cowboy & Western Heritage Museum",
+      "type": "d",
+      "q": "The National Cowboy Museum features which famous sculpture of a cowboy on a rearing horse?",
+      "a": [
+        "'The End of the Trail' by James Earle Fraser",
+        "'The Bronco Buster' by Frederic Remington",
+        "'The Outlaw' by Charles Russell",
+        "'The Wrangler' by Bob Scriver"
+      ],
+      "correct": 0,
+      "bonus": "The 18-foot marble version of 'The End of the Trail' depicts a weary Native American warrior on horseback \u2014 one of the most recognized sculptures in American art.",
+      "synopsis": "The museum preserves Western art, rodeo history, and frontier artifacts spanning centuries of American Western culture.",
+      "desc": "A famous sculpture waits inside. The real West \u2014 art and rodeo history."
+    },
+    {
+      "name": "First Americans Museum",
+      "type": "d",
+      "q": "The First Americans Museum in Oklahoma City tells the stories of how many tribal nations headquartered in Oklahoma?",
+      "a": [
+        "39",
+        "12",
+        "50",
+        "5"
+      ],
+      "correct": 0,
+      "bonus": "Oklahoma has more tribal nations headquartered within its borders than any other state. The museum opened in 2021 after decades of planning.",
+      "synopsis": "The museum features exhibitions on Native American history, culture, and art, plus a restaurant serving Native-inspired cuisine.",
+      "desc": "A place worth discovering in Oklahoma City."
+    },
+    {
+      "name": "Stockyards City",
+      "type": "a",
+      "q": "Oklahoma City's Stockyards City is one of the last places in America where you can watch what live event?",
+      "a": [
+        "A cattle auction",
+        "A rodeo every day",
+        "Wild horse breaking",
+        "Buffalo herding"
+      ],
+      "correct": 0,
+      "bonus": "The Oklahoma National Stockyards is the largest stocker/feeder cattle market in the world. Auctions happen weekly, surrounded by western wear shops and steakhouses.",
+      "synopsis": "Stockyards City is a living piece of cowboy culture in the middle of a modern city.",
+      "desc": "A classic roadside stop in Oklahoma City."
+    },
+    {
+      "name": "Bricktown Entertainment District",
+      "type": "a",
+      "q": "Oklahoma City's Bricktown district was revitalized from what type of former buildings?",
+      "a": [
+        "Abandoned warehouses and industrial buildings",
+        "Old churches",
+        "Railroad depots",
+        "Government offices"
+      ],
+      "correct": 0,
+      "bonus": "Bricktown's transformation began with the MAPS (Metropolitan Area Projects) initiative in the 1990s, turning derelict warehouses into restaurants, bars, and entertainment venues with a canal running through.",
+      "synopsis": "Bricktown is the crown jewel of OKC's downtown revival \u2014 a former industrial wasteland turned vibrant entertainment district.",
+      "desc": "A classic roadside stop in Oklahoma City."
+    },
+    {
+      "name": "Cattlemen's Steakhouse",
+      "type": "r",
+      "q": "Cattlemen's Steakhouse in Stockyards City has served steaks since 1910 and was famously won in what?",
+      "a": [
+        "A dice game in 1945",
+        "A poker tournament",
+        "A cattle auction bet",
+        "A coin flip"
+      ],
+      "correct": 0,
+      "bonus": "The restaurant is the oldest continuously operating restaurant in Oklahoma City, known for its rib-eye and lamb fries.",
+      "synopsis": "Cattlemen's sits at the heart of Stockyards City, where Oklahoma's cowboy heritage lives on.",
+      "desc": "The ownership changed hands in a legendary wager. Still open."
+    },
+    {
+      "name": "Colcord Hotel",
+      "type": "h",
+      "q": "The Colcord Hotel was originally Oklahoma's first what when it was built in 1910?",
+      "a": [
+        "Skyscraper",
+        "Hotel",
+        "Bank",
+        "Department store"
+      ],
+      "correct": 0,
+      "bonus": "The 12-story Colcord was Oklahoma's first skyscraper. It was converted to a boutique hotel in 2006 and sits on the Route 66 corridor through downtown.",
+      "synopsis": "The Colcord represents Oklahoma City's ambition from its earliest days \u2014 building a skyscraper just 21 years after the Land Run.",
+      "desc": "Originally built as something else entirely. Reborn as a boutique hotel."
+    }
+  ],
+  "Amarillo": [
+    {
+      "name": "Cadillac Ranch",
+      "type": "a",
+      "q": "Cadillac Ranch was created in 1974 by what art collective?",
+      "a": [
+        "Ant Farm",
+        "Fluxus",
+        "Dada West",
+        "The Panhandle Project"
+      ],
+      "bonus": "Funded by Stanley Marsh 3 - he insisted on '3' not 'III'. Visitors are encouraged to spray-paint the cars. Everything here is bigger \u2014 the steaks, the sky, the stories.",
+      "synopsis": "Ten Cadillacs nose-down in a field. One of the most iconic images on Route 66. Everything here is bigger \u2014 the steaks, the sky, the stories.",
+      "explore_type": "attraction",
+      "desc": "Ten Cadillacs nose-down in a field. Bring spray paint."
+    },
+    {
+      "name": "Palo Duro Canyon State Park",
+      "type": "d",
+      "q": "Palo Duro Canyon is the second-largest canyon in the US. How deep is it?",
+      "a": [
+        "About 800 feet",
+        "About 200 feet",
+        "About 2000 feet",
+        "About 400 feet"
+      ],
+      "bonus": "Most Americans have never heard of it. It is 120 miles long and up to 20 miles wide. Everything here is bigger \u2014 the steaks, the sky, the stories.",
+      "synopsis": "The Grand Canyon gets all the attention. Palo Duro is the Texas secret. Everything here is bigger \u2014 the steaks, the sky, the stories.",
+      "explore_type": "discovery",
+      "desc": "A place worth discovering in Amarillo."
+    },
+    {
+      "name": "American Quarter Horse Hall of Fame",
+      "type": "d",
+      "q": "Amarillo sits in the center of what vast agricultural region?",
+      "a": [
+        "The Texas Panhandle cattle country",
+        "The Cotton Belt",
+        "The Wheat Belt",
+        "The Dairy Belt"
+      ],
+      "bonus": "Individual feedlot operations hold 50,000 to 100,000 cattle. You can smell them from miles away. Everything here is bigger \u2014 the steaks, the sky, the stories.",
+      "synopsis": "Cattle feedlots are visceral - the Panhandle's agricultural scale is physical and immediate. Everything here is bigger \u2014 the steaks, the sky, the stories.",
+      "explore_type": "discovery",
+      "desc": "The world's most popular horse breed, celebrated here."
+    },
+    {
+      "name": "Big Texan Steak Ranch",
+      "type": "r",
+      "q": "The Big Texan Steak Ranch in Amarillo offers a free 72-ounce steak if you can eat it in how long?",
+      "a": [
+        "One hour",
+        "30 minutes",
+        "Two hours",
+        "45 minutes"
+      ],
+      "correct": 0,
+      "bonus": "The challenge includes the steak plus a shrimp cocktail, baked potato, salad, and bread roll \u2014 all in 60 minutes. About 10,000 people attempt it each year. Everything here is bigger \u2014 the steaks, the sky, the stories.",
+      "synopsis": "The Big Texan is one of the most famous restaurants on Route 66, recognizable by its giant cowboy sign on I-40. Everything here is bigger \u2014 the steaks, the sky, the stories.",
+      "desc": "A legendary eating challenge awaits. Can you finish in time?"
+    },
+    {
+      "name": "Big 8 Motel",
+      "type": "h",
+      "q": "Amarillo sits in the heart of the Texas Panhandle. What is the Panhandle's primary industry?",
+      "a": [
+        "Cattle ranching and feedlots",
+        "Cotton farming",
+        "Oil drilling",
+        "Wind energy"
+      ],
+      "correct": 0,
+      "bonus": "The Texas Panhandle produces more beef cattle than most entire states. Amarillo processes over 25% of the nation's beef supply. Everything here is bigger \u2014 the steaks, the sky, the stories.",
+      "synopsis": "The flat, open Panhandle landscape has supported cattle ranching since the 1880s. Everything here is bigger \u2014 the steaks, the sky, the stories.",
+      "desc": "Rest in the heart of Panhandle country where the primary industry shapes everything."
+    }
+  ],
+  "Tucumcari": [
+    {
+      "name": "Blue Swallow Motel",
+      "type": "a",
+      "q": "The Blue Swallow Motel in Tucumcari has welcomed travelers since what year?",
+      "a": [
+        "1939",
+        "1955",
+        "1926",
+        "1948"
+      ],
+      "bonus": "Its neon sign and individual garages make it one of the most photographed motor courts on Route 66.",
+      "synopsis": "The Blue Swallow preserves the feel of the classic motor-court era.",
+      "explore_type": "attraction",
+      "desc": "Neon glow and garages for every room. A Route 66 icon."
+    },
+    {
+      "name": "Tucumcari Historical Museum",
+      "type": "d",
+      "q": "Tucumcari's famous roadside slogan promised what?",
+      "a": [
+        "Tucumcari Tonite - 2,000 Motel Rooms",
+        "Sleep in the Desert Sun",
+        "Last Stop Before Texas",
+        "Neon Capital of the West"
+      ],
+      "bonus": "Billboards appeared 500 miles in each direction promising tired drivers exactly what they needed.",
+      "synopsis": "Tucumcari Tonite is roadside marketing at its smartest.",
+      "explore_type": "discovery",
+      "desc": "This town's famous slogan once drew travelers from hundreds of miles away."
+    },
+    {
+      "name": "Blue Swallow Motel",
+      "type": "h",
+      "q": "The Blue Swallow Motel in Tucumcari has been welcoming Route 66 travelers since what decade?",
+      "a": [
+        "The 1940s",
+        "The 1920s",
+        "The 1960s",
+        "The 1950s"
+      ],
+      "correct": 0,
+      "bonus": "Each room has its own attached garage \u2014 a hallmark of classic motor court design. The neon sign is one of the most photographed on Route 66.",
+      "synopsis": "The Blue Swallow Motel is a perfectly preserved motor court and a National Register of Historic Places landmark.",
+      "desc": "Neon glow and garages for every room. A Route 66 icon."
+    },
+    {
+      "name": "Del's Restaurant",
+      "type": "r",
+      "q": "Tucumcari's famous slogan, visible on signs for hundreds of miles, is what?",
+      "a": [
+        "Tucumcari Tonite \u2014 2000 Motel Rooms",
+        "Tucumcari or Bust",
+        "Welcome to Tucumcari \u2014 The Oasis",
+        "Tucumcari \u2014 Heart of Route 66"
+      ],
+      "correct": 0,
+      "bonus": "At its peak, Tucumcari had over 2,000 motel rooms to serve Route 66 travelers. The neon signs from that era still glow along the main street.",
+      "synopsis": "Tucumcari was one of the great overnight stops on Route 66, and its vintage neon signs are among the best-preserved on the highway.",
+      "desc": "Fuel up where Route 66 travelers have stopped for decades."
+    },
+    {
+      "name": "Tee Pee Curios",
+      "type": "a",
+      "q": "Tee Pee Curios in Tucumcari is a classic Route 66 gift shop built in what shape?",
+      "a": [
+        "A teepee (concrete cone)",
+        "A giant cactus",
+        "A covered wagon",
+        "A cowboy boot"
+      ],
+      "correct": 0,
+      "bonus": "Built in 1944, the concrete teepee building is one of the best examples of Route 66's 'novelty architecture' \u2014 buildings shaped like their theme.",
+      "synopsis": "Tucumcari's neon signs and novelty architecture make it one of the most photogenic towns on Route 66.",
+      "desc": "A classic roadside stop in Tucumcari."
+    },
+    {
+      "name": "Cactus Motor Lodge",
+      "type": "h",
+      "desc": "One of Tucumcari's classic neon motels. Listed on the National Register.",
+      "q": "Tucumcari's neon motel signs are famous because the town once boasted how many motel rooms?",
+      "a": [
+        "Over 2,000",
+        "About 500",
+        "Over 5,000",
+        "About 100"
+      ],
+      "correct": 0,
+      "bonus": "The Cactus Motor Lodge is one of several dozen motels that once lined Tucumcari's main street, each competing with bigger and brighter neon signs to attract Route 66 travelers. The town's slogan \u2014 'Tucumcari Tonite \u2014 2000 Motel Rooms' \u2014 was painted on billboards hundreds of miles in each direction. The Cactus is listed on the National Register alongside the Blue Swallow as examples of mid-century roadside commercial architecture.",
+      "synopsis": "Tucumcari's motel row represents the economic model of Route 66 towns \u2014 communities that existed primarily to serve the highway. When the Interstate bypassed Tucumcari, the motel rooms emptied almost overnight. The surviving neon signs are monuments to an economy that depended entirely on travelers choosing to stop rather than drive past."
+    }
+  ],
+  "Albuquerque": [
+    {
+      "name": "Old Town Albuquerque",
+      "type": "d",
+      "q": "Old Town Albuquerque was founded in 1706 by Spanish colonists. What is the architectural style of its buildings?",
+      "a": [
+        "Adobe (sun-dried mud brick) with wooden vigas (beams)",
+        "Victorian brick",
+        "Log cabin",
+        "Stone and mortar"
+      ],
+      "correct": 0,
+      "bonus": "Old Town has over 150 independently owned shops, restaurants, and galleries. The adobe buildings with flat roofs and thick walls are perfectly adapted to the desert climate.",
+      "synopsis": "Old Town is the historic heart of Albuquerque \u2014 a 300-year-old Spanish plaza that predates the United States by 70 years.",
+      "desc": "Founded in 1706 by Spanish colonists using a traditional building style."
+    },
+    {
+      "name": "Indian Pueblo Cultural Center",
+      "type": "d",
+      "q": "The Indian Pueblo Cultural Center is dedicated to preserving the culture of New Mexico's 19 Pueblo communities. What does 'Pueblo' mean in Spanish?",
+      "a": [
+        "Village or town",
+        "Mountain",
+        "River",
+        "Desert"
+      ],
+      "correct": 0,
+      "bonus": "The center is owned and operated by the 19 Pueblo tribes themselves. Its restaurant, Pueblo Harvest, serves traditional Native American cuisine.",
+      "synopsis": "The Pueblo people have lived in New Mexico for over a thousand years, making their communities some of the oldest in North America.",
+      "desc": "19 Pueblo nations telling their own story."
+    },
+    {
+      "name": "Petroglyph National Monument",
+      "type": "d",
+      "q": "Petroglyph National Monument preserves over 24,000 ancient carvings. Most were made by which people between 1300 and 1700 AD?",
+      "a": [
+        "Ancestral Pueblo people",
+        "Apache warriors",
+        "Spanish missionaries",
+        "Comanche traders"
+      ],
+      "correct": 0,
+      "bonus": "The petroglyphs were carved into volcanic basalt rocks along a 17-mile escarpment on Albuquerque's West Mesa.",
+      "synopsis": "Walking among the petroglyphs connects visitors to centuries of Indigenous spiritual and artistic expression.",
+      "desc": "A place worth discovering in Albuquerque."
+    },
+    {
+      "name": "Nob Hill District",
+      "type": "a",
+      "q": "Albuquerque's Nob Hill neighborhood along Route 66 is known for what?",
+      "a": [
+        "Eclectic shops, restaurants, and nightlife in a walkable district",
+        "Historic adobe mansions",
+        "The state capitol building",
+        "A large outdoor market"
+      ],
+      "correct": 0,
+      "bonus": "Nob Hill sits on Central Avenue (Route 66) near the University of New Mexico. It's the city's most walkable, funky neighborhood \u2014 full of independent businesses.",
+      "synopsis": "Nob Hill represents the modern, creative side of Albuquerque while sitting squarely on the historic Route 66 corridor.",
+      "desc": "The neon-lit heart of Central Avenue's 18-mile Route 66 stretch."
+    },
+    {
+      "name": "El Camino Motor Hotel (Neon Sign)",
+      "type": "a",
+      "q": "Central Avenue in Albuquerque is famous for its vintage neon motel signs from what era?",
+      "a": [
+        "The 1940s and 1950s Route 66 heyday",
+        "The 1920s Art Deco period",
+        "The 1970s disco era",
+        "The 1990s revival"
+      ],
+      "correct": 0,
+      "bonus": "Many of the original neon signs have been restored. The El Camino, De Anza, and Monterey signs are among the most photographed on Route 66.",
+      "synopsis": "Albuquerque's Central Avenue has one of the best-preserved collections of vintage neon motel signs on all of Route 66.",
+      "desc": "A classic roadside stop in Albuquerque."
+    },
+    {
+      "name": "Frontier Restaurant",
+      "type": "r",
+      "q": "The Frontier Restaurant across from UNM has been famous since 1971 for which New Mexican staple?",
+      "a": [
+        "Green chile cheeseburgers",
+        "Fish tacos",
+        "Deep-fried turkey",
+        "Sourdough bread bowls"
+      ],
+      "correct": 0,
+      "bonus": "New Mexico's Hatch green chile is roasted fresh each fall and added to everything. The Frontier has served UNM students and travelers for over 50 years.",
+      "synopsis": "The Frontier is an Albuquerque institution \u2014 open late, affordable, and packed with University of New Mexico students.",
+      "desc": "A legendary dish served at 2 AM. An Albuquerque institution since 1971."
+    },
+    {
+      "name": "El Camino Motor Hotel",
+      "type": "h",
+      "q": "The historic Route 66 motel corridor in Albuquerque runs along what street?",
+      "a": [
+        "Central Avenue",
+        "Broadway Boulevard",
+        "Lomas Boulevard",
+        "Fourth Street"
+      ],
+      "correct": 0,
+      "bonus": "Central Avenue follows 18 miles of Route 66 through Albuquerque \u2014 one of the longest urban stretches of the highway in any city.",
+      "synopsis": "Albuquerque's Central Avenue is lined with vintage neon motel signs, many dating to the 1940s and 1950s.",
+      "desc": "Classic neon on the longest urban stretch of Route 66."
+    },
+    {
+      "name": "DeAnza Motor Lodge",
+      "type": "h",
+      "desc": "A Territorial Revival motel fighting for survival on Central Avenue.",
+      "q": "The DeAnza Motor Lodge in Albuquerque is built in what distinctive New Mexico architectural style?",
+      "a": [
+        "Territorial Revival",
+        "Pueblo Revival",
+        "Spanish Colonial",
+        "Mission Revival"
+      ],
+      "correct": 0,
+      "bonus": "Territorial Revival combines Spanish Pueblo forms with American territorial-era details \u2014 flat roofs with brick coping, white stucco walls, and wooden trim. The DeAnza opened in the 1940s and served Route 66 travelers for decades. It's currently under preservation by the New Mexico SHPO's State Register of Cultural Properties. The lodge represents a generation of motor courts that defined the Central Avenue experience.",
+      "synopsis": "Territorial Revival is one of several architectural styles unique to New Mexico that blend indigenous, Spanish, and American influences. Recognizing the difference between Territorial Revival and Pueblo Revival is like reading the cultural DNA of a building \u2014 each style tells you who built it, when, and what they wanted it to say about New Mexico's identity."
+    }
+  ],
+  "Santa Fe": [
+    {
+      "name": "Palace of the Governors",
+      "type": "d",
+      "q": "The Palace of the Governors has been in continuous use since what year?",
+      "a": [
+        "1610",
+        "1776",
+        "1700",
+        "1540"
+      ],
+      "bonus": "It has served under Spanish, Pueblo, Mexican, and American governance.",
+      "synopsis": "The Palace anchors Santa Fe in layers that long predate the highway.",
+      "explore_type": "discovery",
+      "desc": "The oldest public building in America. The year it was built will surprise you."
+    },
+    {
+      "name": "Canyon Road Galleries",
+      "type": "d",
+      "q": "Canyon Road in Santa Fe packs how many galleries into roughly half a mile?",
+      "a": [
+        "More than 100",
+        "About 20",
+        "About 50",
+        "More than 200"
+      ],
+      "bonus": "Canyon Road transforms into a luminaria-lit walking festival on Christmas Eve.",
+      "synopsis": "Canyon Road is a walkable art corridor where adobe and gallery economy fuse.",
+      "explore_type": "discovery",
+      "desc": "A place worth discovering in Santa Fe."
+    },
+    {
+      "name": "San Miguel Chapel",
+      "type": "d",
+      "q": "San Miguel Chapel is believed to be the oldest church in continuous use in the US - built around what year?",
+      "a": [
+        "1610",
+        "1776",
+        "1492",
+        "1700"
+      ],
+      "bonus": "It was built by Tlaxcalan Indians from Mexico and partially destroyed during the 1680 Pueblo Revolt.",
+      "synopsis": "The thick adobe walls feel closer to medieval than modern.",
+      "explore_type": "discovery",
+      "desc": "A place worth discovering in Santa Fe."
+    },
+    {
+      "name": "La Fonda on the Plaza",
+      "type": "h",
+      "q": "La Fonda on the Plaza in Santa Fe sits at the end of what historic trade route?",
+      "a": [
+        "The Santa Fe Trail",
+        "The Camino Real",
+        "The Oregon Trail",
+        "Route 66"
+      ],
+      "correct": 0,
+      "bonus": "An inn has stood on this corner since 1607. The current building was designed in 1922 in Pueblo Revival style and became a Fred Harvey hotel.",
+      "synopsis": "La Fonda means 'The Inn' in Spanish. It has hosted guests for over 400 years at the heart of Santa Fe's plaza.",
+      "desc": "An inn on this corner since 1607. Four centuries of travelers."
+    },
+    {
+      "name": "The Shed",
+      "type": "r",
+      "q": "Santa Fe's cuisine blends Native American, Spanish, and Mexican traditions. What is the iconic question asked at every New Mexico restaurant?",
+      "a": [
+        "Red or green? (referring to chile sauce)",
+        "Corn or flour?",
+        "Mild or hot?",
+        "Beef or chicken?"
+      ],
+      "correct": 0,
+      "bonus": "Answering 'Christmas' gets you both red and green chile. The Shed on Palace Avenue has served traditional New Mexican food since 1953.",
+      "synopsis": "New Mexico is the only state with an official state question: Red or green?",
+      "desc": "One famous question defines New Mexican cuisine. Do you know it?"
+    }
+  ],
+  "Gallup": [
+    {
+      "name": "El Rancho Hotel",
+      "type": "d",
+      "q": "El Rancho Hotel in Gallup hosted Hollywood stars filming what genre?",
+      "a": [
+        "Westerns",
+        "Film noir",
+        "Musicals",
+        "Science fiction"
+      ],
+      "bonus": "John Wayne, Katharine Hepburn, Spencer Tracy, and Ronald Reagan all stayed here.",
+      "synopsis": "El Rancho links Route 66 to the mythology of the American West on film.",
+      "explore_type": "attraction",
+      "desc": "Where John Wayne and Katharine Hepburn slept between takes."
+    },
+    {
+      "name": "Navajo Code Talkers Museum",
+      "type": "d",
+      "q": "The Navajo Code Talkers served in which war?",
+      "a": [
+        "World War II",
+        "World War I",
+        "The Korean War",
+        "The Vietnam War"
+      ],
+      "bonus": "About 400 Navajo men served. The code was never broken. Their contribution was classified until 1968.",
+      "synopsis": "The code that was never broken came from the land you are driving through.",
+      "explore_type": "discovery",
+      "desc": "The code that won the Pacific. Gallup honors its heroes."
+    },
+    {
+      "name": "El Rancho Hotel",
+      "type": "h",
+      "q": "The El Rancho Hotel in Gallup was a favorite of Hollywood stars filming westerns nearby. Who built it in 1937?",
+      "a": [
+        "R.E. Griffith, brother of movie mogul D.W. Griffith",
+        "John Wayne",
+        "Howard Hughes",
+        "Walt Disney"
+      ],
+      "correct": 0,
+      "bonus": "Signed photos of Ronald Reagan, Katharine Hepburn, Humphrey Bogart, and John Wayne line the lobby walls.",
+      "synopsis": "The El Rancho calls itself 'the Charm of Yesterday, the Convenience of Tomorrow' and still operates as a hotel today.",
+      "desc": "Where John Wayne and Katharine Hepburn slept between takes."
+    },
+    {
+      "name": "Earl's Restaurant",
+      "type": "r",
+      "q": "Gallup hosts the largest annual gathering of Native American peoples in the world. What is it called?",
+      "a": [
+        "The Inter-Tribal Indian Ceremonial",
+        "The Gallup Powwow",
+        "The Four Corners Festival",
+        "The Navajo Nation Fair"
+      ],
+      "correct": 0,
+      "bonus": "The Ceremonial has been held since 1922 and draws over 50 tribes. Events include dances, rodeos, art markets, and parades.",
+      "synopsis": "Gallup sits on the border of the Navajo Nation and Zuni Pueblo, making it a major center of Native American culture and trade.",
+      "desc": "A local favorite in Gallup."
+    },
+    {
+      "name": "Gallup Cultural Center",
+      "type": "d",
+      "q": "Gallup, New Mexico calls itself what, due to its proximity to Navajo, Zuni, and other tribal lands?",
+      "a": [
+        "The Indian Capital of the World",
+        "The Turquoise City",
+        "The Gateway to Monument Valley",
+        "The Pueblo Capital"
+      ],
+      "correct": 0,
+      "bonus": "Gallup hosts the Inter-Tribal Indian Ceremonial every August \u2014 a gathering of Native American artists, dancers, and craftspeople from across North America.",
+      "synopsis": "Gallup sits at the crossroads of multiple tribal nations and has been a center of Native American commerce for over a century.",
+      "desc": "A place worth discovering in Gallup."
+    }
+  ],
+  "Winslow": [
+    {
+      "name": "Standin' on the Corner Park",
+      "type": "a",
+      "q": "Standin' on the Corner Park celebrates a lyric from what song?",
+      "a": [
+        "Take It Easy by the Eagles",
+        "Route 66 by Bobby Troup",
+        "King of the Road",
+        "Running on Empty"
+      ],
+      "bonus": "Winslow built an entire park with a statue and a flatbed Ford truck.",
+      "synopsis": "A single song lyric saved a town's tourist economy.",
+      "explore_type": "attraction",
+      "desc": "A girl in a flatbed Ford. You know the song."
+    },
+    {
+      "name": "La Posada Hotel",
+      "type": "d",
+      "q": "La Posada Hotel in Winslow was designed by what notable architect?",
+      "a": [
+        "Mary Colter",
+        "Frank Lloyd Wright",
+        "Louis Sullivan",
+        "Julia Morgan"
+      ],
+      "bonus": "Mary Colter was one of the few prominent female architects of her era.",
+      "synopsis": "La Posada connects Winslow to the railroad hotel tradition and a pioneering female architect.",
+      "explore_type": "discovery",
+      "desc": "A masterpiece by a legendary architect. The last great example of its kind."
+    },
+    {
+      "name": "La Posada Hotel",
+      "type": "h",
+      "q": "La Posada Hotel in Winslow was designed by Mary Colter for what famous hospitality company?",
+      "a": [
+        "The Fred Harvey Company",
+        "Hilton Hotels",
+        "The Santa Fe Railway",
+        "Holiday Inn"
+      ],
+      "correct": 0,
+      "bonus": "Mary Colter designed it as an imaginary Spanish rancho. It opened in 1930 and was nearly demolished before being restored in the 1990s.",
+      "synopsis": "La Posada is considered Mary Colter's masterpiece and one of the last great Harvey Houses built along the railroad.",
+      "desc": "A masterpiece by a legendary architect. The last great example of its kind."
+    },
+    {
+      "name": "Turquoise Room at La Posada",
+      "type": "r",
+      "q": "Winslow, Arizona was made famous by what 1972 Eagles song?",
+      "a": [
+        "Take It Easy",
+        "Hotel California",
+        "Desperado",
+        "Peaceful Easy Feeling"
+      ],
+      "correct": 0,
+      "bonus": "The lyric 'Standing on a corner in Winslow, Arizona' put the town on the map. A statue and mural now mark the exact corner at 2nd and Kinsley.",
+      "synopsis": "Jackson Browne and Glenn Frey co-wrote Take It Easy. The song launched the Eagles' career.",
+      "desc": "A local favorite in Winslow."
+    }
+  ],
+  "Flagstaff": [
+    {
+      "name": "Lowell Observatory",
+      "type": "d",
+      "q": "Pluto was discovered at Lowell Observatory in what year?",
+      "a": [
+        "1930",
+        "1920",
+        "1945",
+        "1905"
+      ],
+      "bonus": "Clyde Tombaugh found it using a telescope built specifically to search for 'Planet X.",
+      "synopsis": "Pluto's discovery gives Route 66's high country its cleanest scientific hook.",
+      "explore_type": "discovery",
+      "desc": "Where Pluto was discovered. Dark skies over the pines."
+    },
+    {
+      "name": "Museum of Northern Arizona",
+      "type": "d",
+      "q": "The Museum of Northern Arizona focuses on the heritage of what region?",
+      "a": [
+        "The Colorado Plateau",
+        "The Sonoran Desert",
+        "The Pacific Northwest",
+        "The Great Basin"
+      ],
+      "bonus": "Founded in 1928, the museum holds over 5 million artifacts and specimens.",
+      "synopsis": "The museum treats the Colorado Plateau as a single interconnected world.",
+      "explore_type": "discovery",
+      "desc": "Dedicated to the geology and heritage of one specific geographic region."
+    },
+    {
+      "name": "Walnut Canyon National Monument",
+      "type": "d",
+      "q": "Walnut Canyon preserves cliff dwellings built by what ancient people?",
+      "a": [
+        "The Sinagua",
+        "The Navajo",
+        "The Apache",
+        "The Hohokam"
+      ],
+      "bonus": "The Island Trail gives access to 25 cliff dwellings just 7. 5 miles from Flagstaff.",
+      "synopsis": "Walnut Canyon gives Flagstaff deeper historical weight than astronomy alone.",
+      "explore_type": "discovery",
+      "desc": "A place worth discovering in Flagstaff."
+    },
+    {
+      "name": "Hotel Monte Vista",
+      "type": "h",
+      "q": "The Hotel Monte Vista in downtown Flagstaff is said to be haunted. What famous category of guest frequently stayed there?",
+      "a": [
+        "Hollywood actors filming westerns nearby",
+        "Railroad executives",
+        "Mining prospectors",
+        "U.S. presidents"
+      ],
+      "correct": 0,
+      "bonus": "John Wayne, Humphrey Bogart, and Clark Gable all stayed here. Room 210 is reportedly haunted by two women who were murdered in the 1940s.",
+      "synopsis": "The Hotel Monte Vista opened in 1927 and has been a Flagstaff landmark for nearly a century, sitting right on Route 66.",
+      "desc": "A certain type of famous guest stayed here regularly. Now they say it's haunted."
+    },
+    {
+      "name": "Granny's Closet",
+      "type": "r",
+      "q": "Flagstaff sits at what elevation, making it one of the highest cities on Route 66?",
+      "a": [
+        "Nearly 7,000 feet",
+        "About 4,500 feet",
+        "About 5,500 feet",
+        "Over 8,000 feet"
+      ],
+      "correct": 0,
+      "bonus": "The high elevation gives Flagstaff four distinct seasons and regular winter snowfall \u2014 a surprise to travelers who expect Arizona to be all desert.",
+      "synopsis": "Flagstaff is surrounded by the world's largest contiguous ponderosa pine forest.",
+      "desc": "Home cooking at a surprising elevation where two landscapes collide."
+    },
+    {
+      "name": "Museum Club (The Zoo)",
+      "type": "a",
+      "q": "The Museum Club on Route 66 in Flagstaff was built in 1931 out of what material?",
+      "a": [
+        "Massive logs \u2014 it's a giant log cabin",
+        "Adobe bricks",
+        "Railroad ties",
+        "Local sandstone"
+      ],
+      "correct": 0,
+      "bonus": "Originally a taxidermy museum (hence 'The Zoo'), it became a famous honky-tonk roadhouse. It's one of the oldest and most legendary bars on Route 66.",
+      "synopsis": "The Museum Club has hosted live country music since the 1930s and is still going strong.",
+      "desc": "A classic roadside stop in Flagstaff."
+    }
+  ],
+  "Kingman": [
+    {
+      "name": "Arizona Route 66 Museum",
+      "type": "d",
+      "q": "Kingman's Route 66 Museum is housed in what historic building?",
+      "a": [
+        "The Powerhouse",
+        "The old courthouse",
+        "A former train depot",
+        "A converted church"
+      ],
+      "bonus": "The Powerhouse originally supplied electricity before Hoover Dam power reached the area.",
+      "synopsis": "The museum gives western Arizona a true gateway institution.",
+      "explore_type": "discovery",
+      "desc": "A place worth discovering in Kingman."
+    },
+    {
+      "name": "Cool Springs Station",
+      "type": "a",
+      "q": "Cool Springs Station between Kingman and Oatman was originally built in what decade?",
+      "a": [
+        "The 1920s",
+        "The 1940s",
+        "The 1950s",
+        "The 1960s"
+      ],
+      "bonus": "It was destroyed by fire and later rebuilt as a Route 66 landmark.",
+      "synopsis": "Cool Springs feels like the last deep breath before the mountain crossing.",
+      "explore_type": "attraction",
+      "desc": "Restored gas station in the middle of the Black Mountains."
+    },
+    {
+      "name": "Hotel Beale",
+      "type": "h",
+      "q": "Kingman, Arizona sits along the route that Lt. Edward Beale surveyed in 1857 using what unusual pack animals?",
+      "a": [
+        "Camels",
+        "Mules imported from Spain",
+        "Elephants",
+        "Llamas"
+      ],
+      "correct": 0,
+      "bonus": "The U.S. Army's Camel Corps used camels to survey a wagon road across the Southwest. The experiment was abandoned when the Civil War began.",
+      "synopsis": "Beale Street in Kingman and the Hotel Beale are named after the lieutenant and his famous camel expedition.",
+      "desc": "Named for a military surveyor who used very unusual pack animals."
+    },
+    {
+      "name": "Mr. D'z Route 66 Diner",
+      "type": "r",
+      "q": "Mr. D'z Route 66 Diner in Kingman is painted what eye-catching color?",
+      "a": [
+        "Turquoise and pink",
+        "Red and white",
+        "Yellow and black",
+        "Chrome silver"
+      ],
+      "correct": 0,
+      "bonus": "The diner's classic 1950s d\u00e9cor and vintage neon make it one of the most photographed restaurants on Route 66.",
+      "synopsis": "Mr. D'z sits on Andy Devine Avenue \u2014 Kingman's stretch of Route 66, named after the local-born Western movie actor.",
+      "desc": "Painted in two eye-catching colors on Andy Devine Avenue. Pure 1950s."
+    }
+  ],
+  "Oatman": [
+    {
+      "name": "Oatman Ghost Town",
+      "type": "a",
+      "q": "Oatman's famous burros are descended from animals used in what industry?",
+      "a": [
+        "Mining",
+        "Ranching",
+        "Military transport",
+        "Postal service"
+      ],
+      "bonus": "The burros wander freely through town and visitors can buy feed to give them.",
+      "synopsis": "Part ghost town, part comedy, part living roadside theater.",
+      "explore_type": "attraction",
+      "desc": "Burros in the street and bullet holes in the hotel walls."
+    },
+    {
+      "name": "Oatman Hotel",
+      "type": "h",
+      "q": "Clark Gable and Carole Lombard spent their wedding night at the Oatman Hotel after eloping in 1939. Where did they get married?",
+      "a": [
+        "Kingman, Arizona",
+        "Las Vegas, Nevada",
+        "Needles, California",
+        "Flagstaff, Arizona"
+      ],
+      "correct": 0,
+      "bonus": "Their room at the Oatman Hotel is preserved as a museum. The hotel's walls are papered with dollar bills left by visitors.",
+      "synopsis": "The Oatman Hotel is one of the most famous buildings on Route 66, sitting in a former gold mining town.",
+      "desc": "A place with history to sleep in Oatman."
+    },
+    {
+      "name": "Oatman Ghost Town",
+      "type": "d",
+      "q": "Oatman's wild burros that roam the main street are descendants of what?",
+      "a": [
+        "Pack animals abandoned by gold miners",
+        "Wild mustangs",
+        "Circus animals released in the 1950s",
+        "A government wildlife program"
+      ],
+      "correct": 0,
+      "bonus": "About 25 burros wander freely through town. Visitors can buy special burro food from local shops to feed them.",
+      "synopsis": "Oatman was a thriving gold mining town in the early 1900s. When the mines closed, the miners left but their burros stayed.",
+      "desc": "Burros in the street and bullet holes in the hotel walls."
+    },
+    {
+      "name": "Gold Mine Tour",
+      "type": "d",
+      "q": "Oatman was a gold mining boomtown in the early 1900s. The richest vein of gold in the area was found at what mine?",
+      "a": [
+        "The Tom Reed Mine",
+        "The Lucky Strike Mine",
+        "The Golden Eagle Mine",
+        "The Mother Lode Mine"
+      ],
+      "correct": 0,
+      "bonus": "At its peak around 1915, Oatman had a population of over 3,500 and produced millions of dollars in gold. When the gold ran out, so did the people.",
+      "synopsis": "Oatman went from boomtown to ghost town when mining ended \u2014 now its residents are mostly wild burros and gift shop owners.",
+      "desc": "A boomtown built on precious metal. One mine made the town famous."
+    }
+  ],
+  "Needles": [
+    {
+      "name": "Needles Regional Museum",
+      "type": "d",
+      "q": "Needles sits on what major river marking the California border?",
+      "a": [
+        "The Colorado River",
+        "The Rio Grande",
+        "The Sacramento River",
+        "The Gila River"
+      ],
+      "bonus": "For Dust Bowl migrants, crossing into California at Needles meant they had officially arrived.",
+      "synopsis": "Needles is where California begins on Route 66.",
+      "explore_type": "discovery",
+      "desc": "A place worth discovering in Needles."
+    },
+    {
+      "name": "El Garces Harvey House",
+      "type": "h",
+      "q": "The El Garces Harvey House in Needles was called the 'Crown Jewel' of the Harvey House chain. What was the Harvey House system?",
+      "a": [
+        "A chain of railroad depot restaurants and hotels",
+        "A network of gas stations",
+        "A string of roadside motels",
+        "A franchise of general stores"
+      ],
+      "correct": 0,
+      "bonus": "Fred Harvey revolutionized travel by building clean, quality restaurants at railroad stops across the West. The Harvey Girls \u2014 his waitresses \u2014 were legendary.",
+      "synopsis": "El Garces opened in 1908 and served Santa Fe Railroad passengers until the 1940s. It is currently being restored.",
+      "desc": "Part of a legendary hospitality empire that transformed Western travel."
+    },
+    {
+      "name": "Wagon Wheel Restaurant",
+      "type": "r",
+      "q": "Needles, California regularly records some of the highest temperatures in the United States. What is the record high?",
+      "a": [
+        "125\u00b0F (52\u00b0C)",
+        "118\u00b0F (48\u00b0C)",
+        "130\u00b0F (54\u00b0C)",
+        "112\u00b0F (44\u00b0C)"
+      ],
+      "correct": 0,
+      "bonus": "Needles sits in the Mojave Desert along the Colorado River. Summer temperatures routinely exceed 110\u00b0F.",
+      "synopsis": "The town was named after the sharp peaks of the Needles mountain range visible from the Colorado River.",
+      "desc": "A local favorite in Needles."
+    },
+    {
+      "name": "Route 66 Needles Welcome Sign",
+      "type": "a",
+      "q": "Needles, California sits on the Colorado River at the Arizona border. What is the town named after?",
+      "a": [
+        "Pointed rock formations (The Needles) visible across the river",
+        "Cactus needles in the desert",
+        "A sewing needle factory",
+        "A miner's nickname"
+      ],
+      "correct": 0,
+      "bonus": "Needles regularly records some of the highest temperatures in the United States \u2014 often exceeding 120\u00b0F in summer.",
+      "synopsis": "Crossing the Colorado River at Needles meant you'd made it to California \u2014 the promised land for Dust Bowl refugees.",
+      "desc": "This town got its name from something you can see in the landscape."
+    }
+  ],
+  "Barstow": [
+    {
+      "name": "Route 66 Mother Road Museum",
+      "type": "d",
+      "q": "The Route 66 Mother Road Museum in Barstow occupies what historic building?",
+      "a": [
+        "A Harvey House",
+        "A railroad depot",
+        "A former saloon",
+        "An old schoolhouse"
+      ],
+      "bonus": "Fred Harvey partnered with the Santa Fe Railway to build restaurants staffed by 'Harvey Girls.",
+      "synopsis": "Harvey Houses connect Route 66's desert corridor to the railroad era.",
+      "explore_type": "discovery",
+      "desc": "Where the Mojave crossing ends and the stories begin."
+    },
+    {
+      "name": "Calico Ghost Town",
+      "type": "a",
+      "q": "Calico Ghost Town near Barstow was a mining town for what resource?",
+      "a": [
+        "Silver",
+        "Gold",
+        "Copper",
+        "Turquoise"
+      ],
+      "bonus": "Calico produced $86 million in silver over 12 years before the price crashed in 1896.",
+      "synopsis": "Calico gives the Mojave its mining-boom-and-bust story.",
+      "explore_type": "attraction",
+      "desc": "A classic roadside stop in Barstow."
+    },
+    {
+      "name": "Idle Spurs Steakhouse",
+      "type": "r",
+      "q": "Barstow sits at the crossroads of Route 66 and what other major highway?",
+      "a": [
+        "Interstate 15 (the road to Las Vegas)",
+        "Interstate 10",
+        "U.S. Route 95",
+        "Pacific Coast Highway"
+      ],
+      "correct": 0,
+      "bonus": "Barstow has been a crossroads town since the 1880s when the railroad arrived. Today it serves as the last major stop before the LA basin.",
+      "synopsis": "Barstow's location at the junction of I-15 and I-40 makes it a natural rest point for travelers heading to Las Vegas or Los Angeles.",
+      "desc": "Last real meal at a major highway crossroads before the final push west."
+    },
+    {
+      "name": "Harvey House Railroad Depot",
+      "type": "h",
+      "q": "Barstow's Casa del Desierto, a beautifully restored 1911 Harvey House, served travelers on which railroad?",
+      "a": [
+        "The Atchison, Topeka and Santa Fe Railway",
+        "The Union Pacific",
+        "The Southern Pacific",
+        "The Burlington Northern"
+      ],
+      "correct": 0,
+      "bonus": "The Harvey House chain provided quality meals and lodging at railroad stops across the West. Casa del Desierto is one of the best-preserved examples.",
+      "synopsis": "Barstow has been a crossroads town since the railroad era, sitting at the junction of routes to LA and Las Vegas.",
+      "desc": "Casa del Desierto \u2014 the last standing Harvey House in California."
+    }
+  ],
+  "San Bernardino": [
+    {
+      "name": "Original McDonald's Site",
+      "type": "a",
+      "q": "The McDonald brothers invented what system at their San Bernardino restaurant?",
+      "a": [
+        "The Speedee Service System - assembly-line fast food",
+        "The drive-through window",
+        "The Happy Meal",
+        "The franchise model"
+      ],
+      "bonus": "They applied assembly-line principles to hamburger preparation - inventing fast food.",
+      "synopsis": "The original McDonald's connects Route 66 to the invention of fast food itself.",
+      "explore_type": "attraction",
+      "desc": "The exact spot where a revolutionary idea changed how America eats."
+    },
+    {
+      "name": "San Bernardino History Museum",
+      "type": "d",
+      "q": "Route 66 enters the LA basin through what mountain pass?",
+      "a": [
+        "Cajon Pass",
+        "Donner Pass",
+        "Tehachapi Pass",
+        "San Gorgonio Pass"
+      ],
+      "bonus": "Every transportation corridor - Native, Spanish, railroad, highway - has squeezed through this same gap.",
+      "synopsis": "Cajon Pass is the last physical obstacle before Los Angeles.",
+      "explore_type": "discovery",
+      "desc": "A place worth discovering in San Bernardino."
+    },
+    {
+      "name": "Original McDonald's Site",
+      "type": "d",
+      "q": "The McDonald brothers opened their original restaurant in San Bernardino in 1940. What innovation made it revolutionary?",
+      "a": [
+        "The Speedee Service System \u2014 assembly-line food preparation",
+        "Drive-through ordering",
+        "Frozen hamburger patties",
+        "A children's play area"
+      ],
+      "correct": 0,
+      "bonus": "The brothers stripped their menu to 9 items and pre-made everything. A hamburger cost 15 cents. Ray Kroc visited in 1954 and franchised the concept nationwide.",
+      "synopsis": "The original McDonald's site at 14th and E streets is now a museum. The building was demolished but the site is marked.",
+      "desc": "The exact spot where a revolutionary idea changed how America eats."
+    },
+    {
+      "name": "Mitla Cafe",
+      "type": "r",
+      "q": "Mitla Cafe in San Bernardino has been serving Mexican food since 1937. It is said to have inspired which famous fast food chain?",
+      "a": [
+        "Taco Bell \u2014 Glen Bell ate here before creating his own version",
+        "Del Taco",
+        "El Pollo Loco",
+        "Chipotle"
+      ],
+      "correct": 0,
+      "bonus": "Glen Bell studied Mitla Cafe's taco preparation before opening the first Taco Bell across the street in 1962.",
+      "synopsis": "Mitla Cafe is still family-owned and operating at the same location on Route 66 in San Bernardino.",
+      "desc": "A local favorite in San Bernardino."
+    },
+    {
+      "name": "Wigwam Motel",
+      "type": "h",
+      "q": "The Wigwam Motel in San Bernardino features rooms shaped like what?",
+      "a": [
+        "Concrete teepees",
+        "Log cabins",
+        "Covered wagons",
+        "Giant cacti"
+      ],
+      "correct": 0,
+      "bonus": "Built in 1949, it's one of only three surviving Wigwam Motels in the country. Each teepee is a fully furnished room.",
+      "synopsis": "The Wigwam Motel is a classic example of novelty architecture \u2014 buildings shaped like the product they sell or the theme they represent.",
+      "desc": "A place with history to sleep in San Bernardino."
+    },
+    {
+      "name": "Original McDonald's Site Museum",
+      "type": "d",
+      "q": "The original McDonald's restaurant was opened in San Bernardino in 1940 by which brothers?",
+      "a": [
+        "Richard and Maurice McDonald",
+        "Ray Kroc and his partner",
+        "Dave Thomas and Jim Collins",
+        "The White Castle founders"
+      ],
+      "correct": 0,
+      "bonus": "The brothers invented the Speedee Service System \u2014 an assembly-line approach to making burgers that became the template for all fast food. Ray Kroc franchised their concept nationwide.",
+      "synopsis": "The birthplace of the world's largest restaurant chain sits on Route 66 in San Bernardino \u2014 now an unofficial museum.",
+      "desc": "Two brothers started something here that conquered the world."
+    },
+    {
+      "name": "California Theatre",
+      "type": "a",
+      "q": "The California Theatre in San Bernardino, built in 1928, is a stunning example of what architectural style?",
+      "a": [
+        "Spanish Colonial Revival",
+        "Art Deco",
+        "Victorian Gothic",
+        "Pueblo Revival"
+      ],
+      "correct": 0,
+      "bonus": "The theater was designed by John Paxton Perrine and features ornate Spanish-inspired details. It hosted the premiere of several Hollywood films.",
+      "synopsis": "San Bernardino's California Theatre is one of the finest surviving movie palaces from the golden age of cinema.",
+      "desc": "A classic roadside stop in San Bernardino."
+    }
+  ],
+  "Santa Monica": [
+    {
+      "name": "Santa Monica Pier",
+      "type": "a",
+      "q": "The Santa Monica Pier was originally built in what year?",
+      "a": [
+        "1909",
+        "1926",
+        "1885",
+        "1945"
+      ],
+      "bonus": "The pier was almost demolished in the 1970s. A 'Save the Pier' campaign reversed the decision.",
+      "synopsis": "The pier predates Route 66 by 17 years. It became the road's most satisfying symbol by accident.",
+      "explore_type": "attraction",
+      "desc": "End of the Trail. The Pacific Ocean. You made it."
+    },
+    {
+      "name": "End of the Trail Sign",
+      "type": "d",
+      "q": "The 'End of the Trail' sign on Santa Monica Pier was installed in what year?",
+      "a": [
+        "2009",
+        "1926",
+        "1966",
+        "1985"
+      ],
+      "bonus": "Before the sign, the official terminus was at the unglamorous corner of Lincoln and Olympic.",
+      "synopsis": "Route 66's most famous ending is recent invention. The pier ending felt emotionally true.",
+      "explore_type": "discovery",
+      "desc": "A place worth discovering in Santa Monica."
+    },
+    {
+      "name": "The Lobster Restaurant",
+      "type": "r",
+      "q": "The Santa Monica Pier, where Route 66 ends, was originally built in what year?",
+      "a": [
+        "1909",
+        "1926",
+        "1885",
+        "1935"
+      ],
+      "correct": 0,
+      "bonus": "The pier was built as a municipal wharf. The famous amusement park rides were added later on an adjacent pleasure pier built in 1916.",
+      "synopsis": "The Santa Monica Pier is the western terminus of Route 66 and one of the most iconic landmarks in Southern California.",
+      "desc": "Celebrate the end of the road with ocean views and fresh catch."
+    },
+    {
+      "name": "Hotel Casa del Mar",
+      "type": "h",
+      "q": "The Santa Monica beach hotels sit along what famous stretch of Pacific coastline?",
+      "a": [
+        "The Gold Coast",
+        "The Platinum Mile",
+        "The Beach Strip",
+        "The Santa Monica Riviera"
+      ],
+      "correct": 0,
+      "bonus": "Santa Monica's beachfront hotels were built in the 1920s during a resort boom. Hotel Casa del Mar opened in 1926 \u2014 the same year Route 66 was designated.",
+      "synopsis": "Santa Monica marks the western terminus of Route 66, where the highway meets the Pacific Ocean.",
+      "desc": "Beachfront elegance where Route 66 meets the Pacific."
+    },
+    {
+      "name": "Santa Monica Pier Aquarium",
+      "type": "d",
+      "q": "The Santa Monica Pier Aquarium focuses on marine life from what specific ecosystem?",
+      "a": [
+        "The Santa Monica Bay and local Southern California waters",
+        "The Great Barrier Reef",
+        "The Amazon River",
+        "The Arctic Ocean"
+      ],
+      "correct": 0,
+      "bonus": "The small aquarium sits underneath the pier's carousel building. It's operated by Heal the Bay, an environmental organization dedicated to coastal water quality.",
+      "synopsis": "The Santa Monica Pier has been an entertainment destination since 1909 \u2014 the perfect endpoint for a cross-country road trip.",
+      "desc": "A small aquarium focused on the marine life just offshore."
+    },
+    {
+      "name": "Muscle Beach",
+      "type": "a",
+      "q": "The original Muscle Beach, located near the Santa Monica Pier, helped launch what cultural movement in America?",
+      "a": [
+        "The fitness and bodybuilding culture",
+        "The surfing craze",
+        "Beach volleyball",
+        "Skateboarding"
+      ],
+      "correct": 0,
+      "bonus": "Muscle Beach was active from the 1930s through the 1950s. Bodybuilders, acrobats, and gymnasts performed for crowds. Arnold Schwarzenegger later trained at a nearby Venice Beach location.",
+      "synopsis": "Muscle Beach turned physical fitness into spectacle and helped create the California beach body culture that spread worldwide.",
+      "desc": "A classic roadside stop in Santa Monica."
+    }
+  ]
+}

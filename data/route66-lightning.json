@@ -1,0 +1,704 @@
+{
+  "questions": [
+    {
+      "q": "In what year was Route 66 officially designated as a U.S. highway?",
+      "a": [
+        "1926",
+        "1932",
+        "1920",
+        "1938"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "What are the two endpoint cities of Route 66?",
+      "a": [
+        "Chicago and Santa Monica",
+        "New York and Los Angeles",
+        "Chicago and Los Angeles",
+        "St. Louis and San Francisco"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "How many states does Route 66 cross?",
+      "a": [
+        "8",
+        "6",
+        "10",
+        "5"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "What is the most famous nickname for Route 66?",
+      "a": [
+        "The Mother Road",
+        "The Freedom Highway",
+        "The Sunset Strip",
+        "The Great Western Road"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "Who wrote the famous song 'Get Your Kicks on Route 66'?",
+      "a": [
+        "Bobby Troup",
+        "Nat King Cole",
+        "Chuck Berry",
+        "Woody Guthrie"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "In what year was Route 66 officially decommissioned?",
+      "a": [
+        "1985",
+        "1970",
+        "1990",
+        "1975"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "Approximately how many miles long was Route 66?",
+      "a": [
+        "2,448 miles",
+        "1,800 miles",
+        "3,100 miles",
+        "2,000 miles"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "Which singer first popularized 'Get Your Kicks on Route 66' in 1946?",
+      "a": [
+        "Nat King Cole",
+        "Frank Sinatra",
+        "Bobby Troup",
+        "Bing Crosby"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "Which city is known as the 'Gateway to the West' along Route 66?",
+      "a": [
+        "St. Louis, Missouri",
+        "Oklahoma City",
+        "Amarillo, Texas",
+        "Albuquerque, New Mexico"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "What iconic Texas attraction features Cadillacs buried nose-first in a field?",
+      "a": [
+        "Cadillac Ranch",
+        "Longhorn Corral",
+        "Texas Motor Graveyard",
+        "Panhandle Auto Park"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "What unusual motel lets you sleep in a concrete teepee on Route 66?",
+      "a": [
+        "Wigwam Motel",
+        "Apache Lodge",
+        "Frontier Inn",
+        "Tomahawk Motor Court"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "In which state does Route 66 cover only 13 miles \u2014 the shortest stretch?",
+      "a": [
+        "Kansas",
+        "Texas",
+        "Missouri",
+        "California"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "Which Oklahoma town is famous for its perfectly round barn on Route 66?",
+      "a": [
+        "Arcadia",
+        "Chandler",
+        "Stroud",
+        "Bristow"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "What Pixar movie features characters traveling Route 66?",
+      "a": [
+        "Cars",
+        "Toy Story",
+        "Up",
+        "Ratatouille"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "What is the highest elevation point on Route 66?",
+      "a": [
+        "Near Flagstaff, Arizona \u2014 over 7,000 feet",
+        "Raton Pass, New Mexico",
+        "Sandia Peak, New Mexico",
+        "Sitgreaves Pass, Arizona"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "In what year was the Interstate Highway Act signed, beginning the bypass of Route 66?",
+      "a": [
+        "1956",
+        "1960",
+        "1950",
+        "1965"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "Which desert in California does Route 66 cross?",
+      "a": [
+        "Mojave Desert",
+        "Sonoran Desert",
+        "Chihuahuan Desert",
+        "Great Basin Desert"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "Route 66 ends at which California pier?",
+      "a": [
+        "Santa Monica Pier",
+        "Huntington Beach Pier",
+        "Venice Beach Pier",
+        "Malibu Pier"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "Which famous Route 66 bridge over the Mississippi has a 22-degree bend in the middle?",
+      "a": [
+        "Chain of Rocks Bridge",
+        "Eads Bridge",
+        "McKinley Bridge",
+        "Poplar Street Bridge"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "Which Oklahoma city has a statue honoring Will Rogers, Route 66's most famous son?",
+      "a": [
+        "Claremore",
+        "Tulsa",
+        "Oklahoma City",
+        "Vinita"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "In which Arizona town do wild burros roam the main street?",
+      "a": [
+        "Oatman",
+        "Kingman",
+        "Seligman",
+        "Hackberry"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "Which British band covered 'Route 66' in the 1960s?",
+      "a": [
+        "The Rolling Stones",
+        "The Beatles",
+        "The Who",
+        "The Kinks"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "Where is the midpoint of Route 66?",
+      "a": [
+        "Near Adrian, Texas",
+        "Amarillo, Texas",
+        "Tucumcari, New Mexico",
+        "Oklahoma City"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "In what year was Route 66 fully paved from end to end?",
+      "a": [
+        "1938",
+        "1926",
+        "1945",
+        "1932"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "What Route 66 town in Arizona is the Petrified Forest near?",
+      "a": [
+        "Holbrook",
+        "Winslow",
+        "Flagstaff",
+        "Williams"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "Who is known as the 'Guardian of the Mother Road' \u2014 the barber who saved Route 66?",
+      "a": [
+        "Angel Delgadillo of Seligman, Arizona",
+        "Bob Waldmire of Springfield",
+        "Bobby Troup of Los Angeles",
+        "Cyrus Avery of Tulsa"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "What Seligman, Arizona drive-in is famous for its fake mustard-squirting antics?",
+      "a": [
+        "Snow Cap Drive-In",
+        "Copper Cart",
+        "Route 66 Diner",
+        "Desert Diamond"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "Which Route 66 attraction claims Jesse James used it as a hideout?",
+      "a": [
+        "Meramec Caverns, Missouri",
+        "Palo Duro Canyon, Texas",
+        "Robbers Cave, Oklahoma",
+        "Mammoth Cave, Kentucky"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "What Texas town has the famous Route 66 Midpoint Cafe?",
+      "a": [
+        "Adrian",
+        "Vega",
+        "Amarillo",
+        "Shamrock"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "Which Art Deco gas station in Shamrock, Texas was featured in Pixar's Cars?",
+      "a": [
+        "The U-Drop Inn",
+        "The Big Chief Station",
+        "Phillips 66 Tower",
+        "Conoco Streamliner"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "What is the name of the Route 66 museum in Clinton, Oklahoma?",
+      "a": [
+        "National Route 66 Museum",
+        "Mother Road Museum",
+        "Route 66 Hall of Fame",
+        "Oklahoma Route 66 Center"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "What 1960s CBS television series was named after the highway?",
+      "a": [
+        "Route 66",
+        "Highway Patrol",
+        "The Fugitive",
+        "Dragnet"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "Which Tucumcari motel has one of the most photographed neon signs on Route 66?",
+      "a": [
+        "Blue Swallow Motel",
+        "Cactus Motor Lodge",
+        "Apache Motel",
+        "Desert Hills"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "What Illinois town has the world's largest catsup bottle?",
+      "a": [
+        "Collinsville",
+        "Springfield",
+        "Pontiac",
+        "Joliet"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "Which Missouri motel is famous for its restored neon 'Munger Moss' sign?",
+      "a": [
+        "Munger Moss Motel in Lebanon",
+        "Wagon Wheel in Cuba",
+        "Rock Fountain Court in Springfield",
+        "Coral Court in St. Louis"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "What massive folk art totem pole stands 90 feet tall near Foyil, Oklahoma?",
+      "a": [
+        "Ed Galloway's Totem Pole",
+        "Chief Yellowhorse Pole",
+        "Thunder Totem",
+        "Cimarron Totem"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "Which Native American pueblo near Route 66 is called Sky City?",
+      "a": [
+        "Acoma Pueblo",
+        "Taos Pueblo",
+        "Zuni Pueblo",
+        "Laguna Pueblo"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "What Illinois town has the Dell Rhea's Chicken Basket, a Route 66 landmark?",
+      "a": [
+        "Willowbrook",
+        "Joliet",
+        "Springfield",
+        "Pontiac"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "What California desert town has the famous Roy's Motel neon sign?",
+      "a": [
+        "Amboy",
+        "Barstow",
+        "Needles",
+        "Victorville"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "Which New Mexico sign marks the crossing of the Continental Divide on Route 66?",
+      "a": [
+        "Near Thoreau",
+        "Near Gallup",
+        "Near Grants",
+        "Near Albuquerque"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "Which Route 66 travel guide by Jerry McClanahan is considered the definitive road companion?",
+      "a": [
+        "EZ66 Guide for Travelers",
+        "Route 66 Adventure Handbook",
+        "Mother Road Atlas",
+        "Get Your Kicks Guide"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "What was the first city the Joad family reached on Route 66 in The Grapes of Wrath?",
+      "a": [
+        "Oklahoma City",
+        "Amarillo",
+        "Tucumcari",
+        "Gallup"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "Which author gave Route 66 the name 'The Mother Road'?",
+      "a": [
+        "John Steinbeck",
+        "Jack Kerouac",
+        "Mark Twain",
+        "Ernest Hemingway"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "What Oklahoma Route 66 landmark is topped by a giant milk bottle?",
+      "a": [
+        "Milk Bottle Grocery in Oklahoma City",
+        "Dairy Queen in Tulsa",
+        "Classen Creamery",
+        "Big Bottle Market"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "Which Route 66 state has the most surviving original alignments?",
+      "a": [
+        "Oklahoma",
+        "Arizona",
+        "Missouri",
+        "New Mexico"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "What Route 66 museum in Kingman, Arizona is housed in a historic powerhouse building?",
+      "a": [
+        "Powerhouse Visitor Center and Route 66 Museum",
+        "Mohave Museum of History",
+        "Kingman Heritage Center",
+        "Mother Road Museum"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "What haunted hotel on Route 66 in Flagstaff hosted John Wayne and Humphrey Bogart?",
+      "a": [
+        "Hotel Monte Vista",
+        "La Posada",
+        "El Rancho",
+        "Weatherford Hotel"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "What Texas museum is dedicated entirely to barbed wire?",
+      "a": [
+        "Devil's Rope Museum in McLean",
+        "Wire History Center in Amarillo",
+        "Fence Post Museum in Lubbock",
+        "Barb Museum in Shamrock"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "What Arizona town's Two Guns trading post sits in ruins along Route 66?",
+      "a": [
+        "Near Flagstaff",
+        "Near Kingman",
+        "Near Holbrook",
+        "Near Winslow"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    },
+    {
+      "q": "Which historic Route 66 diner in Atlanta, Illinois has been serving travelers since 1934?",
+      "a": [
+        "Palms Grill Cafe",
+        "Atlanta Diner",
+        "Cozy Corner",
+        "Route Cafe"
+      ],
+      "correct": 0,
+      "bonus": "",
+      "synopsis": "",
+      "category": "Route 66 Lightning Round",
+      "region": "Route 66 General"
+    }
+  ]
+}

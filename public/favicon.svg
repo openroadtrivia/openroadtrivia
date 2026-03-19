@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#1a1a2e"/>
+  <rect x="2" y="2" width="28" height="28" rx="5" fill="none" stroke="#d4a340" stroke-width="1.5"/>
+  <text x="16" y="13" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#d4a340">ROUTE</text>
+  <text x="16" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="900" fill="#f5d778">66</text>
+</svg>

@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { NODES, EDGES, HAZARD_QUESTIONS, EXCURSIONS, POINTS, QUESTION_TIME, STOP_TIME, STOP_LABELS, FATIGUE, type Node, type Edge } from '@/lib/game-data';
 import { shuffleAnswers, calculateRoadPoints, getSpeedRating, getStreakLabel, getStarRating, formatTripTime, saveGame, loadGame, clearSave, getResultMessage, type ShuffledQuestion, type SaveData } from '@/lib/game-engine';
-import { getQuestionsForRegion, getExploresForCity, getRestQuestionsForRegion, getLightningQuestions, type RawQuestion, type RawExploreStop } from '@/lib/questions';
+import { getQuestionsForRegion, getExploresForCity, getRestQuestionsForRegion, getOpeningLightningQuestions, getCityLightningQuestions, calculateSkillLevel, getLightningQuestions, type RawQuestion, type RawExploreStop } from '@/lib/questions';
 import { getCityImage, getRegionImage, getStopImage, getResultImage } from '@/lib/images';
 import { audio, setAudioMuted } from '@/lib/audio';
 
@@ -15,8 +15,9 @@ import StatsBar from '@/components/StatsBar';
 import GameMap from '@/components/GameMap';
 import InfoBox from '@/components/InfoBox';
 import TimerRing from '@/components/TimerRing';
+import Confetti from '@/components/Confetti';
 
-type Phase = 'home' | 'approach' | 'pick_lane' | 'road_q' | 'detour_q' | 'hazard' | 'rest_stop' | 'rest_q' | 'lightning' | 'game_over';
+type Phase = 'home' | 'approach' | 'pick_lane' | 'road_q' | 'detour_q' | 'hazard' | 'rest_stop' | 'rest_q' | 'lightning' | 'driving' | 'welcome_region' | 'game_over';
 
 export default function Game() {
   // Game state
@@ -77,6 +78,11 @@ export default function Game() {
   const [lightningSel, setLightningSel] = useState<number | null>(null);
   const [lightningCorrect, setLightningCorrect] = useState(0);
   const [lightningTotal, setLightningTotal] = useState(10);
+  const [lightningEdge, setLightningEdge] = useState<(Edge & { destination: number }) | null>(null);
+  const [playerSkill, setPlayerSkill] = useState(0); // 0 = first time, 1-5 = skill level
+  const [openingStep, setOpeningStep] = useState(0); // 0=not started, 1=warmup done, 2=welcome shown, 3=city round done
+  const [showConfetti, setShowConfetti] = useState(false);
+  const [celebrationEmoji, setCelebrationEmoji] = useState('');
 
   // UI state
   const [showEditions, setShowEditions] = useState(false);
@@ -85,6 +91,35 @@ export default function Game() {
   const [drivingEdge, setDrivingEdge] = useState<(Edge & { destination: number }) | null>(null);
   const [imgErrors, setImgErrors] = useState<Set<string>>(new Set());
   const [muted, setMuted] = useState(false);
+  const [walkerAudio, setWalkerAudio] = useState<HTMLAudioElement | null>(null);
+  const [walkerPlaying, setWalkerPlaying] = useState(false);
+
+  // Play Walker Family audio for a stop
+  function playWalkerScene(stopName: string) {
+    // Stop any currently playing audio
+    if (walkerAudio) { walkerAudio.pause(); walkerAudio.currentTime = 0; }
+    audio.stopSpeaking();
+    
+    const slug = stopName.toLowerCase()
+      .replace(/['']/g, '')
+      .replace(/&/g, 'and')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-|-$/g, '');
+    
+    const audioEl = new Audio(`/audio/walkers/${slug}.mp3`);
+    audioEl.onplay = () => setWalkerPlaying(true);
+    audioEl.onended = () => setWalkerPlaying(false);
+    audioEl.onerror = () => {
+      // No audio file — fall back to Wikipedia
+      setWalkerPlaying(false);
+      window.open("https://en.wikipedia.org/wiki/Special:Search/" + encodeURIComponent(stopName), "_blank");
+    };
+    setWalkerAudio(audioEl);
+    audioEl.play().catch(() => {
+      // Autoplay blocked or file not found
+      window.open("https://en.wikipedia.org/wiki/Special:Search/" + encodeURIComponent(stopName), "_blank");
+    });
+  }
   const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   function toggleMute() {
@@ -134,6 +169,16 @@ export default function Game() {
     if (phase === 'lightning' && timer === 0 && lightningSel === null) { audio.timeUp(); setLightningSel(-1); }
     if ((phase === 'road_q' || phase === 'detour_q' || phase === 'lightning') && timer === 5) { audio.tick(); }
   }, [timer]);
+
+  // Scroll to progress section when returning to approach from a question
+  useEffect(() => {
+    if (phase === 'approach' && gameStarted) {
+      setTimeout(() => {
+        const el = document.getElementById('city-progress');
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 100);
+    }
+  }, [phase, gameStarted]);
 
   // Image error handler - tracks which images failed to load
   const onImgError = useCallback((path: string) => {
@@ -218,18 +263,41 @@ export default function Game() {
     setDayMinutes(0);
     setGameStarted(true);
 
-    // Launch Lightning Round — 10 Route 66 general knowledge questions
-    const lq = getLightningQuestions(10);
+    // Opening Lightning Round — general Route 66 knowledge, heading to Chicago
+    launchLightning(null, 'Chicagoland');
+  }
+
+  // Launch a lightning round — either opening (no edge) or between cities (with edge)
+  function launchLightning(edge: (Edge & { destination: number }) | null, region?: string) {
+    let lq: RawQuestion[];
+    
+    if (edge) {
+      // Between cities: use region pool, lane filtered, distance-based count
+      lq = getCityLightningQuestions(edge.region, currentLane, edge.miles, playerSkill || 2, usedQs);
+    } else if (openingStep >= 2 && region) {
+      // Opening city round (step 2): use Chicagoland region pool
+      lq = getCityLightningQuestions(region, null, 200, playerSkill || 2, usedQs);
+    } else {
+      // Opening warm-up (step 0): skill-filtered from whole pool
+      lq = getOpeningLightningQuestions(10, playerSkill);
+    }
+    
     setLightningPool(lq);
     setLightningIdx(0);
     setLightningCorrect(0);
     setLightningTotal(lq.length);
-    const sh = shuffleAnswers(lq[0] as any);
-    setShuf(sh);
-    setLightningSel(null);
-    setTimer(15); // Lightning round: 15 seconds per question
-    setQStartTime(Date.now());
-    audio.speakQuestion(lq[0].q, sh.a);
+    setLightningEdge(edge);
+    if (lq.length > 0) {
+      const sh = shuffleAnswers(lq[0] as any);
+      setShuf(sh);
+      setLightningSel(null);
+      setTimer(-1); // Paused until voice finishes
+      setQStartTime(Date.now());
+      audio.speakQuestionThen(lq[0].q, sh.a, () => {
+        setTimer(15); // Start 15-second countdown after voice finishes
+        setQStartTime(Date.now());
+      });
+    }
     setPhase('lightning');
   }
 
@@ -302,13 +370,11 @@ export default function Game() {
     }
 
     setCurEdge(edge);
+    
+    // Show Pick Your Lane — player picks a lane, then lightning round in that lane
     const pool = getQuestionsForRegion(edge.region);
-    const avail = pool.filter((_, i) => !usedQs.has(`r-${edge.region}-${i}`));
-    const usePool = avail.length > 0 ? avail : pool;
-
-    // Get categories for Pick Your Lane
     const cats: Record<string, boolean> = {};
-    usePool.forEach(q => { cats[q.category || 'General'] = true; });
+    pool.forEach(q => { cats[q.category || 'General'] = true; });
     const catList = Object.keys(cats).sort(() => Math.random() - 0.5);
     const choices = catList.slice(0, Math.min(3, catList.length));
 
@@ -316,14 +382,20 @@ export default function Game() {
       setLaneChoices(choices);
       setPhase('pick_lane');
     } else {
-      launchQuestion(edge, null);
+      // Not enough variety — skip lane pick, go straight to lightning
+      setCurrentLane(null);
+      launchLightning(edge);
     }
   }
 
   function pickLane(cat: string) {
     setCurrentLane(cat);
-    setRoadQNum(0);
-    if (curEdge) launchQuestion(curEdge, cat);
+    if (openingStep >= 2 && openingStep < 3) {
+      // Opening city round — use region, not edge
+      launchLightning(null, curEdge?.region || 'Chicagoland');
+    } else if (curEdge) {
+      launchLightning(curEdge);
+    }
   }
 
   function launchQuestion(edge: Edge & { destination: number }, cat: string | null) {
@@ -366,7 +438,19 @@ export default function Game() {
         if (ns > bestStreak) setBestStreak(ns);
         const label = getStreakLabel(ns);
         if (label) setStreakFlash(label);
-        if (ns >= 3) audio.streak(); else audio.correct();
+        if (ns >= 10) {
+          audio.streak();
+          setShowConfetti(true); setCelebrationEmoji('🔥');
+          setTimeout(() => { setShowConfetti(false); setCelebrationEmoji(''); }, 3000);
+        } else if (ns >= 5) {
+          audio.streak();
+          setCelebrationEmoji('⚡');
+          setTimeout(() => setCelebrationEmoji(''), 2000);
+        } else if (ns >= 3) {
+          audio.streak();
+        } else {
+          audio.correct();
+        }
         return ns;
       });
     } else {
@@ -375,14 +459,16 @@ export default function Game() {
       if (timeout) audio.timeUp(); else audio.wrong();
     }
     setQAns(a => a + 1);
-    // Announce result, then read bonus/synopsis
+    // Announce result with randomized phrase, then read bonus/synopsis
     if (curQ && shuf) {
       const correctAnswer = shuf.a[shuf.correct];
       const readText = correct ? curQ.bonus : (curQ.synopsis || curQ.bonus);
       if (correct) {
-        setTimeout(() => audio.speak(`Great job, you got it right! ... ${readText}`), 800);
+        audio.speakCorrectResult();
+        setTimeout(() => audio.speak(readText), 2500);
       } else {
-        setTimeout(() => audio.speak(`The correct answer was: ${correctAnswer}. ... ${readText}`), 800);
+        audio.speakWrongResult(correctAnswer);
+        setTimeout(() => audio.speak(readText), 3000);
       }
     }
   }
@@ -753,31 +839,31 @@ export default function Game() {
             <div className="mt-6 space-y-2">
               <div className="text-gray-500 font-mono text-[9px] tracking-widest">HOW IT WORKS</div>
               <div className="card p-3 flex items-center gap-3">
-                <span className="text-xl">🗺️</span>
+                <span className="text-xl">⚡</span>
                 <div>
-                  <div className="text-gray-900 text-sm font-semibold">Pick Your Lane</div>
-                  <div className="text-gray-500 text-xs">Choose a trivia category before each road question</div>
+                  <div className="text-gray-900 text-sm font-semibold">Lightning Round</div>
+                  <div className="text-gray-500 text-xs">Answer 10 fast trivia questions to drive to the next city</div>
                 </div>
               </div>
               <div className="card p-3 flex items-center gap-3">
-                <span className="text-xl">📍</span>
+                <span className="text-xl">🗺️</span>
                 <div>
-                  <div className="text-gray-900 text-sm font-semibold">Explore Every City</div>
-                  <div className="text-gray-500 text-xs">Visit museums, attractions, hotels, and restaurants for bonus points</div>
+                  <div className="text-gray-900 text-sm font-semibold">Pick Your Lane & Explore</div>
+                  <div className="text-gray-500 text-xs">Choose a trivia category, then explore museums, diners, hotels, and roadside attractions</div>
+                </div>
+              </div>
+              <div className="card p-3 flex items-center gap-3">
+                <span className="text-xl">🎙️</span>
+                <div>
+                  <div className="text-gray-900 text-sm font-semibold">Join the Conversation</div>
+                  <div className="text-gray-500 text-xs">Hear the Walker Family discuss every stop in six unique voices</div>
                 </div>
               </div>
               <div className="card p-3 flex items-center gap-3">
                 <span className="text-xl">🏆</span>
                 <div>
                   <div className="text-gray-900 text-sm font-semibold">Master the Route</div>
-                  <div className="text-gray-500 text-xs">Get every answer right in a city to earn City Mastered status</div>
-                </div>
-              </div>
-              <div className="card p-3 flex items-center gap-3">
-                <span className="text-xl">⏱️</span>
-                <div>
-                  <div className="text-gray-900 text-sm font-semibold">Beat the Clock</div>
-                  <div className="text-gray-500 text-xs">25 seconds per question. Fast answers earn speed bonuses.</div>
+                  <div className="text-gray-500 text-xs">Get every answer right in a city to earn City Mastered status and climb the leaderboard</div>
                 </div>
               </div>
             </div>
@@ -829,6 +915,8 @@ export default function Game() {
 
     return (
       <div className={`min-h-screen game-bg-${node.scene || 'desert'} pb-10`}>
+        {/* Top visual sections with warm background */}
+        <div style={{ backgroundColor: '#f3e4bb' }}>
         {/* City header - image or Art Deco fallback */}
         <div className="arrival-pulse">
         <LocationHeader
@@ -843,6 +931,7 @@ export default function Game() {
         />
         </div>
 
+
         {/* Region transition banner */}
         {isNewRegion && (
           <LocationHeader
@@ -854,22 +943,54 @@ export default function Game() {
           />
         )}
 
-        {/* Map */}
-        <div className="mt-2">
-          <GameMap currentNode={currentNode} visitedNodes={visited} onJumpTo={jumpToCity} />
+        {/* Illustrated Map Strip */}
+        <div className="mt-0">
+          <div className="relative overflow-hidden" style={{ height: 400 }}>
+            <img
+              src={`/images/maps/segment-${Math.min(currentNode + 1, 20)}.jpg`}
+              alt={`Map segment ${currentNode + 1}`}
+              className="absolute inset-0 w-full h-full object-cover"
+              onError={(e) => { (e.target as HTMLImageElement).parentElement!.style.display = 'none'; }}
+            />
+          </div>
         </div>
 
-        <StatsBar points={points} miles={miles} accuracy={accuracy} streak={streak} />
-
         {/* Trip info bar */}
-        <div className="mx-3 mb-1 flex justify-between items-center">
-          <span className="text-gray-400 text-[10px] font-mono">
-            {tripMinutes > 0 ? `Day ${formatTripTime(tripMinutes).days} · ${formatTripTime(tripMinutes).display}` : 'Day 1'}
-          </span>
+        <div className="mx-3 mb-1 flex justify-end">
           <span className="text-amber-500 text-[10px] font-mono">
             {postcards.length > 0 ? `${postcards.length} postcards` : ''}
           </span>
         </div>
+
+        {/* Walker Family & Local blog buttons */}
+        <div className="mx-3 my-2 pb-3">
+          <div className="grid grid-cols-6 gap-1">
+            {[
+              { img: 'guide', label: 'Guide' },
+              { img: 'mom', label: 'Mom' },
+              { img: 'dad', label: 'Dad' },
+              { img: 'clara', label: 'Clara' },
+              { img: 'max', label: 'Max' },
+              { img: 'local', label: 'Local' },
+            ].map(({ img, label }) => (
+              <button key={img} onClick={() => { 
+                const citySlug = node.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+                window.open(`/route66/${citySlug}/${img}`, '_blank'); 
+              }} className="flex flex-col items-center">
+                <div className="w-full overflow-hidden rounded border border-amber-200 bg-amber-50" style={{ aspectRatio: '1/1' }}>
+                  <img 
+                    src={`/images/bio/${img}.jpg`} 
+                    alt={label} 
+                    className="w-full h-full object-cover"
+                    onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+                  />
+                </div>
+                <span className="text-gray-400 text-[8px] mt-0.5">{label}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+        </div>{/* End warm background */}
 
         {/* Streak indicator */}
         {streak >= 5 && (
@@ -880,10 +1001,10 @@ export default function Game() {
 
         {/* City progress — compact bar below stats */}
         {totalAct > 0 && (
-          <div className="mx-3 mb-2">
+          <div id="city-progress" className="mx-3 mb-2">
             <div className="flex items-center justify-between mb-1">
-              <span className={`text-[10px] font-semibold ${allDone ? (perfectCities.has(currentNode) || !cityMissed ? 'text-green-600' : 'text-blue-500') : 'text-gray-500'}`}>
-                {allDone ? (perfectCities.has(currentNode) || !cityMissed ? 'City Mastered!' : 'City Completed!') : `${doneAct}/${totalAct} explored`}
+              <span className="text-gray-400 text-[10px] font-mono">
+                {tripMinutes > 0 ? `Day ${formatTripTime(tripMinutes).days}` : 'Day 1'} · {allDone ? (perfectCities.has(currentNode) || !cityMissed ? 'City Mastered!' : 'City Completed!') : `${doneAct}/${totalAct} explored`}
               </span>
               <span className="text-gray-400 text-[9px] font-mono">{totalAct > 0 ? Math.round((doneAct / totalAct) * 100) : 0}%</span>
             </div>
@@ -1089,6 +1210,8 @@ export default function Game() {
             </div>
           </div>
 
+          <StatsBar points={points} miles={miles} accuracy={accuracy} streak={streak} />
+
           {/* Off Ramp */}
           <div className="flex justify-between items-center mt-2">
             <MuteBtn />
@@ -1105,27 +1228,49 @@ export default function Game() {
   if (phase === 'pick_lane' && curEdge) {
     const destNode = NODES[curEdge.destination];
     const catColors: Record<string, string> = {
-      'Landmarks & Places': '#f59e0b', 'History & Events': '#60a5fa',
-      'Culture & Traditions': '#a78bfa', 'Nature & Geography': '#10b981',
-      'People & Biography': '#f472b6', 'Arts & Entertainment': '#e879f9',
-      'Economy & Industry': '#059669', 'Books & Ideas': '#93c5fd',
+      'Landmarks & Places': '#f59e0b',
+      'History & Events': '#60a5fa',
+      'Pop Culture & Traditions': '#a78bfa',
+      'Food & Drink': '#f97316',
+      'Arts & Literature': '#e879f9',
+      'Entertainment & Media': '#ec4899',
+      'Famous People': '#f472b6',
+      'Nature & Environment': '#10b981',
+      'Science & Technology': '#06b6d4',
+      'Economy & Industry': '#059669',
+      'Sports & Leisure': '#ef4444',
+      'Mythology / Religion': '#8b5cf6',
+      'Government & Civics': '#6366f1',
+      'Transportation & Travel': '#d97706',
+      'Architecture & Buildings': '#78716c',
     };
     const catIcons: Record<string, string> = {
-      'Landmarks & Places': '🏛️', 'History & Events': '📜',
-      'Culture & Traditions': '🎭', 'Nature & Geography': '🌿',
-      'People & Biography': '👤', 'Arts & Entertainment': '🎸',
-      'Economy & Industry': '⚙️', 'Books & Ideas': '📚',
+      'Landmarks & Places': '🏛️',
+      'History & Events': '📜',
+      'Pop Culture & Traditions': '🎭',
+      'Food & Drink': '🍔',
+      'Arts & Literature': '📚',
+      'Entertainment & Media': '🎬',
+      'Famous People': '👤',
+      'Nature & Environment': '🌿',
+      'Science & Technology': '🔬',
+      'Economy & Industry': '⚙️',
+      'Sports & Leisure': '⚾',
+      'Mythology / Religion': '🕯️',
+      'Government & Civics': '🏛️',
+      'Transportation & Travel': '🚗',
+      'Architecture & Buildings': '🏗️',
     };
     const driveTime = Math.round((curEdge.miles / (curEdge.avgSpeed || 55)) * 60);
 
     return (
       <div className={`min-h-screen game-bg-${destNode.scene || 'desert'} pb-10`}>
-        <LocationHeader size="compact" label="HEADING TO" title={`${destNode.name}, ${destNode.state}`}
+        <LocationHeader size="full" label="HEADING TO" title={`${destNode.name}, ${destNode.state}`}
           subtitle={`${curEdge.route} | ${curEdge.miles} mi | ~${driveTime} min`}
           scene={destNode.scene} imageSrc={img(getCityImage(destNode.name, destNode.state))} />
         <div className="px-4 pt-5 text-center">
-          <div className="text-gray-400 font-mono text-[8px] tracking-[4px] mb-1">CHOOSE YOUR CATEGORY</div>
-          <div className="text-gray-900 text-lg font-bold mb-4">Pick Your Lane</div>
+          <div className="text-gray-400 font-mono text-[9px] tracking-[4px] mb-1">CHOOSE YOUR CATEGORY</div>
+          <div className="text-gray-900 text-2xl font-bold mb-5">Pick Your Lane</div>
           <div className="flex flex-col gap-2.5 max-w-sm mx-auto">
             {laneChoices.map((cat, i) => {
               const c = catColors[cat] || '#94a3b8';
@@ -1210,7 +1355,8 @@ export default function Game() {
           {/* Action buttons / Driving animation */}
           {answered && !showDriving && (
             <div className="flex gap-2 mt-3">
-              <button onClick={() => { const q = curQ?.q || detour?.name || "Route 66"; window.open("https://en.wikipedia.org/wiki/Special:Search/" + encodeURIComponent(q.split(" ").slice(0, 6).join(" ")), "_blank"); }} className="btn-outline flex-1">Learn More</button>
+              <button onClick={() => playWalkerScene(detour?.name || node.name)} className="btn-outline flex-1">{walkerPlaying ? '🔊 Playing...' : <><img src="/images/walkers/join-btn.jpg" alt="The Walker Family" className="w-full h-12 object-cover rounded-lg mb-1" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} /><span className="text-[10px]">🎙️ Join the Conversation</span></>}</button>
+              <button onClick={() => { const slug = (detour?.name || node.name).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); window.open('/route66/stops/' + slug, '_blank'); }} className="btn-outline flex-1">📖 Learn More</button>
               <button onClick={resolveRoad} className="btn-primary flex-1">
                 {roadQNum + 1 < roadQTotal ? `Next Question (${roadQNum + 2} of ${roadQTotal})` : `Continue to ${destNode.name}`}
               </button>
@@ -1312,7 +1458,8 @@ export default function Game() {
 
           {answered && (
             <div className="flex gap-2 mt-3">
-              <button onClick={() => { const q = curQ?.q || detour?.name || "Route 66"; window.open("https://en.wikipedia.org/wiki/Special:Search/" + encodeURIComponent(q.split(" ").slice(0, 6).join(" ")), "_blank"); }} className="btn-outline flex-1">Learn More</button>
+              <button onClick={() => playWalkerScene(detour?.name || node.name)} className="btn-outline flex-1">{walkerPlaying ? '🔊 Playing...' : <><img src="/images/walkers/join-btn.jpg" alt="The Walker Family" className="w-full h-12 object-cover rounded-lg mb-1" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} /><span className="text-[10px]">🎙️ Join the Conversation</span></>}</button>
+              <button onClick={() => { const slug = (detour?.name || node.name).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); window.open('/route66/stops/' + slug, '_blank'); }} className="btn-outline flex-1">📖 Learn More</button>
               <button onClick={resolveDetour} className="btn-primary flex-1">Back to Route 66</button>
             </div>
           )}
@@ -1361,7 +1508,8 @@ export default function Game() {
 
           {answered && (
             <div className="flex gap-2 mt-3">
-              <button onClick={() => { const q = hazard?.q || "Route 66"; window.open("https://en.wikipedia.org/wiki/Special:Search/" + encodeURIComponent(q.split(" ").slice(0, 6).join(" ")), "_blank"); }} className="btn-outline flex-1">Learn More</button>
+              <button onClick={() => playWalkerScene(node.name)} className="btn-outline flex-1">{walkerPlaying ? '🔊 Playing...' : <><img src="/images/walkers/join-btn.jpg" alt="The Walker Family" className="w-full h-12 object-cover rounded-lg mb-1" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} /><span className="text-[10px]">🎙️ Join the Conversation</span></>}</button>
+              <button onClick={() => { const slug = node.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); window.open('/route66/stops/' + slug, '_blank'); }} className="btn-outline flex-1">📖 Learn More</button>
               <button onClick={resolveHazard} className="btn-primary flex-1">Drive On</button>
             </div>
           )}
@@ -1479,12 +1627,25 @@ export default function Game() {
       if (correct) {
         setLightningCorrect(c => c + 1);
         setPoints(p => p + 50);
-        audio.correct();
-        setTimeout(() => audio.speak('Correct!'), 400);
+        const newStreak = streak + 1;
+        setStreak(newStreak);
+        if (newStreak > bestStreak) setBestStreak(newStreak);
+        if (newStreak >= 10) {
+          audio.streak(); audio.speakStreakResult(newStreak);
+          setShowConfetti(true); setCelebrationEmoji('🔥');
+          setTimeout(() => { setShowConfetti(false); setCelebrationEmoji(''); }, 3000);
+        } else if (newStreak >= 5) {
+          audio.streak(); audio.speakStreakResult(newStreak);
+          setCelebrationEmoji('⚡');
+          setTimeout(() => setCelebrationEmoji(''), 2000);
+        } else if (newStreak >= 3) {
+          audio.streak(); audio.speakStreakResult(newStreak);
+        }
+        else { audio.correct(); audio.speakCorrectResult(); }
       } else {
+        setStreak(0);
         audio.wrong();
-        const correctAnswer = shuf!.a[shuf!.correct];
-        setTimeout(() => audio.speak(`The answer was: ${correctAnswer}`), 400);
+        audio.speakWrongResult(shuf!.a[shuf!.correct]);
       }
       setQAns(a => a + 1);
       if (correct) setQCorr(c => c + 1);
@@ -1493,9 +1654,44 @@ export default function Game() {
     function nextLightning() {
       audio.stopSpeaking();
       if (isLast) {
-        // Lightning round complete — proceed to Chicago
-        setVisited([0]);
-        setPhase('approach');
+        // Update player skill based on performance
+        const finalCorrect = lightningCorrect + (lightningSel === shuf!.correct ? 1 : 0);
+        const newSkill = calculateSkillLevel(finalCorrect, lightningTotal, playerSkill || 2);
+        setPlayerSkill(newSkill);
+        
+        // Show driving animation before arriving
+        setPhase('driving');
+        
+        // After animation delay, handle next step
+        setTimeout(() => {
+          if (lightningEdge) {
+            // Normal between-cities: arrive at destination
+            const dest = lightningEdge.destination;
+            const driveMin = Math.round((lightningEdge.miles / (lightningEdge.avgSpeed || 55)) * 60);
+            setMiles(m => m + lightningEdge.miles);
+            setTripMinutes(t => t + driveMin);
+            setDayMinutes(d => d + driveMin);
+            setCurrentNode(dest);
+            setVisited(v => [...Array.from(v), dest]);
+            setCityMissed(false);
+            setLastRegion(lightningEdge.region);
+            
+            if (dest === NODES.length - 1) {
+              setPhase('game_over');
+              return;
+            }
+            setPhase('approach');
+          } else if (openingStep === 0) {
+            // Warm-up done → show "Welcome to Chicagoland" then city lightning
+            setOpeningStep(1);
+            setPhase('welcome_region');
+          } else {
+            // City lightning done → arrive at Chicago
+            setOpeningStep(3);
+            setVisited([0]);
+            setPhase('approach');
+          }
+        }, 4000); // 4 seconds for the animation
         return;
       }
       const next = lightningIdx + 1;
@@ -1503,18 +1699,37 @@ export default function Game() {
       setLightningSel(null);
       const sh = shuffleAnswers(lightningPool[next] as any);
       setShuf(sh);
-      setTimer(15);
-      setQStartTime(Date.now());
-      audio.speakQuestion(lightningPool[next].q, sh.a);
+      setTimer(-1); // Paused until voice finishes
+      audio.speakQuestionThen(lightningPool[next].q, sh.a, () => {
+        setTimer(15);
+        setQStartTime(Date.now());
+      });
     }
 
+    const destNode = lightningEdge ? NODES[lightningEdge.destination] : NODES[0];
+    const destName = destNode ? `${destNode.name}, ${destNode.state}` : 'Chicago, IL';
+    const isOpening = !lightningEdge;
+
     return (
-      <div className={`min-h-screen pb-10 ${answered ? (wasCorrect ? 'bg-green-50' : 'bg-red-50') : 'bg-amber-50'}`}>
+      <div className={`min-h-screen pb-10 ${answered ? (wasCorrect ? 'bg-green-50 correct-flash' : 'bg-red-50 screen-shake') : 'bg-amber-50'} ${streak >= 5 ? 'streak-fire' : ''}`}>
+        {/* Confetti overlay */}
+        {showConfetti && <Confetti count={50} />}
+        
+        {/* Celebration emoji */}
+        {celebrationEmoji && (
+          <div className="emoji-burst" style={{ position: 'fixed', top: '30%', left: '50%', transform: 'translateX(-50%)', zIndex: 100 }}>
+            {celebrationEmoji}
+          </div>
+        )}
+
         {/* Lightning round header */}
         <div className="bg-amber-500 px-4 py-3 text-center">
           <div className="text-amber-900 font-mono text-[8px] tracking-[4px]">LIGHTNING ROUND</div>
-          <div className="text-white text-lg font-bold">Route 66 Knowledge Check</div>
-          <div className="text-amber-100 text-xs mt-0.5">Question {lightningIdx + 1} of {lightningTotal} · {lightningCorrect} correct</div>
+          <div className="text-white text-lg font-bold">{isOpening ? (openingStep >= 2 ? 'Chicago Lightning Round' : 'Route 66 Warm-Up') : `${destNode.name} Lightning Round`}</div>
+          <div className="text-amber-100 text-xs mt-0.5">
+            Question {lightningIdx + 1} of {lightningTotal} · {lightningCorrect} correct
+            {lightningEdge ? ` · ${lightningEdge.miles} mi` : ''}
+          </div>
         </div>
 
         {/* Progress dots */}
@@ -1551,10 +1766,109 @@ export default function Game() {
                 {wasCorrect ? 'Correct! +50 pts' : `Wrong — ${shuf.a[shuf.correct]}`}
               </div>
               <button onClick={nextLightning} className="btn-primary mt-3 px-8">
-                {isLast ? 'Start Your Trip!' : 'Next Question'}
+                {isLast ? (isOpening ? (openingStep >= 2 ? 'Arrive in Chicago!' : 'Enter Chicagoland!') : `Arrive in ${destNode.name}!`) : 'Next Question'}
               </button>
             </div>
           )}
+        </div>
+      </div>
+    );
+  }
+
+  // ---- WELCOME TO REGION ----
+  if (phase === 'welcome_region') {
+    return (
+      <div className="min-h-screen bg-amber-50 flex flex-col items-center justify-center px-4">
+        {/* Region image */}
+        <div className="relative overflow-hidden rounded-2xl mb-6" style={{ height: 280, width: '100%', maxWidth: 500 }}>
+          <img
+            src="/images/maps/segment-1.jpg"
+            alt="Chicagoland"
+            className="absolute inset-0 w-full h-full object-cover"
+            onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+          />
+        </div>
+        <div className="text-amber-600 font-mono text-[9px] tracking-[5px] mb-2">ENTERING</div>
+        <div className="text-gray-900 text-3xl font-bold mb-2">Chicagoland</div>
+        <div className="text-gray-500 text-sm mb-8">The starting line. Where Route 66 begins.</div>
+        <button
+          onClick={() => {
+            setOpeningStep(2);
+            // Go to Pick Your Lane, then lightning round
+            const introEdge = { ...EDGES[0], destination: 0 };
+            setCurEdge(introEdge);
+            // Show Pick Your Lane
+            const pool = getQuestionsForRegion('Chicagoland');
+            const cats: Record<string, boolean> = {};
+            pool.forEach(q => { cats[q.category || 'General'] = true; });
+            const catList = Object.keys(cats).sort(() => Math.random() - 0.5);
+            const choices = catList.slice(0, Math.min(3, catList.length));
+            setLaneChoices(choices);
+            setPhase('pick_lane');
+          }}
+          className="btn-primary px-8 py-3 text-lg"
+        >
+          Pick Your Lane
+        </button>
+      </div>
+    );
+  }
+
+  // ---- DRIVING ANIMATION ----
+  if (phase === 'driving') {
+    const destNode = lightningEdge ? NODES[lightningEdge.destination] : NODES[0];
+    const fromNode = NODES[currentNode];
+    const segNum = lightningEdge ? Math.min(currentNode + 1, 20) : 1;
+    const segStr = String(segNum).padStart(2, '0');
+    const fromSlug = fromNode.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    const toSlug = destNode.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+    return (
+      <div className="min-h-screen bg-amber-50 flex flex-col">
+        {/* Map strip — the illustrated segment map */}
+        <div className="relative overflow-hidden" style={{ height: 200 }}>
+          <img
+            src={`/images/maps/segment-${segNum}.jpg`}
+            alt={`${fromNode.name} to ${destNode.name}`}
+            className="absolute inset-0 w-full h-full object-cover"
+            onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+          />
+        </div>
+
+        {/* Walker Family driving */}
+        <div className="flex-1 flex flex-col items-center justify-center px-4">
+          <div className="relative overflow-hidden rounded-2xl" style={{ height: 280, width: '100%', maxWidth: 500 }}>
+            <img
+              src={`/images/walkers/driving-${destNode.scene || 'desert'}.jpg`}
+              alt="The Walker Family on the road"
+              className="absolute inset-0 w-full h-full object-cover"
+              onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+            />
+            {/* Fallback if no image */}
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="text-center">
+                <div className="text-4xl mb-2">🚗</div>
+                <div className="text-amber-800 text-sm font-mono animate-pulse">Driving...</div>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center mt-4">
+            <div className="text-amber-600 font-mono text-[9px] tracking-[4px]">ON THE ROAD</div>
+            <div className="text-gray-900 text-xl font-bold mt-1">
+              {lightningEdge ? `${fromNode.name} → ${destNode.name}` : `Heading to Chicago`}
+            </div>
+            {lightningEdge && (
+              <div className="text-gray-500 text-sm mt-1">
+                {lightningEdge.miles} miles · {lightningEdge.route} · {lightningEdge.avgSpeed} mph
+              </div>
+            )}
+            <div className="mt-4 flex justify-center gap-1">
+              {[0,1,2].map(i => (
+                <div key={i} className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" style={{ animationDelay: `${i * 0.3}s` }} />
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     );

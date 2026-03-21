@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import '@/styles/globals.css';
-import SoundProvider from '@/components/SoundProvider';
+import Providers from '@/components/Providers';
 
 export const metadata: Metadata = {
   title: 'Open Road Trivia - The Exploration Learning Game',
@@ -38,9 +38,9 @@ export default function RootLayout({
       </head>
       <body className="bg-gray-900 min-h-screen">
         <div className="max-w-2xl mx-auto min-h-screen bg-gray-50 shadow-2xl md:my-4 md:rounded-2xl md:min-h-0 md:border md:border-gray-700 relative">
-          <SoundProvider>
+          <Providers>
             {children}
-          </SoundProvider>
+          </Providers>
         </div>
       </body>
     </html>

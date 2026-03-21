@@ -14,6 +14,7 @@ export interface RawQuestion {
   category?: string;
   region?: string;
   difficulty?: string;
+  skill?: number; // 1-5: 1=common knowledge, 2=moderate, 3=solid, 4=deep, 5=expert
 }
 
 export interface RawExploreStop {
@@ -133,10 +134,85 @@ if (typeof window !== 'undefined') {
 }
 
 // Lightning Round questions
-const lightningPool: RawQuestion[] = (lightningData as any).questions || [];
+// General pool for the opening round (Route 66 general knowledge)
+const generalLightningPool: RawQuestion[] = (lightningData as any).questions || [];
 
-export function getLightningQuestions(count: number = 10): RawQuestion[] {
-  // Shuffle and return `count` random questions
-  const shuffled = [...lightningPool].sort(() => Math.random() - 0.5);
+// All questions from all regions combined (for opening round skill-filtered draw)
+const allQuestionsPool: RawQuestion[] = (() => {
+  const all: RawQuestion[] = [];
+  const qs = (questionsData as any).questions || questionsData;
+  if (Array.isArray(qs)) all.push(...qs);
+  return all;
+})();
+
+export function getOpeningLightningQuestions(count: number = 10, playerSkill: number = 0): RawQuestion[] {
+  // First time (skill 0): draw from skill 1-2 across all regions + general pool
+  // Returning player: draw at their level and one above
+  const minSkill = playerSkill === 0 ? 1 : playerSkill;
+  const maxSkill = playerSkill === 0 ? 2 : Math.min(playerSkill + 1, 5);
+  
+  // Combine general lightning pool + all questions, filter by skill
+  const combined = [...generalLightningPool, ...allQuestionsPool];
+  const filtered = combined.filter(q => {
+    const s = q.skill || 3;
+    return s >= minSkill && s <= maxSkill;
+  });
+  
+  const pool = filtered.length >= count ? filtered : combined;
+  const shuffled = [...pool].sort(() => Math.random() - 0.5);
   return shuffled.slice(0, Math.min(count, shuffled.length));
+}
+
+export function getCityLightningQuestions(
+  region: string, 
+  lane: string | null, 
+  miles: number, 
+  playerSkill: number,
+  usedQs?: Set<string>
+): RawQuestion[] {
+  // Count: 1 question per 20 miles, minimum 2, maximum 13
+  const count = Math.max(2, Math.min(13, Math.round(miles / 20)));
+  
+  // Get region pool
+  let pool = getQuestionsForRegion(region);
+  
+  // Filter by lane if specified
+  if (lane) {
+    const lanePool = pool.filter(q => q.category === lane);
+    if (lanePool.length >= count) pool = lanePool;
+  }
+  
+  // Filter by skill: player level and one above
+  const minSkill = playerSkill;
+  const maxSkill = Math.min(playerSkill + 1, 5);
+  const skillPool = pool.filter(q => {
+    const s = q.skill || 3;
+    return s >= minSkill && s <= maxSkill;
+  });
+  if (skillPool.length >= count) pool = skillPool;
+  
+  // Filter out used questions
+  if (usedQs) {
+    const unused = pool.filter((q, i) => !usedQs.has(`r-${region}-${i}`));
+    if (unused.length >= count) pool = unused;
+  }
+  
+  const shuffled = [...pool].sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, Math.min(count, shuffled.length));
+}
+
+// Calculate player skill from lightning round performance
+export function calculateSkillLevel(correct: number, total: number, currentSkill: number): number {
+  const pct = total > 0 ? correct / total : 0;
+  if (pct >= 0.8 && currentSkill < 5) return currentSkill + 1;
+  if (pct < 0.4 && currentSkill > 1) return currentSkill - 1;
+  return currentSkill;
+}
+
+// Legacy wrapper for backward compatibility
+export function getLightningQuestions(count: number = 10, region?: string, usedQs?: Set<string>): RawQuestion[] {
+  if (region) {
+    return getCityLightningQuestions(region, null, count * 20, 3, usedQs);
+  }
+  return getOpeningLightningQuestions(count);
 }

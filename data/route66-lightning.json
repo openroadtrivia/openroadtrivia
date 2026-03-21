@@ -12,7 +12,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 1
     },
     {
       "q": "What are the two endpoint cities of Route 66?",
@@ -26,7 +27,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 1
     },
     {
       "q": "How many states does Route 66 cross?",
@@ -40,7 +42,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 1
     },
     {
       "q": "What is the most famous nickname for Route 66?",
@@ -54,7 +57,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 1
     },
     {
       "q": "Who wrote the famous song 'Get Your Kicks on Route 66'?",
@@ -68,7 +72,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 1
     },
     {
       "q": "In what year was Route 66 officially decommissioned?",
@@ -82,7 +87,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 1
     },
     {
       "q": "Approximately how many miles long was Route 66?",
@@ -96,7 +102,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 1
     },
     {
       "q": "Which singer first popularized 'Get Your Kicks on Route 66' in 1946?",
@@ -110,7 +117,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "Which city is known as the 'Gateway to the West' along Route 66?",
@@ -124,7 +132,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "What iconic Texas attraction features Cadillacs buried nose-first in a field?",
@@ -138,7 +147,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "What unusual motel lets you sleep in a concrete teepee on Route 66?",
@@ -152,7 +162,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "In which state does Route 66 cover only 13 miles \u2014 the shortest stretch?",
@@ -166,7 +177,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "Which Oklahoma town is famous for its perfectly round barn on Route 66?",
@@ -180,7 +192,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "What Pixar movie features characters traveling Route 66?",
@@ -194,7 +207,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 1
     },
     {
       "q": "What is the highest elevation point on Route 66?",
@@ -208,7 +222,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "In what year was the Interstate Highway Act signed, beginning the bypass of Route 66?",
@@ -222,7 +237,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 3
     },
     {
       "q": "Which desert in California does Route 66 cross?",
@@ -236,7 +252,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "Route 66 ends at which California pier?",
@@ -250,7 +267,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "Which famous Route 66 bridge over the Mississippi has a 22-degree bend in the middle?",
@@ -264,7 +282,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "Which Oklahoma city has a statue honoring Will Rogers, Route 66's most famous son?",
@@ -278,7 +297,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "In which Arizona town do wild burros roam the main street?",
@@ -292,7 +312,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "Which British band covered 'Route 66' in the 1960s?",
@@ -306,7 +327,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "Where is the midpoint of Route 66?",
@@ -320,7 +342,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 3
     },
     {
       "q": "In what year was Route 66 fully paved from end to end?",
@@ -334,7 +357,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 1
     },
     {
       "q": "What Route 66 town in Arizona is the Petrified Forest near?",
@@ -348,7 +372,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "Who is known as the 'Guardian of the Mother Road' \u2014 the barber who saved Route 66?",
@@ -362,7 +387,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 1
     },
     {
       "q": "What Seligman, Arizona drive-in is famous for its fake mustard-squirting antics?",
@@ -376,7 +402,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "Which Route 66 attraction claims Jesse James used it as a hideout?",
@@ -390,7 +417,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "What Texas town has the famous Route 66 Midpoint Cafe?",
@@ -404,7 +432,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 3
     },
     {
       "q": "Which Art Deco gas station in Shamrock, Texas was featured in Pixar's Cars?",
@@ -418,7 +447,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 1
     },
     {
       "q": "What is the name of the Route 66 museum in Clinton, Oklahoma?",
@@ -432,7 +462,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "What 1960s CBS television series was named after the highway?",
@@ -446,7 +477,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "Which Tucumcari motel has one of the most photographed neon signs on Route 66?",
@@ -460,7 +492,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "What Illinois town has the world's largest catsup bottle?",
@@ -474,7 +507,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "Which Missouri motel is famous for its restored neon 'Munger Moss' sign?",
@@ -488,7 +522,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "What massive folk art totem pole stands 90 feet tall near Foyil, Oklahoma?",
@@ -502,7 +537,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "Which Native American pueblo near Route 66 is called Sky City?",
@@ -516,7 +552,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "What Illinois town has the Dell Rhea's Chicken Basket, a Route 66 landmark?",
@@ -530,7 +567,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "What California desert town has the famous Roy's Motel neon sign?",
@@ -544,7 +582,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "Which New Mexico sign marks the crossing of the Continental Divide on Route 66?",
@@ -558,7 +597,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "Which Route 66 travel guide by Jerry McClanahan is considered the definitive road companion?",
@@ -572,7 +612,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 3
     },
     {
       "q": "What was the first city the Joad family reached on Route 66 in The Grapes of Wrath?",
@@ -586,7 +627,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "Which author gave Route 66 the name 'The Mother Road'?",
@@ -600,7 +642,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 1
     },
     {
       "q": "What Oklahoma Route 66 landmark is topped by a giant milk bottle?",
@@ -614,7 +657,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "Which Route 66 state has the most surviving original alignments?",
@@ -628,7 +672,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "What Route 66 museum in Kingman, Arizona is housed in a historic powerhouse building?",
@@ -642,7 +687,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "What haunted hotel on Route 66 in Flagstaff hosted John Wayne and Humphrey Bogart?",
@@ -656,7 +702,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "What Texas museum is dedicated entirely to barbed wire?",
@@ -670,7 +717,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "What Arizona town's Two Guns trading post sits in ruins along Route 66?",
@@ -684,7 +732,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     },
     {
       "q": "Which historic Route 66 diner in Atlanta, Illinois has been serving travelers since 1934?",
@@ -698,7 +747,8 @@
       "bonus": "",
       "synopsis": "",
       "category": "Route 66 Lightning Round",
-      "region": "Route 66 General"
+      "region": "Route 66 General",
+      "skill": 2
     }
   ]
 }

@@ -1,0 +1,1590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chicago, Illinois — Complete Route 66 Travel Guide | Open Road Trivia</title>
+<meta name="description" content="You smell the lake before you see it. The definitive Route 66 travel guide to Chicago — where the road begins, the history runs deep, and the city never lets you leave clean.">
+<meta property="og:title" content="Chicago, Illinois — Complete Route 66 Travel Guide | Open Road Trivia">
+<meta property="og:description" content="The definitive guide to Chicago on Route 66. Where to eat, what to see, what most people miss, and the full history — not just the postcard version.">
+<meta property="og:image" content="https://openroadtrivia.com/images/cities/chicago-il.jpg">
+<meta property="og:url" content="https://openroadtrivia.com/route66/chicago-il">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --ink: #1a1209;
+    --paper: #f5f0e8;
+    --aged: #e8dfc8;
+    --rust: #b5410e;
+    --gold: #c9921a;
+    --road: #3a3228;
+    --lake: #1a4a6b;
+    --cream: #faf7f2;
+    --rule: #c4b89a;
+    --muted: #7a6e5f;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: 17px;
+    line-height: 1.85;
+    overflow-x: hidden;
+  }
+
+  /* ── MASTHEAD ── */
+  .masthead {
+    background: var(--ink);
+    color: var(--paper);
+    text-align: center;
+    padding: 12px 20px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+  .masthead a { color: var(--gold); text-decoration: none; }
+  .masthead a:hover { text-decoration: underline; }
+
+  /* ── BREADCRUMB ── */
+  .breadcrumb {
+    background: var(--aged);
+    border-bottom: 1px solid var(--rule);
+    padding: 10px 40px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .breadcrumb a { color: var(--rust); text-decoration: none; }
+  .breadcrumb a:hover { text-decoration: underline; }
+  .breadcrumb span { margin: 0 8px; }
+
+  /* ── HERO ── */
+  .hero {
+    position: relative;
+    background: var(--ink);
+    min-height: 92vh;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+  }
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 60% 40%, rgba(26,74,107,0.35) 0%, transparent 60%),
+      radial-gradient(ellipse at 20% 80%, rgba(181,65,14,0.2) 0%, transparent 50%),
+      linear-gradient(175deg, #0d0a07 0%, #1a1209 40%, #0f1a24 100%);
+  }
+
+  /* Chicago grid lines as subtle texture */
+  .hero-grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(201,146,26,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(201,146,26,0.04) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  /* Route 66 diagonal stripe */
+  .hero-stripe {
+    position: absolute;
+    top: 0; right: -100px; bottom: 0;
+    width: 320px;
+    background: repeating-linear-gradient(
+      -12deg,
+      transparent,
+      transparent 18px,
+      rgba(201,146,26,0.04) 18px,
+      rgba(201,146,26,0.04) 20px
+    );
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 60px 60px 80px;
+    max-width: 900px;
+  }
+
+  .hero-eyebrow {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .hero-eyebrow::before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: var(--gold);
+  }
+
+  .hero-city {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(64px, 10vw, 120px);
+    font-weight: 900;
+    line-height: 0.88;
+    color: var(--paper);
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+  }
+
+  .hero-state {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(22px, 3.5vw, 38px);
+    font-weight: 400;
+    font-style: italic;
+    color: var(--gold);
+    margin-bottom: 36px;
+    letter-spacing: 0.02em;
+  }
+
+  .hero-lede {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: clamp(16px, 2vw, 20px);
+    line-height: 1.7;
+    color: rgba(245,240,232,0.82);
+    max-width: 620px;
+    border-left: 3px solid var(--rust);
+    padding-left: 22px;
+    margin-bottom: 48px;
+  }
+
+  .hero-meta {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .hero-stat {
+    font-family: 'Source Sans 3', sans-serif;
+  }
+  .hero-stat-num {
+    font-size: 28px;
+    font-weight: 300;
+    color: var(--paper);
+    display: block;
+    line-height: 1;
+  }
+  .hero-stat-label {
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-top: 4px;
+    display: block;
+  }
+
+  /* Route 66 shield badge */
+  .shield {
+    position: absolute;
+    top: 48px;
+    right: 60px;
+    width: 90px;
+    z-index: 3;
+  }
+  .shield svg { width: 100%; height: auto; }
+
+  /* ── MAP STRIP ── */
+  .map-strip {
+    background: var(--road);
+    padding: 28px 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-top: 4px solid var(--rust);
+    border-bottom: 4px solid var(--rust);
+    overflow-x: auto;
+  }
+  .map-strip-label {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+    white-space: nowrap;
+    min-width: 80px;
+  }
+  .map-route {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 0;
+    min-width: 400px;
+  }
+  .map-city {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--paper);
+    white-space: nowrap;
+    padding: 6px 12px;
+    border-radius: 2px;
+  }
+  .map-city.active {
+    background: var(--rust);
+    color: white;
+    font-weight: 600;
+  }
+  .map-dot {
+    flex: 1;
+    height: 2px;
+    background: repeating-linear-gradient(90deg, var(--gold) 0, var(--gold) 8px, transparent 8px, transparent 16px);
+    min-width: 30px;
+  }
+  .map-mile {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 9px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+  }
+  .map-seg { position: relative; display: flex; align-items: center; flex: 1; }
+
+  /* ── LAYOUT ── */
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+  @media (max-width: 768px) {
+    .container { padding: 0 20px; }
+    .hero-content { padding: 40px 24px 60px; }
+    .shield { right: 24px; top: 24px; width: 60px; }
+    .map-strip { padding: 20px 24px; }
+  }
+
+  /* ── SECTION HEADERS ── */
+  .section {
+    padding: 80px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section-tag {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--rust);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-tag::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--rule);
+    max-width: 120px;
+  }
+
+  h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(28px, 4vw, 44px);
+    font-weight: 700;
+    line-height: 1.15;
+    color: var(--ink);
+    margin-bottom: 32px;
+    letter-spacing: -0.01em;
+  }
+
+  h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--ink);
+    margin: 40px 0 14px;
+  }
+
+  p {
+    margin-bottom: 20px;
+    color: #2a2218;
+  }
+  p:last-child { margin-bottom: 0; }
+
+  /* ── PULL QUOTE ── */
+  .pull-quote {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(20px, 3vw, 28px);
+    font-style: italic;
+    line-height: 1.5;
+    color: var(--rust);
+    border-left: 5px solid var(--gold);
+    padding: 20px 32px;
+    margin: 48px 0;
+    background: var(--cream);
+  }
+
+  /* ── THREE-ACT HISTORY ── */
+  .three-act {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px;
+    background: var(--rule);
+    margin: 48px 0;
+    border: 1px solid var(--rule);
+  }
+  .act {
+    background: var(--cream);
+    padding: 32px 28px;
+  }
+  .act-label {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 10px;
+  }
+  .act h4 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color: var(--ink);
+  }
+  .act p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--muted);
+    margin: 0;
+  }
+  @media (max-width: 768px) {
+    .three-act { grid-template-columns: 1fr; }
+  }
+
+  /* ── ROUTE THROUGH TOWN ── */
+  .route-block {
+    background: var(--road);
+    color: var(--paper);
+    padding: 48px 52px;
+    margin: 48px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .route-block::before {
+    content: '66';
+    position: absolute;
+    right: -20px;
+    top: -40px;
+    font-family: 'Playfair Display', serif;
+    font-size: 220px;
+    font-weight: 900;
+    color: rgba(255,255,255,0.04);
+    line-height: 1;
+    pointer-events: none;
+  }
+  .route-block h3 {
+    color: var(--gold);
+    margin-top: 0;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+  .route-street {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(196,184,154,0.15);
+  }
+  .route-street:last-child { border-bottom: none; }
+  .street-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--paper);
+    min-width: 200px;
+  }
+  .street-desc {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    color: rgba(245,240,232,0.7);
+    line-height: 1.6;
+  }
+  @media (max-width: 768px) {
+    .route-block { padding: 32px 24px; }
+    .route-street { flex-direction: column; gap: 4px; }
+    .street-name { min-width: unset; }
+  }
+
+  /* ── STOP CARDS ── */
+  .stops-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin: 48px 0;
+  }
+  @media (max-width: 768px) {
+    .stops-grid { grid-template-columns: 1fr; }
+  }
+
+  .stop-card {
+    border: 1px solid var(--rule);
+    background: var(--cream);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .stop-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 40px rgba(26,18,9,0.12);
+  }
+  .stop-card-img {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(245,240,232,0.5);
+    position: relative;
+    overflow: hidden;
+  }
+  .stop-card-body {
+    padding: 24px 26px 28px;
+  }
+  .stop-type {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-bottom: 12px;
+  }
+  .stop-type.discovery { background: var(--lake); color: white; }
+  .stop-type.attraction { background: var(--rust); color: white; }
+
+  .stop-card h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+    font-family: 'Playfair Display', serif;
+  }
+  .stop-card h3 a {
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 2px solid var(--gold);
+  }
+  .stop-card h3 a:hover { color: var(--rust); }
+
+  .stop-card p {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 16px;
+    color: #3a3228;
+  }
+
+  .insider {
+    background: var(--aged);
+    border-left: 3px solid var(--gold);
+    padding: 12px 16px;
+    font-size: 13px;
+    color: var(--road);
+    margin-top: 16px;
+  }
+  .insider strong {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    display: block;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+
+  .stop-meta {
+    display: flex;
+    gap: 20px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+  }
+  .stop-meta-item {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 11px;
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .stop-meta-item .icon { font-size: 13px; }
+
+  /* ── ATTRACTIONS ── */
+  .attraction-list { margin: 40px 0; }
+  .attraction-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 24px;
+    padding: 28px 0;
+    border-bottom: 1px solid var(--rule);
+    align-items: start;
+  }
+  .attraction-item:last-child { border-bottom: none; }
+  .attraction-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--rule);
+    line-height: 1;
+    text-align: center;
+    padding-top: 4px;
+  }
+  .attraction-item h3 { margin-top: 0; font-size: 20px; margin-bottom: 8px; }
+  .attraction-item p { font-size: 14px; line-height: 1.7; color: #3a3228; margin: 0; }
+
+  /* ── WHERE TO STAY / EAT / DRINK ── */
+  .rec-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    margin: 40px 0;
+  }
+  @media (max-width: 768px) { .rec-grid { grid-template-columns: 1fr; } }
+
+  .rec-card {
+    background: var(--cream);
+    padding: 28px 26px;
+  }
+  .rec-tag {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--rust);
+    margin-bottom: 10px;
+  }
+  .rec-card h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 8px;
+  }
+  .rec-card p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #3a3228;
+    margin-bottom: 12px;
+  }
+  .order-this {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 12px;
+    color: var(--muted);
+    font-style: italic;
+  }
+  .order-this strong {
+    color: var(--rust);
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  /* ── LOCAL SECRETS ── */
+  .secrets-list {
+    list-style: none;
+    margin: 32px 0;
+    padding: 0;
+  }
+  .secrets-list li {
+    padding: 20px 0 20px 60px;
+    border-bottom: 1px solid var(--rule);
+    position: relative;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .secrets-list li:last-child { border-bottom: none; }
+  .secrets-list li::before {
+    content: attr(data-n);
+    position: absolute;
+    left: 0;
+    top: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--rule);
+    line-height: 1;
+  }
+  .secrets-list li strong {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+
+  /* ── DIALOGUE BOX ── */
+  .dialogue-box {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 48px 52px;
+    margin: 48px 0;
+    position: relative;
+  }
+  .dialogue-box::before {
+    content: '\201C';
+    position: absolute;
+    top: -20px;
+    left: 40px;
+    font-family: 'Playfair Display', serif;
+    font-size: 120px;
+    color: var(--gold);
+    line-height: 1;
+  }
+  .dialogue-box .dialogue-tag {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 28px;
+  }
+  .dialogue-line {
+    margin-bottom: 18px;
+    font-size: 15px;
+    line-height: 1.7;
+    padding-left: 24px;
+    border-left: 2px solid rgba(201,146,26,0.3);
+  }
+  .dialogue-line .speaker {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  /* ── CTA ── */
+  .cta-block {
+    background: var(--rust);
+    color: white;
+    padding: 60px 52px;
+    text-align: center;
+  }
+  .cta-block h2 {
+    color: white;
+    font-size: clamp(26px, 4vw, 40px);
+    margin-bottom: 16px;
+  }
+  .cta-block p {
+    color: rgba(255,255,255,0.85);
+    max-width: 560px;
+    margin: 0 auto 32px;
+    font-size: 16px;
+  }
+  .cta-btn {
+    display: inline-block;
+    background: white;
+    color: var(--rust);
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding: 16px 40px;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+    border: 2px solid white;
+  }
+  .cta-btn:hover {
+    background: transparent;
+    color: white;
+    transform: translateY(-2px);
+  }
+
+  /* ── PRACTICAL INFO ── */
+  .practical-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin: 40px 0;
+  }
+  @media (max-width: 768px) { .practical-grid { grid-template-columns: 1fr; } }
+
+  .practical-item {
+    background: var(--cream);
+    border: 1px solid var(--rule);
+    padding: 24px 22px;
+  }
+  .practical-item h4 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--rust);
+    margin-bottom: 10px;
+  }
+  .practical-item p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--road);
+    margin: 0;
+  }
+
+  /* ── FOOTER ── */
+  .site-footer {
+    background: var(--ink);
+    color: rgba(245,240,232,0.6);
+    padding: 48px 40px;
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+  }
+  .site-footer a { color: var(--gold); text-decoration: none; }
+  .footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .footer-nav a {
+    color: rgba(245,240,232,0.5);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-size: 10px;
+  }
+  .footer-nav a:hover { color: var(--gold); }
+
+  /* ── IMAGE PLACEHOLDER ── */
+  .img-placeholder {
+    background: var(--aged);
+    border: 1px dashed var(--rule);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--muted);
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding: 20px;
+    gap: 8px;
+  }
+  .img-placeholder .img-src {
+    font-size: 10px;
+    opacity: 0.6;
+    font-style: italic;
+  }
+
+  /* Animations */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .hero-content > * {
+    animation: fadeUp 0.8s ease both;
+  }
+  .hero-eyebrow { animation-delay: 0.1s; }
+  .hero-city { animation-delay: 0.2s; }
+  .hero-state { animation-delay: 0.3s; }
+  .hero-lede { animation-delay: 0.4s; }
+  .hero-meta { animation-delay: 0.55s; }
+
+  /* Big section divider */
+  .divider {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 24px 0;
+    color: var(--rule);
+  }
+  .divider::before, .divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--rule);
+  }
+  .divider-icon {
+    font-size: 18px;
+    opacity: 0.5;
+  }
+
+  /* Two-column text layout */
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: start;
+  }
+  @media (max-width: 768px) { .two-col { grid-template-columns: 1fr; } }
+
+</style>
+</head>
+<body>
+
+<!-- MASTHEAD -->
+<div class="masthead">
+  <a href="https://openroadtrivia.com">Open Road Trivia</a>
+  &nbsp;·&nbsp;
+  Route 66 Edition &nbsp;·&nbsp;
+  <a href="https://openroadtrivia.com/route66">Full Route →</a>
+</div>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb">
+  <a href="https://openroadtrivia.com">Home</a>
+  <span>›</span>
+  <a href="https://openroadtrivia.com/route66">Route 66</a>
+  <span>›</span>
+  Chicago, Illinois
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-stripe"></div>
+
+  <!-- Route 66 Shield SVG -->
+  <div class="shield" aria-hidden="true">
+    <svg viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M50 4 L96 24 L96 96 Q50 116 50 116 Q4 96 4 96 L4 24 Z" fill="#1a1209" stroke="#c9921a" stroke-width="3"/>
+      <path d="M50 14 L86 30 L86 92 Q50 108 50 108 Q14 92 14 92 L14 30 Z" fill="none" stroke="#c9921a" stroke-width="1" opacity="0.4"/>
+      <text x="50" y="56" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="700" fill="#f5f0e8" letter-spacing="1">ROUTE</text>
+      <text x="50" y="84" text-anchor="middle" font-family="Georgia, serif" font-size="38" font-weight="900" fill="#c9921a">66</text>
+    </svg>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">Route 66 — Mile Marker 0</div>
+    <div class="hero-city">Chicago</div>
+    <div class="hero-state">Illinois</div>
+    <p class="hero-lede">You smell the lake before you see it. Coming west on Ogden Avenue — the old Route 66 alignment — Lake Michigan pushes cold, enormous weather across the whole South Side, and the city appears in layers: the water, then the skyline, then the noise. This is where the road begins.</p>
+    <div class="hero-meta">
+      <div class="hero-stat">
+        <span class="hero-stat-num">2,448</span>
+        <span class="hero-stat-label">Miles to Santa Monica</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">2.7M</span>
+        <span class="hero-stat-label">Population</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">1926</span>
+        <span class="hero-stat-label">Route 66 designated</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">13</span>
+        <span class="hero-stat-label">Game stops</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MAP STRIP -->
+<div class="map-strip" aria-label="Route 66 segment map">
+  <div class="map-strip-label">Route 66</div>
+  <div class="map-route">
+    <div class="map-city active">Chicago</div>
+    <div class="map-seg"><div class="map-dot"></div><span class="map-mile" style="top:-14px;font-family:'Source Sans 3',sans-serif;font-size:9px;color:#7a6e5f;letter-spacing:.1em;position:absolute;left:50%;transform:translateX(-50%)">30 mi</span></div>
+    <div class="map-city">Joliet</div>
+    <div class="map-seg"><div class="map-dot"></div></div>
+    <div class="map-city">Pontiac</div>
+    <div class="map-seg"><div class="map-dot"></div></div>
+    <div class="map-city">Springfield</div>
+    <div class="map-seg"><div class="map-dot"></div></div>
+    <div class="map-city">St. Louis →</div>
+  </div>
+</div>
+
+<!-- ── SECTION 1: THE ARRIVAL ── -->
+<section class="section">
+  <div class="container">
+    <div class="section-tag">The Arrival</div>
+    <h2>Where the Road Begins</h2>
+
+    <div class="two-col">
+      <div>
+        <p>You smell the lake before you see it. Driving in from the west on Ogden Avenue — the old Route 66 alignment — the first thing that hits you is Lake Michigan, cold and enormous, pushing weather across the whole South Side. The second thing you notice is the noise. Chicago doesn't ease you in. It starts at full volume.</p>
+        <p>The official eastern terminus of Route 66 sits at the intersection of Adams Street and Michigan Avenue, in the shadow of the Art Institute's bronze lions. Stand there and look west. In front of you: 2,448 miles of American road running all the way to the Santa Monica Pier. Behind you: the lake, the wind, and a city of 2.7 million people who have opinions about everything, including whether the deep dish at Lou Malnati's or Giordano's is the real thing.</p>
+        <p>Chicago is not a Route 66 city the way Tucumcari or Shamrock are Route 66 cities. It doesn't need the road. It never did. Route 66 needs Chicago — needed its stockyards, its rail yards, its manufacturing floor, and eventually its departing thousands who drove that highway south and west looking for somewhere else. The road begins here because this is where everything came from.</p>
+      </div>
+      <div>
+        <div class="img-placeholder" style="height:340px;">
+          <div style="font-size:28px;">📍</div>
+          <div>Chicago, Illinois — Route 66 Travel Guide</div>
+          <div class="img-src">/images/cities/chicago-il.jpg<br><em>IMAGE NEEDED: Adams & Michigan Avenue terminus, looking west, late afternoon, bronze lions visible at left frame, Art Institute facade</em></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pull-quote">
+      "Route 66 begins here because this is where everything came from — and leaves here because this is where so many people couldn't stay."
+    </div>
+
+    <p>The families who pull up to that Adams Street sign will have different reactions depending on what they've read and who they are. Some will want a photo at the bronze plaque. Some will wonder why the road starts in a canyon of glass and steel. One kid will ask why there's no road here. Another will notice the lake and forget the sign entirely. All of them are right.</p>
+  </div>
+</section>
+
+<!-- ── SECTION 2: THE STORY ── -->
+<section class="section">
+  <div class="container">
+    <div class="section-tag">The Story</div>
+    <h2>Before the Road, During the Road, After the Road</h2>
+
+    <div class="three-act">
+      <div class="act">
+        <div class="act-label">Act I</div>
+        <h4>Before Route 66</h4>
+        <p>Chicago was a Potawatomi trading village before it was anything else. The name itself comes from the Potawatomi word for the wild garlic that grew along the river — <em>shikaakwa</em>. Fort Dearborn went up in 1803. The city incorporated in 1837. By 1890, barely fifty years later, it was the fifth-largest city on earth. The meatpacking industry, the grain elevators, the railroads — Chicago was the machine that processed the American interior and shipped it east.</p>
+      </div>
+      <div class="act">
+        <div class="act-label">Act II</div>
+        <h4>The Route 66 Years</h4>
+        <p>When Route 66 was designated in 1926 — championed in part by Chicagoan Cyrus Avery — it made the city the official gateway to the American West. For two decades, the highway carried tourists, truckers, and the displaced. During the Great Migration, it carried something more significant: hundreds of thousands of Black Southerners who followed the road north to Chicago's South Side, transforming the city's culture, music, and politics in ways still visible today. The blues didn't invent Chicago. But the road brought the blues north, and Chicago turned it electric.</p>
+      </div>
+      <div class="act">
+        <div class="act-label">Act III</div>
+        <h4>After the Bypass</h4>
+        <p>When I-55 and I-90 drew their straight lines through Illinois in the 1950s and '60s, Chicago didn't notice much. It was too big to suffer the way Tucumcari suffered. The city kept growing, sprawling, arguing with itself. What Route 66 left behind in Chicago isn't a ghost town. It's a layer — a stratum of mid-century architecture, diners, signage, and neighborhood memory that sits underneath the city's present tense. You have to know where to look.</p>
+      </div>
+    </div>
+
+    <h3>The Migration That Changed Everything</h3>
+    <p>The Green Book — the travel guide for Black Americans navigating a segregated country — listed dozens of Chicago businesses as safe stops for travelers heading north. The Regal Theater on 47th Street. The Sutherland Hotel. The restaurants and barbers and beauty parlors of Bronzeville. The Great Migration brought roughly 500,000 Black Southerners to Chicago between 1910 and 1940. Route 66 was their road north. The South Side became their destination — and from that migration came Muddy Waters, Howlin' Wolf, Nat King Cole, and eventually the entire architecture of modern popular music.</p>
+
+    <p>The other history that doesn't show up on the tourist signs: Chicago's Polish, Czech, Italian, Jewish, Chinese, and Mexican communities all built the city alongside its Anglo founders — and often did it from neighborhoods they weren't allowed to leave. Chinatown, which you'll pass on the way to the lakefront, has been in roughly its current location since the 1920s, when racial covenants in other neighborhoods made it the only place Chinese families could legally buy property.</p>
+
+    <div class="img-placeholder" style="height:220px; margin: 40px 0;">
+      <div>Historic Bronzeville, Chicago — Route 66 Great Migration route</div>
+      <div class="img-src">/images/stops/chicago-bronzeville.jpg<br><em>IMAGE NEEDED: 47th Street Bronzeville, vintage photograph or illustrated style, period neon signage, jazz era atmosphere</em></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SECTION 3: THE ROUTE THROUGH TOWN ── -->
+<section class="section">
+  <div class="container">
+    <div class="section-tag">The Route Through Town</div>
+    <h2>Street by Street</h2>
+    <p>The Route 66 alignment through Chicago has shifted over the decades. The most historically significant and drivable route today follows this path — and it rewards anyone willing to park the car and use their feet for a few blocks.</p>
+
+    <div class="route-block">
+      <h3>The Alignment — Adams St. to Ogden Ave.</h3>
+
+      <div class="route-street">
+        <span class="street-name">Michigan Ave. & Adams</span>
+        <span class="street-desc">The official start. Park in Millennium Park garage (cheapest legal option near the terminus). Walk to the Route 66 sign on Adams. The Art Institute is directly to your north — if you only have one hour, spend it here.</span>
+      </div>
+
+      <div class="route-street">
+        <span class="street-name">Jackson Blvd.</span>
+        <span class="street-desc">Heading west from Michigan, Jackson takes you under the L tracks through the Loop. The overhead train noise is part of the experience — it's been making that noise since 1897. At rush hour, the screeching on the curves is operatic.</span>
+      </div>
+
+      <div class="route-street">
+        <span class="street-name">Ogden Avenue</span>
+        <span class="street-desc">The diagonal that cuts southwest across the grid is old Chicago — it follows an ancient Indigenous trail. Here the city shifts from downtown to neighborhood. The architecture changes. The people change. Pay attention. This is where Route 66 actually begins to feel like a road.</span>
+      </div>
+
+      <div class="route-street">
+        <span class="street-name">Cicero & Berwyn</span>
+        <span class="street-desc">Working-class Chicago. Mexican restaurants, Polish bakeries, Vietnamese nail salons sharing a streetscape built in 1920. Park and walk if it's a weekend morning. The tamale spot two blocks off Ogden doesn't have a Yelp page. You'll smell it first.</span>
+      </div>
+    </div>
+
+    <p style="margin-top: 24px; font-size: 14px; color: var(--muted);">
+      <strong>Parking tip:</strong> The Millennium Park garage on Columbus Drive is your best bet for the Adams St. terminus — about $26/day but validated discounts exist. For Ogden Ave. exploration, street parking opens up quickly west of Ashland. Do not attempt to park on Michigan Avenue. Just don't.
+    </p>
+  </div>
+</section>
+
+<!-- ── SECTION 4: DISCOVERY STOPS ── -->
+<section class="section">
+  <div class="container">
+    <div class="section-tag">Discovery Stops</div>
+    <h2>The Stops Worth Planning Your Day Around</h2>
+    <p>Chicago has more world-class cultural institutions per square mile than almost any American city. The ones below are the ones that earn their spots — and each has something most visitors never find.</p>
+
+    <div class="stops-grid">
+
+      <!-- Field Museum -->
+      <div class="stop-card">
+        <div class="stop-card-img img-placeholder" style="height:180px; background: linear-gradient(135deg, #1a3a2a, #0d1f17);">
+          <div>📷</div>
+          <div>Field Museum — Natural History</div>
+          <div class="img-src">/images/stops/field-museum-chicago.jpg</div>
+        </div>
+        <div class="stop-card-body">
+          <span class="stop-type discovery">Discovery</span>
+          <h3><a href="https://openroadtrivia.com/route66/stops/field-museum-chicago">The Field Museum</a></h3>
+          <p>Sue the T. rex lives here — 67 million years old, 13 feet tall, and the most complete Tyrannosaurus skeleton ever found. The museum bought her at auction in 1997 for $8.36 million. But Sue is now in the main hall; the real gems are downstairs in the Egyptian collection and the Pawnee Earth Lodge, a full-scale reconstruction you can walk into.</p>
+          <div class="insider">
+            <strong>Insider Tip</strong>
+            Most people never find the Grainger Hall of Gems in the basement. The Hope Diamond gets the press, but the field-collected specimens here are extraordinary — and you'll have them mostly to yourself.
+          </div>
+          <div class="stop-meta">
+            <span class="stop-meta-item"><span class="icon">🕐</span> 9am–5pm daily</span>
+            <span class="stop-meta-item"><span class="icon">💵</span> $30 adults / $15 kids</span>
+            <span class="stop-meta-item"><span class="icon">⏱</span> 2–3 hours</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Art Institute -->
+      <div class="stop-card">
+        <div class="stop-card-img img-placeholder" style="height:180px; background: linear-gradient(135deg, #1a1a3a, #0d0d1f);">
+          <div>📷</div>
+          <div>Art Institute of Chicago</div>
+          <div class="img-src">/images/stops/art-institute-chicago.jpg</div>
+        </div>
+        <div class="stop-card-body">
+          <span class="stop-type discovery">Discovery</span>
+          <h3><a href="https://openroadtrivia.com/route66/stops/art-institute-chicago">Art Institute of Chicago</a></h3>
+          <p>Seurat's <em>A Sunday on La Grande Jatte</em> is here — you've seen it a hundred times in reproduction, but standing in front of it, the scale surprises you. It's enormous. It's also directly across the room from Grant Wood's <em>American Gothic</em>, which is much smaller than you expect. The juxtaposition is intentional and perfect.</p>
+          <div class="insider">
+            <strong>Insider Tip</strong>
+            The Thorne Miniature Rooms on the lower level — 68 precisely scaled rooms from European and American history — are inexplicably moving. Kids are transfixed. Adults get quiet. Budget 30 minutes you didn't plan on.
+          </div>
+          <div class="stop-meta">
+            <span class="stop-meta-item"><span class="icon">🕐</span> 11am–5pm (Thu to 8pm)</span>
+            <span class="stop-meta-item"><span class="icon">💵</span> $35 adults / free under 14</span>
+            <span class="stop-meta-item"><span class="icon">⏱</span> 2–4 hours</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chicago Riverwalk -->
+      <div class="stop-card">
+        <div class="stop-card-img img-placeholder" style="height:180px; background: linear-gradient(135deg, #0d1a2a, #1a2a3a);">
+          <div>📷</div>
+          <div>Chicago Riverwalk Architecture</div>
+          <div class="img-src">/images/stops/chicago-riverwalk.jpg</div>
+        </div>
+        <div class="stop-card-body">
+          <span class="stop-type discovery">Discovery</span>
+          <h3><a href="https://openroadtrivia.com/route66/stops/chicago-riverwalk">Chicago Architecture — The Riverwalk</a></h3>
+          <p>Chicago is the city where modern architecture was invented. After the Great Fire of 1871 leveled 17,000 buildings, the city rebuilt itself in steel and glass — and in the process created the skyscraper. The Riverwalk architecture boat tour is the single best $50 you can spend in Chicago. You'll learn more about American history from the buildings than from any museum.</p>
+          <div class="insider">
+            <strong>Insider Tip</strong>
+            The free walking version of the architecture tour starts at the Chicago Architecture Center on Michigan Avenue. It's 90 minutes and rivals the boat tour for the blocks around the river. The volunteer docents are occasionally retired architects with feuds to settle about specific buildings.
+          </div>
+          <div class="stop-meta">
+            <span class="stop-meta-item"><span class="icon">🕐</span> Tours daily May–Oct</span>
+            <span class="stop-meta-item"><span class="icon">💵</span> $48–58 boat / free walking</span>
+            <span class="stop-meta-item"><span class="icon">⏱</span> 90 minutes</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navy Pier -->
+      <div class="stop-card">
+        <div class="stop-card-img img-placeholder" style="height:180px; background: linear-gradient(135deg, #1a2a1a, #0d1f0d);">
+          <div>📷</div>
+          <div>Navy Pier — Lake Michigan</div>
+          <div class="img-src">/images/stops/navy-pier-chicago.jpg</div>
+        </div>
+        <div class="stop-card-body">
+          <span class="stop-type discovery">Discovery</span>
+          <h3><a href="https://openroadtrivia.com/route66/stops/navy-pier-chicago">Navy Pier & Lake Michigan</a></h3>
+          <p>This is the thing about Navy Pier: the pier itself is fine, but Lake Michigan is extraordinary. Walk to the end. In July it smells like cold iron and sunscreen. In October it smells like the end of something. The lake is so large it has its own weather systems, its own tides, its own moods. Three hundred ships have sunk in it. It's not decorative water. It's inland ocean.</p>
+          <div class="insider">
+            <strong>Insider Tip</strong>
+            Skip the Ferris wheel and walk south along the lakefront path toward the Museum Campus. The view of the skyline from the lake path at dawn — around 6am in summer — is better than anything you'll see from a paid observation deck.
+          </div>
+          <div class="stop-meta">
+            <span class="stop-meta-item"><span class="icon">🕐</span> Open daily, free access</span>
+            <span class="stop-meta-item"><span class="icon">💵</span> Free (attractions vary)</span>
+            <span class="stop-meta-item"><span class="icon">⏱</span> 1–2 hours</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Millennium Park -->
+      <div class="stop-card">
+        <div class="stop-card-img img-placeholder" style="height:180px; background: linear-gradient(135deg, #2a1a1a, #3a1a0d);">
+          <div>📷</div>
+          <div>Millennium Park — The Bean</div>
+          <div class="img-src">/images/stops/millennium-park-bean.jpg</div>
+        </div>
+        <div class="stop-card-body">
+          <span class="stop-type attraction">Attraction</span>
+          <h3><a href="https://openroadtrivia.com/route66/stops/millennium-park">Millennium Park — Cloud Gate</a></h3>
+          <p>"The Bean" arrived in 2006 and immediately became Chicago's most photographed object — which locals first resented, then accepted, then quietly came to love. The sculptor Anish Kapoor calls it Cloud Gate. Nobody calls it that. The underside, when you walk beneath it, distorts the skyline into something strange and vertiginous. Every photograph of it is the same. Every experience of it is different.</p>
+          <div class="insider">
+            <strong>Insider Tip</strong>
+            The Jay Pritzker Pavilion — Frank Gehry's bandshell in the park — hosts free concerts all summer. The Chicago Symphony performs outdoors in June. Getting there at 7pm on a Thursday with a bottle of wine from the Mariano's on Michigan costs nothing and is better than most things money can buy in this city.
+          </div>
+          <div class="stop-meta">
+            <span class="stop-meta-item"><span class="icon">🕐</span> 6am–11pm daily</span>
+            <span class="stop-meta-item"><span class="icon">💵</span> Free</span>
+            <span class="stop-meta-item"><span class="icon">⏱</span> 30–60 minutes</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Museum of Science & Industry -->
+      <div class="stop-card">
+        <div class="stop-card-img img-placeholder" style="height:180px; background: linear-gradient(135deg, #1a1a2a, #2a1a3a);">
+          <div>📷</div>
+          <div>Museum of Science and Industry</div>
+          <div class="img-src">/images/stops/msi-chicago.jpg</div>
+        </div>
+        <div class="stop-card-body">
+          <span class="stop-type discovery">Discovery</span>
+          <h3><a href="https://openroadtrivia.com/route66/stops/museum-science-industry">Museum of Science and Industry</a></h3>
+          <p>The MSI lives in Hyde Park in the former Palace of Fine Arts from the 1893 World's Columbian Exposition — the same fair that gave Chicago the Ferris wheel, the zipper, the dishwasher, and serial killer H.H. Holmes. Inside: a real German U-505 submarine captured in 1944, a coal mine you can ride down into, and a weather demonstration that involves a human-made tornado. It's the most exhaustingly good children's museum in America.</p>
+          <div class="insider">
+            <strong>Insider Tip</strong>
+            Book the U-505 submarine tour separately — it's an additional $18 but you get to go inside and stand in the actual torpedo room. The history of how the Navy captured a working U-boat in the middle of the Atlantic is one of World War II's better stories.
+          </div>
+          <div class="stop-meta">
+            <span class="stop-meta-item"><span class="icon">🕐</span> 9:30am–4pm daily</span>
+            <span class="stop-meta-item"><span class="icon">💵</span> $25 adults / $16 kids</span>
+            <span class="stop-meta-item"><span class="icon">⏱</span> 3–5 hours</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── SECTION 5: ATTRACTIONS ── -->
+<section class="section">
+  <div class="container">
+    <div class="section-tag">Attractions</div>
+    <h2>Quick Stops Worth the Detour</h2>
+
+    <div class="attraction-list">
+
+      <div class="attraction-item">
+        <div class="attraction-num">01</div>
+        <div>
+          <h3>Wrigley Field</h3>
+          <p>Built in 1914, ivy on the outfield walls since 1937, the Cubs haven't permanently left even in their worst decades. The neighborhood around it — Wrigleyville — is loud and slightly desperate on game days and absolutely worth avoiding then. Go instead on a Tuesday morning in April when they've just opened for a weekday day game. The stadium is better when it's three-quarters full and the bleachers smell like spilled Old Style.</p>
+        </div>
+      </div>
+
+      <div class="attraction-item">
+        <div class="attraction-num">02</div>
+        <div>
+          <h3>The Chicago Cultural Center</h3>
+          <p>Free. Spectacular. Almost never crowded. The former Chicago Public Library (1897) has two Tiffany glass domes — Preston Bradley Hall's is 38 feet across and one of the most beautiful rooms in the Midwest. Admission: $0. The docents who explain it: priceless and slightly obsessive about the provenance of individual glass tiles.</p>
+        </div>
+      </div>
+
+      <div class="attraction-item">
+        <div class="attraction-num">03</div>
+        <div>
+          <h3>Pilsen Murals — 18th Street</h3>
+          <p>Pilsen is Chicago's Mexican American neighborhood — and one of the most mural-dense urban environments in the country. Walk west on 18th Street from Halsted. The National Museum of Mexican Art is here (free, world-class collection). The murals outside it are just as good. The tamales from the cart on the corner of 18th and Halsted on weekend mornings are better than both.</p>
+        </div>
+      </div>
+
+      <div class="attraction-item">
+        <div class="attraction-num">04</div>
+        <div>
+          <h3>Graceland Cemetery — Architectural Pilgrimage</h3>
+          <p>The architects who built Chicago are buried here: Louis Sullivan, Daniel Burnham, Ludwig Mies van der Rohe, Bruce Goff. Sullivan's own grave marker is considered a masterwork of Prairie School design. The cemetery itself is landscaped by Ossian Cole Simonds and functions as a quiet arboretum. Most visitors to Chicago have never heard of this place. That is your advantage.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── SECTION 6: WHERE TO STAY ── -->
+<section class="section">
+  <div class="container">
+    <div class="section-tag">Where to Stay</div>
+    <h2>Four Nights, Four Different Chicagos</h2>
+
+    <div class="rec-grid">
+      <div class="rec-card">
+        <div class="rec-tag">The Historic Option</div>
+        <h4>The Palmer House Hilton</h4>
+        <p>Built in 1871, destroyed in the Great Fire twelve days later, rebuilt bigger — the Palmer House has been running continuously since 1875 and is the longest-operating hotel in American history. The lobby ceiling is an 1882 painting. The brownie was supposedly invented here in 1893 for the World's Fair. The lobby bar is worth a drink even if you're not staying.</p>
+        <div class="order-this">Request a room above the 8th floor on the south side for the best light. <strong>Get the brownie.</strong></div>
+      </div>
+      <div class="rec-card">
+        <div class="rec-tag">The Budget Pick</div>
+        <h4>HI Chicago Hostel — South Loop</h4>
+        <p>Sixteen blocks from the Route 66 terminus, private rooms available, clean and reliably staffed. The common areas attract international travelers who've done this trip before — the bulletin board in the lobby is a real-time guide to what's working on Route 66 right now. Cheaper than anything comparable within walking distance of the lake.</p>
+        <div class="order-this">Book 3 weeks out in summer. <strong>Take the private room — worth the upgrade.</strong></div>
+      </div>
+      <div class="rec-card">
+        <div class="rec-tag">The Splurge</div>
+        <h4>The Langham Chicago</h4>
+        <p>Inside Mies van der Rohe's IBM Building on the river, which is itself a masterpiece of modernist architecture. The rooms face the river or the skyline. The pool is 52 feet long and sits on the 13th floor. The service is the kind that remembers what you ordered yesterday. If you're doing Route 66 once in your life and you want to start it right, start it here.</p>
+        <div class="order-this">Ask for a Chicago River view room on a high floor. <strong>Sunset hits the water towers across the river at exactly 7:40pm in July.</strong></div>
+      </div>
+      <div class="rec-card">
+        <div class="rec-tag">What a Local Would Pick</div>
+        <h4>The Robey — Wicker Park</h4>
+        <p>A converted 1929 art deco clock tower in one of Chicago's most alive neighborhoods. Wicker Park has the record shops, the cocktail bars, the brunch spots, and the argument about gentrification all happening simultaneously within four blocks. The rooftop bar looks back at the downtown skyline. You're twenty minutes from the lake by L and feel entirely out of the tourist circuit.</p>
+        <div class="order-this">Take the Blue Line from O'Hare directly to Damen stop. <strong>Walk 4 minutes. Done.</strong></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SECTION 7: WHERE TO EAT ── -->
+<section class="section">
+  <div class="container">
+    <div class="section-tag">Where to Eat</div>
+    <h2>Stop Asking About the Pizza. Start with the Italian Beef.</h2>
+
+    <p>Every food writer who comes to Chicago spends half their time adjudicating the deep dish debate (Lou Malnati's wins, but Pequod's caramelized crust is the more interesting thing) and misses the actual argument: Chicago's Italian beef sandwich is one of the great American foods and nobody outside Illinois talks about it enough.</p>
+
+    <div class="img-placeholder" style="height:200px; margin: 32px 0;">
+      <div>🥩</div>
+      <div>Italian Beef Dipped at Al's Beef — Chicago, Illinois</div>
+      <div class="img-src"><em>IMAGE NEEDED: Italian beef sandwich at Al's #1 Beef, close up, fully dipped, au jus dripping, giardiniera visible, Chicago counter in background</em></div>
+    </div>
+
+    <div class="rec-grid">
+      <div class="rec-card">
+        <div class="rec-tag">Breakfast</div>
+        <h4>Yolk — Multiple Locations</h4>
+        <p>The local chain that operates on Chicago time — fast, generous, and built for people with somewhere to be. The egg white frittata is the order if you're staying healthy. The French toast is the order if you're not. Lines at the River North location on weekends are genuine but move quickly. Worth it on your first morning before the museum run.</p>
+        <div class="order-this"><strong>Order:</strong> The stuffed French toast or the Chicago scramble.</div>
+      </div>
+      <div class="rec-card">
+        <div class="rec-tag">Lunch Counter</div>
+        <h4>Al's #1 Beef — Little Italy</h4>
+        <p>Since 1938. The Italian beef sandwich at Al's is served one of three ways: dry, wet, or dipped (fully submerged in au jus). Order it dipped with sweet peppers and hot giardiniera. Accept that you will destroy your shirt. This is the cost of admission. The location on Taylor Street in Little Italy is the original. Don't go to the airport location. Don't.</p>
+        <div class="order-this"><strong>Order:</strong> Italian beef, dipped, hot giardiniera. Nothing else.</div>
+      </div>
+      <div class="rec-card">
+        <div class="rec-tag">The Deep Dish Argument</div>
+        <h4>Lou Malnati's — River North</h4>
+        <p>If you must have deep dish — and you probably should, once — Lou Malnati's is the honest answer. The butter crust, the chunky tomatoes on top, the sausage patty rather than crumbles. Order it online before you arrive because the wait is 45 minutes otherwise, and you have museums to get to.</p>
+        <div class="order-this"><strong>Order:</strong> The Lou — sausage, spinach, mushroom. One slice is a meal.</div>
+      </div>
+      <div class="rec-card">
+        <div class="rec-tag">Dinner</div>
+        <h4>Monteverde — West Loop</h4>
+        <p>Chef Sarah Grueneberg's Italian-American restaurant in the West Loop restaurant corridor is the best pasta in a city with a lot of very good pasta. The <em>Cacio e Pepe en Vesica</em> — made tableside — is a performance worth watching. Not cheap. Not casual. Worth it for the night before you hit the road, when you want one last real meal before Joliet.</p>
+        <div class="order-this"><strong>Order:</strong> The tableside cacio e pepe and whatever seasonal pasta they're pushing.</div>
+      </div>
+      <div class="rec-card">
+        <div class="rec-tag">The One Nobody Mentions</div>
+        <h4>Lem's Bar-B-Q — South Side</h4>
+        <p>Lem's has been on 75th Street since 1954. The aquarium-smoked ribs — developed by the Lemmon family and never adequately replicated anywhere — are some of the best barbecue in the Midwest. No atmosphere. Styrofoam containers. A line that forms before they open. The South Side will teach you more about Chicago in one block than the Magnificent Mile will in three days.</p>
+        <div class="order-this"><strong>Order:</strong> The rib tip combo and mild sauce on the side.</div>
+      </div>
+      <div class="rec-card">
+        <div class="rec-tag">Late Night</div>
+        <h4>The Wieners Circle — Lincoln Park</h4>
+        <p>The Chicago hot dog is a religion: beef frank, yellow mustard, relish, onion, tomato, pickle spear, sport peppers, and a dash of celery salt, on a poppy seed bun. Never ketchup. The Wieners Circle is a late-night institution where the staff's spectacular rudeness is half the draw. Go after 11pm on a weekend. Go with a sense of humor about yourself.</p>
+        <div class="order-this"><strong>Order:</strong> The char dog. Accept the attitude as part of the meal.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SECTION 8: WHERE TO DRINK ── -->
+<section class="section">
+  <div class="container">
+    <div class="section-tag">Where to Drink</div>
+    <h2>The Old Bar, the Good Bar, and the Bar Locals Actually Go To</h2>
+
+    <div class="two-col">
+      <div>
+        <h3>The Green Mill — Uptown</h3>
+        <p>Al Capone's preferred jazz club since the 1920s. The booth he liked — where he could see both doors — is still there. Jazz seven nights a week, no cover on weeknights. The Green Mill is not a tourist trap dressed as a speakeasy. It is an actual jazz club that has been running jazz for a hundred years. The Uptown neighborhood around it tells a different Chicago story — Polish, Assyrian, Vietnamese — than the tourist circuit does.</p>
+
+        <h3>The Violet Hour — Wicker Park</h3>
+        <p>The bar that launched Chicago's craft cocktail scene in 2007 and has never stopped earning its reputation. No sign outside. Heavy velvet curtains. Cocktail menu written in complete sentences. This is where the serious drinkers go. Order something with rye whiskey. Trust the bartender. Don't ask for a Moscow Mule.</p>
+      </div>
+      <div>
+        <h3>Schaller's Pump — Bridgeport</h3>
+        <p>Opened in 1881. The oldest bar in Chicago still operating in its original location. Bridgeport is Daley country — four Chicago mayors came from this neighborhood — and Schaller's is where the political deals got made in the back booth over draft Old Style. It's a dive bar in the technical sense, meaning the drinks are cheap and unpretentious and the regulars have been sitting in those same spots since 1987.</p>
+
+        <h3>Early Morning Coffee</h3>
+        <p><strong>Intelligentsia Coffee</strong>, which started in Chicago in 1995 and essentially taught the American coffee industry what direct trade meant, has locations throughout the city. The Millennium Park Coffeebar opens at 6:30am and is full of runners, architects, and dog walkers who want to be left alone with their oat lattes. Let them. Order your coffee and watch the park wake up.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SECTION 9: LOCAL SECRETS ── -->
+<section class="section">
+  <div class="container">
+    <div class="section-tag">Local Secrets</div>
+    <h2>The Things the Tourist Board Forgot to Mention</h2>
+
+    <ul class="secrets-list">
+      <li data-n="1">
+        <strong>Go to the Art Institute at 4:30pm on a Thursday</strong>
+        Thursday is late night — the museum stays open until 8pm. By 5pm, the school groups are gone and the Impressionist galleries are as quiet as they get. Seurat's large painting in an empty room at late afternoon light is something you will think about for a while afterward.
+      </li>
+      <li data-n="2">
+        <strong>The 606 Trail — a city within the city</strong>
+        The 606 is an elevated rail trail that cuts through Wicker Park, Bucktown, Logan Square, and Humboldt Park. Walk it on a Saturday morning and you'll see: Ukrainian grandmothers pushing wire carts, murals from five different artistic traditions, a farmer's market at Milwaukee Avenue, the actual neighborhood arguments about who gets to live there. It is the best free 2.7 miles in Chicago.
+      </li>
+      <li data-n="3">
+        <strong>The Chicago Riverwalk at 7am</strong>
+        Before the lunch crowds arrive, the Riverwalk is populated by kayakers, dog walkers, and the occasional architect who wants to look at Mies's IBM Building from the water. The coffee stands open at 7. The river smells like clean stone in the morning. The buildings reflect in it in ways that require a photograph to confirm later.
+      </li>
+      <li data-n="4">
+        <strong>Rain emergency: The Harold Washington Library</strong>
+        Chicago's main public library (1991, the largest public library building in the world when it opened) has a reading room on the 9th floor with 20-foot arched windows looking south over the Loop. Free. Warm. Full of people actually reading. If it rains and you have nowhere to be, go here. Bring something to read.
+      </li>
+      <li data-n="5">
+        <strong>Hyde Park — the neighborhood that isn't on the tour</strong>
+        Twenty minutes south on the Metra from Millennium Station: the University of Chicago campus (Gothic stone, the size of a medieval town), the Museum of Science and Industry, Promontory Point (the best lake view in the city, free, no crowds), and the Medici — a coffee shop on 57th Street that has been the same coffee shop for 60 years and is the only place you'll hear an argument about Heidegger at 10am on a Tuesday.
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ── SECTION 10: GAME DIALOGUE TEASER ── -->
+<div class="dialogue-box">
+  <div class="container">
+    <div class="dialogue-tag">Featured Conversation — In the Game</div>
+    <p style="color: rgba(245,240,232,0.6); font-size: 14px; margin-bottom: 28px;">When families pull up to stops in Chicago in Open Road Trivia, they talk. Here's a taste of what happens at the Art Institute terminus:</p>
+
+    <div class="dialogue-line">
+      <span class="speaker">The Driver</span>
+      "This is it. Mile zero. 2,448 miles to go."
+    </div>
+    <div class="dialogue-line">
+      <span class="speaker">The Kids (noticing the lake, not the sign)</span>
+      "Can we swim in that?"
+    </div>
+    <div class="dialogue-line">
+      <span class="speaker">One Family Member</span>
+      "It's Lake Michigan. It's basically an ocean that's also technically a lake."
+    </div>
+    <div class="dialogue-line">
+      <span class="speaker">Another</span>
+      "The sign says the route starts at Michigan and Adams. Which means this whole city — all of this — is technically the beginning of Route 66. Which seems right. This feels like the beginning of something."
+    </div>
+
+    <p style="color: rgba(245,240,232,0.45); font-size: 13px; margin-top: 24px; margin-bottom: 0;">Each of the four game families — the Walkers, Johnsons, Garcias, and Chens — hears a different version of this conversation in six unique voices. Play the game to hear yours.</p>
+  </div>
+</div>
+
+<!-- ── SECTION 11: PLAY CTA ── -->
+<div class="cta-block">
+  <div class="container">
+    <h2>Play Chicago in Open Road Trivia</h2>
+    <p>Answer questions about Sue the T. rex at the Field Museum, the architecture of the Riverwalk, and what Al Capone's favorite booth at the Green Mill was used for. Hear your family discuss every stop in six unique voices, and earn your Chicago postcard before you drive south toward Joliet.</p>
+    <a href="https://openroadtrivia.com/play" class="cta-btn">Play Now →</a>
+  </div>
+</div>
+
+<!-- ── SECTION 12: PRACTICAL INFO ── -->
+<section class="section">
+  <div class="container">
+    <div class="section-tag">Practical Info</div>
+    <h2>Getting Here, Getting Around, Getting Out</h2>
+
+    <div class="practical-grid">
+      <div class="practical-item">
+        <h4>Getting There</h4>
+        <p>Chicago is the Route 66 starting point — there's no previous city on the route. O'Hare (ORD) is one of the world's busiest airports, 45 minutes from downtown by Blue Line CTA ($2.50). Midway (MDW) on the Southwest side is closer to some Route 66 neighborhoods. Amtrak's Union Station is where old Route 66 travelers arrived by rail.</p>
+      </div>
+      <div class="practical-item">
+        <h4>Getting Around</h4>
+        <p>The L covers most stops you'll want to hit. A 3-day CTA pass ($20) handles the lakefront museums, Wicker Park, and Hyde Park. Rent a car only if you're exploring neighborhoods off the main lines or starting your Route 66 drive. Ride-shares are fast but Chicago traffic is not — add 30 minutes to any app estimate during rush hour.</p>
+      </div>
+      <div class="practical-item">
+        <h4>Best Season</h4>
+        <p>June and September are perfect: warm, not oppressive, festivals running, lakefront accessible. July is hot and crowded and glorious if you're prepared. August has beach weather but serious humidity. October has arguably the best light in the city — clear, low, angled across the water. December through February: the wind off Lake Michigan at Michigan Avenue is legitimately dangerous. Come anyway if you can stand it.</p>
+      </div>
+      <div class="practical-item">
+        <h4>How Long to Spend</h4>
+        <p><strong>Minimum:</strong> 2 days (lakefront and one neighborhood). <strong>Ideal:</strong> 4–5 days to actually feel the city. Chicago is not a place you can do in a day. It's also not a place that rewards rushing. The city moves at its own pace and rewards people who slow down to match it.</p>
+      </div>
+      <div class="practical-item">
+        <h4>Emergency Info</h4>
+        <p>Northwestern Memorial Hospital: 251 E. Huron St. — Level I trauma center, one of the best in the Midwest. Chicago non-emergency police: 311. The city's 311 system also handles noise complaints, pothole reports, and lost property — it's genuinely useful. Cell coverage: excellent throughout downtown and most neighborhoods. Can drop in underground L stations.</p>
+      </div>
+      <div class="practical-item">
+        <h4>Next City on Route 66</h4>
+        <p>From Adams & Michigan, drive west on Adams to Ogden Avenue, then southwest. You'll hit <a href="https://openroadtrivia.com/route66/joliet-il" style="color:var(--rust);">Joliet, Illinois</a> in about 35 miles — 45 minutes if traffic cooperates, 75 if it doesn't. Welcome to Route 66. It only gets more interesting from here.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── STRUCTURED DATA ── -->
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "TouristDestination",
+    "name": "Chicago, Illinois — Route 66",
+    "description": "The definitive Route 66 travel guide to Chicago, Illinois — where the Mother Road begins, the history runs deep, and the city never lets you leave the same way you came.",
+    "url": "https://openroadtrivia.com/route66/chicago-il",
+    "image": "https://openroadtrivia.com/images/cities/chicago-il.jpg",
+    "touristType": ["Road trip travelers", "Route 66 enthusiasts", "History buffs", "Family travelers"],
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "41.8781",
+      "longitude": "-87.6298"
+    },
+    "containedInPlace": {
+      "@type": "State",
+      "name": "Illinois"
+    },
+    "includesAttraction": [
+      { "@type": "TouristAttraction", "name": "Art Institute of Chicago", "url": "https://openroadtrivia.com/route66/stops/art-institute-chicago" },
+      { "@type": "TouristAttraction", "name": "Field Museum", "url": "https://openroadtrivia.com/route66/stops/field-museum-chicago" },
+      { "@type": "TouristAttraction", "name": "Millennium Park — Cloud Gate", "url": "https://openroadtrivia.com/route66/stops/millennium-park" },
+      { "@type": "TouristAttraction", "name": "Navy Pier", "url": "https://openroadtrivia.com/route66/stops/navy-pier-chicago" },
+      { "@type": "TouristAttraction", "name": "Museum of Science and Industry", "url": "https://openroadtrivia.com/route66/stops/museum-science-industry" }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Where does Route 66 begin in Chicago?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Route 66's official eastern terminus is at the intersection of Adams Street and Michigan Avenue, in front of the Art Institute of Chicago. A bronze plaque marks the spot. From here, the road runs 2,448 miles southwest to Santa Monica, California."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What museum in Chicago houses Sue, the world's most complete T. rex skeleton?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sue is at the Field Museum on the Museum Campus, 1400 S. DuSable Lake Shore Drive. The Field Museum paid $8.36 million at auction for Sue in 1997. The skeleton is 67 million years old and stands 13 feet tall at the hips."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best deep dish pizza in Chicago?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Lou Malnati's is the most honest answer for traditional deep dish — butter crust, chunky tomatoes, sausage patty. For something more interesting, Pequod's caramelized crust on the edges is the thing most deep dish places don't do. Order ahead at both — the wait is real."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What famous painting can I see at the Art Institute of Chicago?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Georges Seurat's A Sunday on La Grande Jatte (1886) is the centerpiece of the Art Institute's Impressionist collection. Grant Wood's American Gothic is displayed directly across the room. The Thorne Miniature Rooms on the lower level are undervisited and extraordinary."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Open Road Trivia", "item": "https://openroadtrivia.com" },
+      { "@type": "ListItem", "position": 2, "name": "Route 66", "item": "https://openroadtrivia.com/route66" },
+      { "@type": "ListItem", "position": 3, "name": "Chicago, Illinois", "item": "https://openroadtrivia.com/route66/chicago-il" }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TravelGuide",
+    "headline": "Chicago, Illinois — Complete Route 66 Travel Guide",
+    "description": "The definitive Route 66 travel guide to Chicago — where to eat, what to see, what most visitors miss, and the full history from Potawatomi trading village to jazz capital to mile marker zero.",
+    "image": "https://openroadtrivia.com/images/cities/chicago-il.jpg",
+    "author": { "@type": "Organization", "name": "Open Road Trivia", "url": "https://openroadtrivia.com" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Open Road Trivia",
+      "logo": { "@type": "ImageObject", "url": "https://openroadtrivia.com/images/logo.png" }
+    },
+    "datePublished": "2026-03-21",
+    "dateModified": "2026-03-21",
+    "about": {
+      "@type": "City",
+      "name": "Chicago",
+      "containedInPlace": { "@type": "State", "name": "Illinois" }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Al's #1 Beef",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1079 W. Taylor Street",
+      "addressLocality": "Chicago",
+      "addressRegion": "IL",
+      "postalCode": "60607"
+    },
+    "servesCuisine": "Italian American",
+    "priceRange": "$",
+    "url": "https://openroadtrivia.com/route66/stops/als-beef-chicago"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Hotel",
+    "name": "The Palmer House Hilton",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "17 E. Monroe Street",
+      "addressLocality": "Chicago",
+      "addressRegion": "IL",
+      "postalCode": "60603"
+    },
+    "priceRange": "$$$",
+    "url": "https://openroadtrivia.com/route66/stops/palmer-house-chicago"
+  }
+]
+</script>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <nav class="footer-nav">
+    <a href="https://openroadtrivia.com/route66">Route 66 Home</a>
+    <a href="https://openroadtrivia.com/route66/joliet-il">Next: Joliet →</a>
+    <a href="https://openroadtrivia.com/route66/chicago-il/stops">All Chicago Stops</a>
+    <a href="https://openroadtrivia.com/play">Play the Game</a>
+    <a href="https://openroadtrivia.com/about">About</a>
+  </nav>
+  <p>© 2026 Open Road Trivia &nbsp;·&nbsp; Chicago, Illinois — Route 66 Travel Guide &nbsp;·&nbsp; <a href="https://openroadtrivia.com/route66/chicago-il">openroadtrivia.com/route66/chicago-il</a></p>
+</footer>
+
+</body>
+</html>

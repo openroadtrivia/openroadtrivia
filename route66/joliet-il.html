@@ -1,0 +1,1494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joliet, Illinois — Complete Route 66 Travel Guide | Open Road Trivia</title>
+<meta name="description" content="Joliet hits you like a freight train — literally. Steel mills, the blues, a famous prison, and the second city on Route 66 that Chicago pretends doesn't exist. It does. Drive it.">
+<meta property="og:title" content="Joliet, Illinois — Complete Route 66 Travel Guide | Open Road Trivia">
+<meta property="og:description" content="Joliet, Illinois: second stop on Route 66, first taste of the road's real character. The definitive guide — history, food, stops, and what most travelers miss.">
+<meta property="og:image" content="https://openroadtrivia.com/images/cities/joliet-il.jpg">
+<meta property="og:url" content="https://openroadtrivia.com/route66/joliet-il">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --ink: #1a1209;
+    --paper: #f5f0e8;
+    --aged: #e8dfc8;
+    --rust: #b5410e;
+    --gold: #c9921a;
+    --road: #3a3228;
+    --steel: #2a3540;
+    --cream: #faf7f2;
+    --rule: #c4b89a;
+    --muted: #7a6e5f;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: 17px;
+    line-height: 1.85;
+    overflow-x: hidden;
+  }
+
+  /* ── MASTHEAD ── */
+  .masthead {
+    background: var(--ink);
+    color: var(--paper);
+    text-align: center;
+    padding: 12px 20px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+  .masthead a { color: var(--gold); text-decoration: none; }
+  .masthead a:hover { text-decoration: underline; }
+
+  /* ── BREADCRUMB ── */
+  .breadcrumb {
+    background: var(--aged);
+    border-bottom: 1px solid var(--rule);
+    padding: 10px 40px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .breadcrumb a { color: var(--rust); text-decoration: none; }
+  .breadcrumb a:hover { text-decoration: underline; }
+  .breadcrumb span { margin: 0 8px; }
+
+  /* ── HERO ── */
+  .hero {
+    position: relative;
+    background: var(--ink);
+    min-height: 92vh;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+  }
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 70% 30%, rgba(42,53,64,0.5) 0%, transparent 60%),
+      radial-gradient(ellipse at 15% 75%, rgba(181,65,14,0.25) 0%, transparent 50%),
+      linear-gradient(170deg, #0d0a07 0%, #1a1209 45%, #141e26 100%);
+  }
+
+  /* Steel mill smoke effect */
+  .hero-texture {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(201,146,26,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(201,146,26,0.03) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+
+  .hero-stripe {
+    position: absolute;
+    top: 0; right: -100px; bottom: 0;
+    width: 320px;
+    background: repeating-linear-gradient(
+      -12deg,
+      transparent,
+      transparent 18px,
+      rgba(201,146,26,0.04) 18px,
+      rgba(201,146,26,0.04) 20px
+    );
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 60px 60px 80px;
+    max-width: 900px;
+  }
+
+  .hero-eyebrow {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .hero-eyebrow::before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: var(--gold);
+  }
+
+  .hero-city {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(64px, 10vw, 120px);
+    font-weight: 900;
+    line-height: 0.88;
+    color: var(--paper);
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+  }
+
+  .hero-state {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(22px, 3.5vw, 38px);
+    font-weight: 400;
+    font-style: italic;
+    color: var(--gold);
+    margin-bottom: 36px;
+    letter-spacing: 0.02em;
+  }
+
+  .hero-lede {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: clamp(16px, 2vw, 20px);
+    line-height: 1.7;
+    color: rgba(245,240,232,0.82);
+    max-width: 620px;
+    border-left: 3px solid var(--rust);
+    padding-left: 22px;
+    margin-bottom: 48px;
+  }
+
+  .hero-meta {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .hero-stat { font-family: 'Source Sans 3', sans-serif; }
+  .hero-stat-num {
+    font-size: 28px;
+    font-weight: 300;
+    color: var(--paper);
+    display: block;
+    line-height: 1;
+  }
+  .hero-stat-label {
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-top: 4px;
+    display: block;
+  }
+
+  /* Route 66 shield */
+  .shield {
+    position: absolute;
+    top: 48px;
+    right: 60px;
+    width: 90px;
+    z-index: 3;
+  }
+  .shield svg { width: 100%; height: auto; }
+
+  /* ── MAP STRIP ── */
+  .map-strip {
+    background: var(--road);
+    padding: 28px 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-top: 4px solid var(--rust);
+    border-bottom: 4px solid var(--rust);
+    overflow-x: auto;
+  }
+  .map-strip-label {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+    white-space: nowrap;
+    min-width: 80px;
+  }
+  .map-route {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 0;
+    min-width: 400px;
+  }
+  .map-city {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--paper);
+    white-space: nowrap;
+    padding: 6px 12px;
+    border-radius: 2px;
+  }
+  .map-city.active {
+    background: var(--rust);
+    color: white;
+    font-weight: 600;
+  }
+  .map-dot {
+    flex: 1;
+    height: 2px;
+    background: repeating-linear-gradient(90deg, var(--gold) 0, var(--gold) 8px, transparent 8px, transparent 16px);
+    min-width: 30px;
+  }
+  .map-seg { position: relative; display: flex; align-items: center; flex: 1; }
+
+  /* ── LAYOUT ── */
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+  @media (max-width: 768px) {
+    .container { padding: 0 20px; }
+    .hero-content { padding: 40px 24px 60px; }
+    .shield { right: 24px; top: 24px; width: 60px; }
+    .map-strip { padding: 20px 24px; }
+  }
+
+  /* ── SECTION HEADERS ── */
+  .section {
+    padding: 80px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section-tag {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--rust);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-tag::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--rule);
+    max-width: 120px;
+  }
+
+  h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(28px, 4vw, 44px);
+    font-weight: 700;
+    line-height: 1.15;
+    color: var(--ink);
+    margin-bottom: 32px;
+    letter-spacing: -0.01em;
+  }
+  h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--ink);
+    margin: 40px 0 14px;
+  }
+  p { margin-bottom: 20px; color: #2a2218; }
+  p:last-child { margin-bottom: 0; }
+
+  /* ── PULL QUOTE ── */
+  .pull-quote {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(20px, 3vw, 28px);
+    font-style: italic;
+    line-height: 1.5;
+    color: var(--rust);
+    border-left: 5px solid var(--gold);
+    padding: 20px 32px;
+    margin: 48px 0;
+    background: var(--cream);
+  }
+
+  /* ── THREE-ACT HISTORY ── */
+  .three-act {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px;
+    background: var(--rule);
+    margin: 48px 0;
+    border: 1px solid var(--rule);
+  }
+  .act {
+    background: var(--cream);
+    padding: 32px 28px;
+  }
+  .act-label {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 10px;
+  }
+  .act h4 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color: var(--ink);
+  }
+  .act p { font-size: 14px; line-height: 1.7; color: var(--muted); margin: 0; }
+  @media (max-width: 768px) { .three-act { grid-template-columns: 1fr; } }
+
+  /* ── CALLOUT BOX ── */
+  .callout-box {
+    background: var(--steel);
+    color: var(--paper);
+    border-left: 5px solid var(--gold);
+    padding: 28px 32px;
+    margin: 40px 0;
+  }
+  .callout-box-label {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 10px;
+  }
+  .callout-box p { color: rgba(245,240,232,0.85); font-size: 15px; margin: 0; }
+
+  /* ── ROUTE THROUGH TOWN ── */
+  .route-block {
+    background: var(--road);
+    color: var(--paper);
+    padding: 48px 52px;
+    margin: 48px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .route-block::before {
+    content: '66';
+    position: absolute;
+    right: -20px;
+    top: -40px;
+    font-family: 'Playfair Display', serif;
+    font-size: 220px;
+    font-weight: 900;
+    color: rgba(255,255,255,0.04);
+    line-height: 1;
+    pointer-events: none;
+  }
+  .route-block h3 {
+    color: var(--gold);
+    margin-top: 0;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+  .route-street {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(196,184,154,0.15);
+  }
+  .route-street:last-child { border-bottom: none; }
+  .street-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--paper);
+    min-width: 200px;
+  }
+  .street-desc {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    color: rgba(245,240,232,0.7);
+    line-height: 1.6;
+  }
+  @media (max-width: 768px) {
+    .route-block { padding: 32px 24px; }
+    .route-street { flex-direction: column; gap: 4px; }
+    .street-name { min-width: unset; }
+  }
+
+  /* ── PARKING TIP ── */
+  .parking-tip {
+    background: var(--aged);
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--gold);
+    padding: 16px 20px;
+    margin-bottom: 32px;
+    font-size: 14px;
+    color: var(--road);
+  }
+  .parking-tip strong {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--rust);
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  /* ── STOP CARDS ── */
+  .stops-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin: 48px 0;
+  }
+  @media (max-width: 768px) { .stops-grid { grid-template-columns: 1fr; } }
+
+  .stop-card {
+    border: 1px solid var(--rule);
+    background: var(--cream);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .stop-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 40px rgba(26,18,9,0.12);
+  }
+  .stop-card-img {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(245,240,232,0.5);
+    position: relative;
+    overflow: hidden;
+  }
+  .stop-card-body { padding: 24px 26px 28px; }
+  .stop-type {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-bottom: 12px;
+  }
+  .stop-type.discovery { background: var(--steel); color: white; }
+  .stop-type.attraction { background: var(--rust); color: white; }
+
+  .stop-card h3 { font-size: 20px; margin: 0 0 10px; font-family: 'Playfair Display', serif; }
+  .stop-card h3 a {
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 2px solid var(--gold);
+  }
+  .stop-card h3 a:hover { color: var(--rust); }
+  .stop-card p { font-size: 14px; line-height: 1.7; margin-bottom: 16px; color: #3a3228; }
+
+  .insider {
+    background: var(--aged);
+    border-left: 3px solid var(--gold);
+    padding: 12px 16px;
+    font-size: 13px;
+    color: var(--road);
+    margin-top: 16px;
+  }
+  .insider strong {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    display: block;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+
+  .stop-meta {
+    display: flex;
+    gap: 20px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+  }
+  .stop-meta-item {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 11px;
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  /* ── ATTRACTIONS ── */
+  .attraction-list { margin: 40px 0; }
+  .attraction-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 24px;
+    padding: 28px 0;
+    border-bottom: 1px solid var(--rule);
+    align-items: start;
+  }
+  .attraction-item:last-child { border-bottom: none; }
+  .attraction-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--rule);
+    line-height: 1;
+    text-align: center;
+    padding-top: 4px;
+  }
+  .attraction-item h3 { margin-top: 0; font-size: 20px; margin-bottom: 8px; }
+  .attraction-item p { font-size: 14px; line-height: 1.7; color: #3a3228; margin: 0; }
+
+  /* ── WHERE TO STAY / EAT / DRINK ── */
+  .rec-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    margin: 40px 0;
+  }
+  @media (max-width: 768px) { .rec-grid { grid-template-columns: 1fr; } }
+
+  .rec-card {
+    background: var(--cream);
+    padding: 28px 26px;
+  }
+  .rec-tag {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--rust);
+    margin-bottom: 10px;
+  }
+  .rec-card h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 8px;
+  }
+  .rec-card p { font-size: 14px; line-height: 1.7; color: #3a3228; margin-bottom: 12px; }
+  .order-this {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 12px;
+    color: var(--muted);
+    font-style: italic;
+  }
+  .order-this strong { color: var(--rust); font-style: normal; font-weight: 600; }
+  .rec-tip {
+    font-size: 12px;
+    font-style: italic;
+    color: var(--muted);
+    margin-top: 10px;
+    border-top: 1px solid var(--rule);
+    padding-top: 10px;
+  }
+
+  /* ── LOCAL SECRETS ── */
+  .secrets-list { list-style: none; margin: 32px 0; padding: 0; }
+  .secrets-list li {
+    padding: 20px 0 20px 60px;
+    border-bottom: 1px solid var(--rule);
+    position: relative;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .secrets-list li:last-child { border-bottom: none; }
+  .secrets-list li::before {
+    content: attr(data-n);
+    position: absolute;
+    left: 0;
+    top: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--rule);
+    line-height: 1;
+  }
+  .secrets-list li strong {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+
+  /* ── DIALOGUE BOX ── */
+  .dialogue-box {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 48px 52px;
+    margin: 48px 0;
+    position: relative;
+  }
+  .dialogue-box::before {
+    content: '\201C';
+    position: absolute;
+    top: -20px;
+    left: 40px;
+    font-family: 'Playfair Display', serif;
+    font-size: 120px;
+    color: var(--gold);
+    line-height: 1;
+  }
+  .dialogue-box .dialogue-tag {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 28px;
+  }
+  .dialogue-line {
+    margin-bottom: 18px;
+    font-size: 15px;
+    line-height: 1.7;
+    padding-left: 24px;
+    border-left: 2px solid rgba(201,146,26,0.3);
+  }
+  .dialogue-line .speaker {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  /* ── CTA ── */
+  .cta-block {
+    background: var(--rust);
+    color: white;
+    padding: 60px 52px;
+    text-align: center;
+  }
+  .cta-block h2 { color: white; font-size: clamp(26px, 4vw, 40px); margin-bottom: 16px; }
+  .cta-block p { color: rgba(255,255,255,0.85); max-width: 560px; margin: 0 auto 32px; font-size: 16px; }
+  .cta-btn {
+    display: inline-block;
+    background: white;
+    color: var(--rust);
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding: 16px 40px;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+    border: 2px solid white;
+  }
+  .cta-btn:hover { background: transparent; color: white; transform: translateY(-2px); }
+
+  /* ── PRACTICAL INFO ── */
+  .practical-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin: 40px 0;
+  }
+  @media (max-width: 768px) { .practical-grid { grid-template-columns: 1fr; } }
+
+  .practical-item {
+    background: var(--cream);
+    border: 1px solid var(--rule);
+    padding: 24px 22px;
+  }
+  .practical-item h4 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--rust);
+    margin-bottom: 12px;
+  }
+  .practical-item p { font-size: 14px; line-height: 1.6; color: #3a3228; }
+
+  /* ── IMAGE PLACEHOLDER ── */
+  .img-placeholder {
+    width: 100%;
+    height: 220px;
+    border: 2px dashed var(--rule);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 32px 0 16px;
+    background: var(--aged);
+    color: var(--muted);
+  }
+  .img-placeholder .pin { font-size: 28px; margin-bottom: 8px; }
+  .img-placeholder .caption {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .img-placeholder .needed {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 10px;
+    color: var(--rust);
+    margin-top: 6px;
+    font-style: italic;
+  }
+
+  /* ── FOOTER ── */
+  .site-footer {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 40px 60px;
+  }
+  .footer-nav {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .footer-nav a {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    text-decoration: none;
+  }
+  .footer-nav a:hover { text-decoration: underline; }
+  .footer-copy {
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+  }
+
+  /* ── DRINK SECTION ── */
+  .drink-entry {
+    padding: 28px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .drink-entry:last-child { border-bottom: none; }
+  .drink-entry h3 { margin-top: 0; margin-bottom: 6px; font-size: 20px; }
+  .drink-entry .drink-meta {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 11px;
+    color: var(--rust);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .drink-entry p { font-size: 15px; color: #2a2218; }
+
+  .coffee-section {
+    background: var(--aged);
+    border: 1px solid var(--rule);
+    padding: 24px 28px;
+    margin-top: 32px;
+  }
+  .coffee-label {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 10px;
+  }
+  .coffee-section h3 { margin-top: 0; font-size: 18px; }
+  .coffee-section p { font-size: 14px; color: #3a3228; }
+
+  /* Wide single rec card */
+  .rec-card-full {
+    background: var(--cream);
+    border: 1px solid var(--rule);
+    padding: 28px 26px;
+    margin: 16px 0;
+  }
+</style>
+</head>
+<body>
+
+<!-- MASTHEAD -->
+<div class="masthead">
+  <a href="https://openroadtrivia.com">Open Road Trivia</a>
+  &nbsp;·&nbsp; Route 66 Edition
+  &nbsp;·&nbsp; <a href="https://openroadtrivia.com/route66">Full Route →</a>
+</div>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb">
+  <a href="https://openroadtrivia.com">Home</a>
+  <span>›</span>
+  <a href="https://openroadtrivia.com/route66">Route 66</a>
+  <span>›</span>
+  Joliet, Illinois
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-texture"></div>
+  <div class="hero-stripe"></div>
+
+  <!-- Route 66 Shield -->
+  <div class="shield">
+    <svg viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+      <path d="M50 4 L96 22 L96 72 Q96 100 50 116 Q4 100 4 72 L4 22 Z" fill="#1a1209" stroke="#c9921a" stroke-width="2.5"/>
+      <text x="50" y="52" font-family="'Source Sans 3', sans-serif" font-size="9" font-weight="600" fill="#c9921a" text-anchor="middle" letter-spacing="3">ROUTE</text>
+      <text x="50" y="80" font-family="'Playfair Display', serif" font-size="32" font-weight="900" fill="#f5f0e8" text-anchor="middle">66</text>
+    </svg>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">Route 66 — Mile Marker 38</div>
+    <div class="hero-city">Joliet</div>
+    <div class="hero-state">Illinois</div>
+
+    <div class="hero-lede">
+      The city smells like the Des Plaines River in the morning and diesel in the afternoon. Thirty-eight miles from the start of Route 66 and a world away from Chicago, Joliet is where the road stops performing and starts meaning something. There's a prison here. There were steel mills. There was blues coming out of every bar on Jefferson Street. There still is, if you know which door to open.
+    </div>
+
+    <div class="hero-meta">
+      <div class="hero-stat">
+        <span class="hero-stat-num">1,894</span>
+        <span class="hero-stat-label">Miles to Santa Monica</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">148,000</span>
+        <span class="hero-stat-label">Population</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">1926</span>
+        <span class="hero-stat-label">Route 66 Designated</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">8</span>
+        <span class="hero-stat-label">Game Stops</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MAP STRIP -->
+<div class="map-strip">
+  <div class="map-strip-label">Route 66</div>
+  <div class="map-route">
+    <a href="https://openroadtrivia.com/route66/chicago-il" class="map-city">Chicago</a>
+    <div class="map-seg">
+      <div class="map-dot"></div>
+      <span style="position:absolute;top:-14px;left:50%;transform:translateX(-50%);font-family:'Source Sans 3',sans-serif;font-size:9px;color:#7a6e5f;white-space:nowrap;">38 mi</span>
+    </div>
+    <div class="map-city active">Joliet</div>
+    <div class="map-seg">
+      <div class="map-dot"></div>
+      <span style="position:absolute;top:-14px;left:50%;transform:translateX(-50%);font-family:'Source Sans 3',sans-serif;font-size:9px;color:#7a6e5f;white-space:nowrap;">49 mi</span>
+    </div>
+    <a href="https://openroadtrivia.com/route66/dwight-il" class="map-city">Dwight</a>
+    <div class="map-seg">
+      <div class="map-dot"></div>
+    </div>
+    <a href="https://openroadtrivia.com/route66/pontiac-il" class="map-city">Pontiac</a>
+    <div class="map-seg">
+      <div class="map-dot"></div>
+    </div>
+    <a href="https://openroadtrivia.com/route66/springfield-il" class="map-city">Springfield →</a>
+  </div>
+</div>
+
+<!-- THE ARRIVAL -->
+<div class="section">
+  <div class="container">
+    <div class="section-tag">The Arrival</div>
+    <h2>Where the Road Gets Honest</h2>
+
+    <p>You leave Chicago on Adams Street, and for a while the city follows you. Brick. Traffic. The feeling that every street leads somewhere important. But somewhere around Cicero, the buildings loosen up. By the time you're passing the Lemont refinery stacks and the quarry lakes catching the flat Illinois light, you understand something: Chicago was the stage set. This is the road.</p>
+
+    <p>Joliet greets you with limestone bluffs and a divided past. The Des Plaines River cuts through town in a wide, brown loop. The old Rialto Theatre's marquee — all neon and Art Deco vanity — still anchors downtown like it owns the place, which it sort of does. On a Saturday morning in summer, the smell of the Farmers Market at Ingalls Park mixes with the exhaust from Illinois Route 53, and you get both things at once: the city trying to be its best self, and the road not particularly caring either way.</p>
+
+    <div class="pull-quote">
+      "They made steel here. They locked up criminals here. They played the blues here. Joliet has never had an identity crisis — it's always known exactly what it was."
+    </div>
+
+    <p>Joliet is Illinois's third-largest city by population, and it carries that ranking with the particular dignity of a place that knows it will never be first. It doesn't need to be. The Joliet Area Historical Museum will give you the arc of it — the Potawatomi before Europeans arrived, the limestone quarries that built half of Chicago, the steel plants that ran full blast through two world wars. The prison — that long gray limestone fortress on Collins Street — opened in 1858 and closed in 2002, and in the years since, it's become the most photographed structure in Will County, partly because of the Blues Brothers and partly because it genuinely looks like something designed by God to make you feel small.</p>
+
+    <p>Route 66 enters Joliet on Chicago Street, rolls past downtown on Jefferson Street and Ottawa Street, and exits south on Illinois 53. The alignment changed several times between 1926 and the highway's 1977 decertification, but the core of it — downtown Joliet, the old commercial strip, the limestone storefronts — that's stayed put. Pull into the Harrah's casino parking garage on the river if you need to orient yourself. Then walk. The whole story of this city is within six blocks.</p>
+
+    <div class="img-placeholder">
+      <div class="pin">📍</div>
+      <div class="caption">The Rialto Square Theatre marquee at dusk, Jefferson Street</div>
+      <div class="needed">IMAGE NEEDED: hero shot, exterior neon marquee, golden hour</div>
+    </div>
+  </div>
+</div>
+
+<!-- THE STORY -->
+<div class="section">
+  <div class="container">
+    <div class="section-tag">The Story</div>
+    <h2>Limestone, Steel, and a Famous Prison</h2>
+
+    <div class="three-act">
+      <div class="act">
+        <div class="act-label">Act I</div>
+        <h4>The Quarry Years (1833–1900)</h4>
+        <p>French explorers Louis Jolliet and Jacques Marquette paddled the Des Plaines in 1673. The city named itself after Jolliet — then immediately misspelled it and never looked back. Limestone quarrying began in earnest in the 1830s; Joliet blue limestone cut from the bluffs built the Chicago Water Tower, the Illinois state capitol, and thousands of buildings that still stand. The city was a construction yard for the region, and it ran like one.</p>
+      </div>
+      <div class="act">
+        <div class="act-label">Act II</div>
+        <h4>The Steel Century (1901–1969)</h4>
+        <p>The Joliet Steel Works and the American Steel and Wire Company turned the city into a mill town of consequence. During World War II, Joliet Iron Works produced 20% of the nation's wire for barbed wire and cable. Workers came from across Europe and the American South. Black workers migrating up Route 66 from Mississippi and Alabama found jobs in the mills — and a community that formed around the music they brought with them. Jefferson Street became the spine of a blues scene that Chicago eventually absorbed and took credit for.</p>
+      </div>
+      <div class="act">
+        <div class="act-label">Act III</div>
+        <h4>Reinvention (1970–Today)</h4>
+        <p>The mills closed. Route 66 was decertified. The prison — which the Blues Brothers turned into a movie set — closed in 2002. But Joliet didn't shrink. Casino development along the river brought investment and tourists. The Rialto was saved, restored, and made into one of the most beautiful mid-sized performance venues in the Midwest. The Route 66 trail and the Illinois Waterway have drawn cyclists and paddlers. The city is actively building a future around what it actually has — which turns out to be more than most people expect.</p>
+      </div>
+    </div>
+
+    <div class="callout-box">
+      <div class="callout-box-label">The Great Migration & Route 66</div>
+      <p>Between 1910 and 1970, more than six million Black Americans left the South for Northern cities, and Route 66 was one of the primary arteries. Joliet was a waypoint and, for many, a destination — the mills hired, the music scene absorbed, the community held. The Green Book listed Joliet businesses that were safe for Black travelers at a time when many Route 66 towns were explicitly hostile. Jefferson Street's jazz and blues clubs weren't just entertainment — they were anchor institutions for a community that built the city's industrial backbone and was given little official credit for it. That history is only now being fully told.</p>
+    </div>
+
+    <h3>The Prison That Became a Landmark</h3>
+    <p>Joliet Correctional Center — opened 1858, closed 2002 — is not subtle. The original limestone building is enormous, gothic in feeling if not in style, and it sits on Collins Street like a chapter from a novel no one wanted to write. It held up to 2,000 prisoners at peak capacity. John Belushi and Dan Aykroyd filmed scenes for the 1980 Blues Brothers movie here, and the film made the prison briefly more famous than the prison had made itself. Tours are now offered regularly, and they're worth it — not for the Blues Brothers mythology, but for the actual history of American incarceration that stretches across 144 years of this building's use.</p>
+  </div>
+</div>
+
+<!-- THE ROUTE THROUGH TOWN -->
+<div class="section">
+  <div class="container">
+    <div class="section-tag">The Route Through Town</div>
+    <h2>How to Drive the Original Alignment</h2>
+
+    <div class="parking-tip">
+      <strong>Parking</strong>
+      Free street parking is available on most downtown streets east of the river. The city parking garage on Chicago Street near the Rialto validates for 2 hours. For the southern stretches toward Plainfield Road, park once and walk — the street grid is tight and turning around is annoying.
+    </div>
+
+    <p>Joliet's Route 66 alignment runs through the heart of downtown, and unlike many cities where the historic route is on the fringe, here it's the main street. Traffic can be heavy on weekday mornings, but on a weekend you can drive it slowly, stop without fear, and actually read the buildings.</p>
+
+    <div class="route-block">
+      <h3>The Alignment — North to South</h3>
+      <div class="route-street">
+        <div class="street-name">Chicago Street</div>
+        <div class="street-desc">The 1926 alignment enters here from the north. The limestone storefronts thin out as you come in from Lockport; watch for the old commercial blocks before you hit downtown proper.</div>
+      </div>
+      <div class="route-street">
+        <div class="street-name">Jefferson Street</div>
+        <div class="street-desc">The downtown spine. The Rialto Theatre sits at 102 N. Chicago St. (one block east), but Jefferson carries the commercial weight. Old bank buildings, the Joliet Area Historical Museum, blues clubs that are still open and some that closed before you were born.</div>
+      </div>
+      <div class="route-street">
+        <div class="street-name">Ottawa Street</div>
+        <div class="street-desc">The later alignment shift. Ottawa gives you the riverside casino development on your left and older commercial stock on your right. The contrast between the two — one gleaming, one weathered — is Joliet in a single block.</div>
+      </div>
+      <div class="route-street">
+        <div class="street-name">Richards Street / IL-53 South</div>
+        <div class="street-desc">The road south toward Wilmington. Once you clear downtown, the city loosens into a mix of residential and industrial. The Route 66 signs reappear reliably here; follow them onto the Dixie Highway alignment for the most authentic stretch.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- DISCOVERY STOPS -->
+<div class="section">
+  <div class="container">
+    <div class="section-tag">Discovery Stops</div>
+    <h2>The Stops That Explain This City</h2>
+
+    <p>Joliet has more genuine Route 66 history per square mile than most Illinois towns ten times its size. These are the stops that connect to the road — not because they're marked with a shield, but because they tell the story of why this stretch of pavement mattered.</p>
+
+    <div class="stops-grid">
+
+      <!-- Stop 1 -->
+      <div class="stop-card">
+        <div class="stop-card-img" style="background: linear-gradient(135deg, #1a1209 0%, #2a3540 100%);">
+          <span style="font-size:36px;">🎭</span>
+        </div>
+        <div class="stop-card-body">
+          <div class="stop-type discovery">Discovery</div>
+          <h3><a href="https://openroadtrivia.com/route66/stops/rialto-theatre-joliet">Rialto Square Theatre</a></h3>
+          <p>Opened in 1926 — the same year Route 66 was designated — the Rialto is one of the most ornate movie palaces in the American Midwest. Its rotunda is modeled on the Hall of Mirrors at Versailles. The lobby chandelier weighs three tons. For a city best known for steel and incarceration, this is the part that makes your jaw drop: they built a palace here, for the workers, in the middle of everything else.</p>
+          <div class="insider">
+            <strong>Insider Tip</strong>
+            Book a performance rather than just the tour — the hall sounds as good as it looks. The Rialto Foundation offers free public tours on most weekday mornings; call ahead. The organ — a 2,542-pipe Barton — is still played on special occasions.
+          </div>
+          <div class="stop-meta">
+            <div class="stop-meta-item"><span class="icon">🕐</span> Tours: weekday mornings</div>
+            <div class="stop-meta-item"><span class="icon">💰</span> Tour: free / Performances: varies</div>
+            <div class="stop-meta-item"><span class="icon">⏱</span> 45 min–2 hours</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stop 2 -->
+      <div class="stop-card">
+        <div class="stop-card-img" style="background: linear-gradient(135deg, #3a3228 0%, #1a1209 100%);">
+          <span style="font-size:36px;">🏛️</span>
+        </div>
+        <div class="stop-card-body">
+          <div class="stop-type discovery">Discovery</div>
+          <h3><a href="https://openroadtrivia.com/route66/stops/joliet-prison">Joliet Correctional Center</a></h3>
+          <p>The old Joliet prison is massive, gray, and almost entirely made of the limestone quarried in the city it imprisoned people in — which is either poetic or ironic depending on your mood. Opened in 1858, it held prisoners during the Civil War, through the labor unrest of the Gilded Age, past two World Wars, and into an era when its cells were genuinely overcrowded and its conditions were genuinely inhumane. The Blues Brothers filmed here. History is messier than the movie suggests.</p>
+          <div class="insider">
+            <strong>Insider Tip</strong>
+            Tours run on weekends through the Will County Historical Society. Arrive 15 minutes early — capacity is limited. Bring water; there's no shade on the exterior walking sections. The interior cell blocks are intact and unsettling in the best possible way.
+          </div>
+          <div class="stop-meta">
+            <div class="stop-meta-item"><span class="icon">🕐</span> Weekend tours, seasonal</div>
+            <div class="stop-meta-item"><span class="icon">💰</span> ~$15/adult</div>
+            <div class="stop-meta-item"><span class="icon">⏱</span> 1.5–2 hours</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stop 3 -->
+      <div class="stop-card">
+        <div class="stop-card-img" style="background: linear-gradient(135deg, #1a4a3a 0%, #1a1209 100%);">
+          <span style="font-size:36px;">🏺</span>
+        </div>
+        <div class="stop-card-body">
+          <div class="stop-type discovery">Discovery</div>
+          <h3><a href="https://openroadtrivia.com/route66/stops/joliet-area-historical-museum">Joliet Area Historical Museum</a></h3>
+          <p>The JAHM is small enough to spend two hours in without rushing and substantive enough that you'll want to. The Route 66 exhibit is among the best in Illinois — not because it covers the most ground but because it covers the right ground: the quarries, the mills, the migration, the music, and the road itself as an economic lifeline for a city that was built on heavy industry and needed to find something to be after the industry left.</p>
+          <div class="insider">
+            <strong>Insider Tip</strong>
+            The museum hosts special exhibitions on the Great Migration and the history of the African American community in Joliet — these rotate, so check the calendar before your visit. The gift shop has actual useful books, not just refrigerator magnets.
+          </div>
+          <div class="stop-meta">
+            <div class="stop-meta-item"><span class="icon">🕐</span> Tue–Sat 10am–5pm</div>
+            <div class="stop-meta-item"><span class="icon">💰</span> $7 adults / $5 seniors</div>
+            <div class="stop-meta-item"><span class="icon">⏱</span> 1–2 hours</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stop 4 -->
+      <div class="stop-card">
+        <div class="stop-card-img" style="background: linear-gradient(135deg, #2a3540 0%, #3a3228 100%);">
+          <span style="font-size:36px;">🎸</span>
+        </div>
+        <div class="stop-card-body">
+          <div class="stop-type discovery">Discovery</div>
+          <h3><a href="https://openroadtrivia.com/route66/stops/joliet-blues-history">Jefferson Street Blues District</a></h3>
+          <p>Joliet had a blues scene before anyone called it that. The steel mill workers who migrated up Route 66 from Mississippi brought Muddy Waters-era Delta blues with them, and Jefferson Street between the 1940s and 1970s was the address. Most of the clubs are gone. The history is not. The Joliet Blues History Project has been documenting it, and a walking tour connects the surviving buildings, the murals, and the stories of musicians who played here before Chicago discovered them.</p>
+          <div class="insider">
+            <strong>Insider Tip</strong>
+            The Mojoe's Tap blues venue on Chicago Street books live acts most weekends. It's not a museum — it's a bar with a stage — and that's exactly the point. Arrive by 9pm on a Saturday and you'll hear what the street sounded like when it was at full volume.
+          </div>
+          <div class="stop-meta">
+            <div class="stop-meta-item"><span class="icon">🕐</span> Self-guided anytime; live music Fri–Sat</div>
+            <div class="stop-meta-item"><span class="icon">💰</span> Walking tour: free</div>
+            <div class="stop-meta-item"><span class="icon">⏱</span> 1 hour walking / full evening for live music</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ATTRACTIONS -->
+<div class="section">
+  <div class="container">
+    <div class="section-tag">Attractions</div>
+    <h2>Quick Stops Worth the Detour</h2>
+
+    <div class="attraction-list">
+      <div class="attraction-item">
+        <div class="attraction-num">01</div>
+        <div>
+          <h3>The Old Joliet Prison Park</h3>
+          <p>The city has been slowly converting the prison grounds into a public park, and the north yard — where the original 1858 limestone cell house stands — is now accessible even when guided tours aren't running. Walk the perimeter on a weekday morning when no one else is there. The scale of the thing is hard to process from photographs; you need to stand in front of it and let it be as large as it is.</p>
+        </div>
+      </div>
+      <div class="attraction-item">
+        <div class="attraction-num">02</div>
+        <div>
+          <h3>Chicagoland Speedway Site</h3>
+          <p>The Chicagoland Speedway — a 1.5-mile tri-oval NASCAR track — opened in 2001 in the Joliet suburb of Elwood, just south of the historic alignment. NASCAR ran its Brickyard-adjacent race here for nearly two decades before the track went quiet after 2019. The facility still exists, still looks enormous from I-80, and is now used for testing and special events. Racing history worth noting: this was the stop where engines warmed up and drivers got strange on the open oval.</p>
+        </div>
+      </div>
+      <div class="attraction-item">
+        <div class="attraction-num">03</div>
+        <div>
+          <h3>Billie Limacher Bicentennial Park</h3>
+          <p>An amphitheater and event space on the Des Plaines River that hosts the Joliet Blues Festival every September — one of the better-curated blues events in Illinois, and completely undeserved in terms of how under-attended it is. If you're driving through in early September, check the schedule. The waterfront setting is legitimately beautiful at sunset. The River Walk connecting it to downtown is flat, wide, and stroller-friendly.</p>
+        </div>
+      </div>
+      <div class="attraction-item">
+        <div class="attraction-num">04</div>
+        <div>
+          <h3>The Steel Mill Historical Sites</h3>
+          <p>The original Joliet Iron and Steel Works site on the east bank of the Des Plaines is now largely industrial brownfield, but interpretive signage installed by the Illinois State Museum tells the story of the mills at the location where they stood. It's not a polished experience — it's a parking lot with informational panels near a river — and that rawness is exactly right for what it's commemorating.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- WHERE TO STAY -->
+<div class="section">
+  <div class="container">
+    <div class="section-tag">Where to Stay</div>
+    <h2>Four Nights, Four Different Joliets</h2>
+
+    <div class="rec-grid">
+      <div class="rec-card">
+        <div class="rec-tag">The Historic Option</div>
+        <h4>The Jacob Henry Mansion Estate</h4>
+        <p>A Victorian mansion built in 1873 for a Joliet limestone baron, now operating as a bed and breakfast and event venue. The rooms are heavily decorated in period style — which either charms you entirely or makes you feel like you've moved into someone's grandmother's house. The grounds are legitimately beautiful, with mature elms and a carriage house. It's two miles from downtown and feels like a different century, which is sometimes exactly what you want after a day of prison tours and blues bars.</p>
+        <p class="rec-tip">Book the Carriage House suite for the most privacy. Breakfast is included and they take it seriously.</p>
+      </div>
+      <div class="rec-card">
+        <div class="rec-tag">The Budget Pick</div>
+        <h4>Comfort Inn & Suites — Joliet North</h4>
+        <p>There's no romance here, and none is claimed. Clean rooms, free breakfast, a pool that works, and rates that let you spend your money on the Rialto tour and dinner instead of a bed. Located on the north end near I-55, which means easy access to both downtown and the southern strip. It fills up on NASCAR weekends — book early if you're visiting in summer.</p>
+        <p class="rec-tip">Ask for a room facing away from the highway. The difference in noise is significant.</p>
+      </div>
+      <div class="rec-card">
+        <div class="rec-tag">The Splurge</div>
+        <h4>Harrah's Casino Hotel</h4>
+        <p>Yes, it's a casino hotel. It's also the nicest full-service hotel in downtown Joliet with a riverfront location, solid restaurants, and rooms that are genuinely comfortable rather than just functional. If you're here for the Route 66 experience, you can ignore the casino floor entirely and still use the hotel — waterfront views, decent bar, the kind of lobby that makes you feel like you're somewhere. The river at night from the upper floors is unexpectedly beautiful.</p>
+        <p class="rec-tip">Weekend rates spike sharply. Mid-week stays can get you the same room for 40% less.</p>
+      </div>
+      <div class="rec-card">
+        <div class="rec-tag">What a Local Would Pick</div>
+        <h4>Short-Term Rental in the Woodruff-Eastside Neighborhood</h4>
+        <p>Joliet's Eastside neighborhood — the historic residential district east of downtown — has well-preserved Victorian and Craftsman housing stock and a Main Street commercial district that's been coming back for a decade. Several owner-occupied properties rent short-term through the usual platforms. You'll walk to restaurants the tourists miss, hear the actual city at night, and leave with a more accurate picture of what living here looks like. Not every city deserves this approach; Joliet does.</p>
+        <p class="rec-tip">Look for listings within four blocks of the intersection of Jefferson and Hickory Streets for the best walkability.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- WHERE TO EAT -->
+<div class="section">
+  <div class="container">
+    <div class="section-tag">Where to Eat</div>
+    <h2>Forget the Casino Buffet. Here's the Actual Food.</h2>
+
+    <div class="img-placeholder">
+      <div class="pin">📍</div>
+      <div class="caption">Italian beef sandwich at Aurelio's — the working Joliet lunch</div>
+      <div class="needed">IMAGE NEEDED: hero food shot, Italian beef, Chicago-style dog, or slab pie</div>
+    </div>
+
+    <div class="rec-grid">
+      <div class="rec-card">
+        <div class="rec-tag">Breakfast</div>
+        <h4>The Courthouse Café</h4>
+        <p>A downtown breakfast counter that has been feeding courthouse workers, lawyers, and Route 66 travelers since the 1970s. The booths are tight, the coffee is bad in the honest, forgivable way of diner coffee, and the eggs are perfectly cooked every time. It opens at 6am. On a weekday, you'll be sitting next to people who drive to work past the prison every morning and don't think anything of it, which tells you something about the distance between the Joliet of tourists and the Joliet of residents.</p>
+        <p class="order-this"><strong>Order:</strong> The two-egg breakfast with wheat toast and a side of sausage. Skip the pancakes.</p>
+      </div>
+      <div class="rec-card">
+        <div class="rec-tag">Lunch Counter</div>
+        <h4>Rich & Creamy</h4>
+        <p>An old-school ice cream and hot dog stand that has operated on the southwest side of Joliet since 1955 — the same year Disneyland opened, for reference. The dogs are Chicago-style: yellow mustard, relish, onion, tomato, pickle, sport peppers, celery salt, never ketchup. The shakes are hand-dipped. The building hasn't changed. The prices feel like a polite fiction from another decade, and you should eat here even if you're not hungry, because places like this don't last forever.</p>
+        <p class="order-this"><strong>Order:</strong> The Chicago dog and a chocolate shake. That's the whole menu that matters.</p>
+      </div>
+      <div class="rec-card">
+        <div class="rec-tag">The Joliet Staple</div>
+        <h4>Aurelio's Pizza — South Joliet</h4>
+        <p>The Homewood original of Aurelio's is the famous one, but the Joliet location on West Jefferson has been there long enough to have earned its own reputation. Aurelio's makes a thin-crust tavern-style pizza that is emphatically not deep dish — it's cut in squares, it's crispy on the bottom, and it is what actual Chicago-area people eat for pizza on a Tuesday, not what they serve tourists. The tomato sauce is slightly sweet. The cheese pull is correct. The booths are comfortable.</p>
+        <p class="order-this"><strong>Order:</strong> The house special with sausage. Tavern cut. Two beers.</p>
+      </div>
+      <div class="rec-card">
+        <div class="rec-tag">Dinner</div>
+        <h4>Suzette's Creperie</h4>
+        <p>A Joliet dinner institution in a converted historic building downtown, serving both sweet and savory crepes with a full bar. It sounds like it shouldn't work — a French crepe house in a Midwestern steel town — and yet it does, partly because the cooking is serious and partly because Joliet's downtown has always had more cosmopolitan aspirations than people from Chicago give it credit for. The dinner crowd is a genuine cross-section of the city. The wine list is better than it has to be.</p>
+        <p class="order-this"><strong>Order:</strong> The spinach-mushroom-brie savory crepe, then the bananas Foster dessert crepe. Sit at the bar if you're solo.</p>
+      </div>
+      <div class="rec-card">
+        <div class="rec-tag">The One Nobody Mentions</div>
+        <h4>La Paloma Bakery</h4>
+        <p>Joliet's Mexican-American community is large and deeply rooted — the south side neighborhoods have been Hispanic for generations — and La Paloma Bakery on Eastern Avenue is where you go if you want to understand that history through bread and pastry. The pan dulce comes out of the oven by 7am. The tres leches is made on Fridays. The counter woman has worked there for twenty years and will help you choose if you ask in either language. This is not on any Route 66 map, which is the whole problem with Route 66 maps.</p>
+        <p class="order-this"><strong>Order:</strong> Whatever came out of the oven last. If it's Friday, get the tres leches.</p>
+      </div>
+      <div class="rec-card">
+        <div class="rec-tag">Late Night</div>
+        <h4>White Palace Grill (on the route south)</h4>
+        <p>Heading south on the original alignment past Plainfield Road, White Palace Grill is the kind of 24-hour diner that exists specifically to absorb the late-night overflow of a city that doesn't entirely sleep. Truckers, night-shift workers, and casino refugees mix at the counter. The chili is the thing. Served in a bowl with a side of crackers, with optional raw onion, it's as honest as any food you'll eat on this road.</p>
+        <p class="order-this"><strong>Order:</strong> The chili. Accept the crackers. Add the onion if you're brave.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- WHERE TO DRINK -->
+<div class="section">
+  <div class="container">
+    <div class="section-tag">Where to Drink</div>
+    <h2>Steel Town Bars and One River Deck Worth Finding</h2>
+
+    <div class="drink-entry">
+      <h3>Mojoe's Tap</h3>
+      <div class="drink-meta">Downtown · Chicago Street</div>
+      <p>This is the live music venue that kept the Jefferson Street blues tradition alive when everyone else gave up on it. The room is small — maybe 80 people comfortably — the stage is low, and the sound system has been tuned by someone who actually cares. On weekend nights when the right band is in, Mojoe's sounds like Joliet in 1962, which is not nothing. Domestic bottles, well cocktails, and an owner who will tell you the history of this street if you catch him on a slow Monday.</p>
+    </div>
+
+    <div class="drink-entry">
+      <h3>The Rialto Bar & Grill</h3>
+      <div class="drink-meta">Downtown · Adjacent to the Rialto Theatre</div>
+      <p>A hotel bar that serves the theatre crowd before and after performances. The Art Deco detailing carries over from the theatre next door, the cocktails are credible if not exciting, and the people-watching on a Saturday performance night is worth the price of a drink by itself. You'll hear arguments about music that you couldn't construct in any other city. Order the old fashioned and stay for at least one full drink cycle.</p>
+    </div>
+
+    <div class="drink-entry">
+      <h3>Harrah's Casino Bar — Riverview Deck</h3>
+      <div class="drink-meta">Riverfront · Ottawa Street</div>
+      <p>You don't have to gamble. The outdoor bar on the riverfront deck at Harrah's is a legitimately good place to drink a beer at sunset when the Des Plaines is doing its thing and the limestone bluffs catch the late light. Yes, it's a casino. The river doesn't care. Order something cold and look south, toward where the road goes next.</p>
+    </div>
+
+    <div class="drink-entry">
+      <h3>Bonefish Eddie's Waterfront Bar</h3>
+      <div class="drink-meta">Riverfront · Lockport Street</div>
+      <p>A neighborhood bar with an outdoor deck that hangs over the Illinois Waterway — the canal system that connects the Des Plaines to the Chicago River. Canal boats and recreational craft pass below; the bar serves cold cans and bar food; the crowd is Joliet residents who work nearby and don't much care whether tourists find the place. That indifference is the recommendation. Arrive by 5:30pm if you want a deck seat.</p>
+    </div>
+
+    <div class="coffee-section">
+      <div class="coffee-label">Early Morning Coffee</div>
+      <h3>Lavazza at the Rialto Lobby</h3>
+      <p>The Rialto Foundation occasionally opens the lobby for early morning coffee service during tour season. If it's available on your visit, take it. Drinking coffee under the Rialto's three-ton chandelier before the tourists arrive is the best possible introduction to what this city decided to aspire to — even when everything else was hard.</p>
+    </div>
+  </div>
+</div>
+
+<!-- LOCAL SECRETS -->
+<div class="section">
+  <div class="container">
+    <div class="section-tag">Local Secrets</div>
+    <h2>The Things the Tourist Board Forgot to Mention</h2>
+
+    <ol class="secrets-list">
+      <li data-n="1">
+        <strong>The Limestone Is Everywhere, Once You See It</strong>
+        Joliet's limestone quarries supplied building material for Chicago, Springfield, and dozens of other cities between 1840 and 1920. Once you know this, you start seeing the same blue-gray stone everywhere — in the prison walls, the courthouse, the old commercial blocks downtown, the curbing on Jefferson Street. It's the same stone. The city literally built itself and then built the cities around it.
+      </li>
+      <li data-n="2">
+        <strong>The Route Goes Through a Neighborhood Nobody Visits</strong>
+        The southern Route 66 alignment through Joliet passes through the old East Side residential neighborhood before reaching the Plainfield Road corridor. These twelve blocks of Craftsman bungalows and late Victorian houses from 1895–1930 are intact, occupied, and quietly beautiful. Nobody routes you through here. Drive it anyway.
+      </li>
+      <li data-n="3">
+        <strong>The Blues Festival Is Completely Underrated</strong>
+        The Joliet Blues Festival, held at Billie Limacher Bicentennial Park every September, books national acts alongside regional artists and charges almost nothing for admission. It draws maybe 4,000 people on its biggest night, which means you can actually see the stage, actually hear the music, and actually have a conversation between sets. The Chicago Blues Festival is more famous. Joliet's is better.
+      </li>
+      <li data-n="4">
+        <strong>The Quarry Lakes South of Town Are Stunning</strong>
+        Joliet Quarry — now Centennial Park and the surrounding lakes — was an active limestone operation until the mid-20th century. The flooded pits turned into what are now some of the clearest, deepest lakes in northeastern Illinois. Scuba divers come from Chicago specifically to dive the quarry; you can see 30 feet in conditions that don't exist in any natural Illinois lake. Non-divers can walk the perimeter. The industrial origin makes the beauty stranger and better.
+      </li>
+      <li data-n="5">
+        <strong>Rain Emergency: The Rialto Tour</strong>
+        If the weather turns bad and you're stuck in Joliet, the Rialto Theatre tour is the correct answer. The building is entirely indoors, the tour lasts 45 minutes, and the guide will tell you more than you expected to learn about theater construction, civic pride, and the particular ambitions of a city that decided to build a Versailles-inspired palace the same year it got its road trip highway. It is the most surprising building on this stretch of Route 66, and most people drive right past it.
+      </li>
+    </ol>
+  </div>
+</div>
+
+<!-- FEATURED CONVERSATION -->
+<div class="container">
+  <div class="dialogue-box">
+    <div class="dialogue-tag">From the Road — Open Road Trivia Family Conversations</div>
+    <div class="dialogue-line">
+      <span class="speaker">The Driver</span>
+      That building on the left — that's the prison. That's the one from the Blues Brothers.
+    </div>
+    <div class="dialogue-line">
+      <span class="speaker">The Kids</span>
+      It's huge. Did people actually live in there?
+    </div>
+    <div class="dialogue-line">
+      <span class="speaker">One Family Member</span>
+      Live is a strong word. It held over two thousand people at its peak. Opened in 1858 — three years before the Civil War started.
+    </div>
+    <div class="dialogue-line">
+      <span class="speaker">The Driver</span>
+      Now it's a park. And a trivia question. Did we answer the one about the Rialto?
+    </div>
+    <p style="color:rgba(245,240,232,0.6); font-size:14px; margin-top:24px; font-style:italic;">
+      Open Road Trivia features four families — the Walkers, the Garcias, the Chens, and the Johnsons — each with a different perspective on the road. The conversations happen between stops, while the miles pass. <a href="https://openroadtrivia.com/route66" style="color:var(--gold);">Play Joliet and hear them for yourself →</a>
+    </p>
+  </div>
+</div>
+
+<!-- PLAY THIS CITY CTA -->
+<div class="cta-block">
+  <div class="container">
+    <h2>Play Joliet in Open Road Trivia</h2>
+    <p>Eight stops. The Rialto Theatre, the old prison, Jefferson Street, the limestone quarries, the river, the steel mills, the blues scene, and the road south toward Springfield. Each stop has a trivia question, a story, and a reason to stop. Earn miles. Unlock the next city. See what you know.</p>
+    <a href="https://openroadtrivia.com/route66/play?city=joliet-il" class="cta-btn">Play Now →</a>
+  </div>
+</div>
+
+<!-- PRACTICAL INFO -->
+<div class="section">
+  <div class="container">
+    <div class="section-tag">Practical Info</div>
+    <h2>Getting Here, Getting Around, Getting Out</h2>
+
+    <div class="practical-grid">
+      <div class="practical-item">
+        <h4>Getting There</h4>
+        <p>Joliet is 38 miles southwest of Chicago on the original Route 66 alignment (follow Adams Street west out of the Loop to IL-53 south). From I-80, take Exit 130A. Metra commuter rail (Rock Island and Heritage Corridor lines) connects downtown Joliet to Chicago Union Station in about 90 minutes. There is no useful regional bus service for Route 66 travelers.</p>
+      </div>
+      <div class="practical-item">
+        <h4>Getting Around</h4>
+        <p>Downtown Joliet is entirely walkable if you park once and stay central. The historic Route 66 stops are clustered within a 10-block radius. For the southern alignment and quarry lakes, you need a car. PACE bus serves major corridors within the city. Ride-share services (Uber, Lyft) are reliable but slow during casino-event weekends. Bike rentals are available through the Illinois Waterway visitor center.</p>
+      </div>
+      <div class="practical-item">
+        <h4>Best Season</h4>
+        <p>Late May through early October for driving weather. The Blues Festival in September is reason alone to time a visit. Avoid holiday weekends at the casino hotels — rates spike sharply and the downtown gets congested. February and March are cold, gray, and honest in a way that suits the city, if you're the kind of traveler who likes a town when it's not performing for anyone.</p>
+      </div>
+      <div class="practical-item">
+        <h4>How Long to Spend</h4>
+        <p>One full day covers all four Discovery stops, the Route 66 alignment drive, dinner, and a late-night drink on Jefferson Street. Add a second day if you want the quarry lakes, a proper prison tour, and the eastern neighborhood walk. Route 66 pilgrims doing the full drive usually spend one night; those who linger longer consistently say they're glad they did.</p>
+      </div>
+      <div class="practical-item">
+        <h4>Emergency Info</h4>
+        <p><strong>Hospital:</strong> AMITA Health Saint Joseph Medical Center, 333 N. Madison St., (815) 725-7133. <strong>Police (non-emergency):</strong> Joliet Police Department, (815) 726-6491. <strong>AAA:</strong> (800) 222-4357. <strong>Weather:</strong> Severe thunderstorm season is May–August; the Des Plaines River corridor can flood after heavy rain. Check local weather before driving the southern alignment in spring.</p>
+      </div>
+      <div class="practical-item">
+        <h4>Next City on Route 66</h4>
+        <p>South on IL-53 through Elwood and Wilmington toward <a href="https://openroadtrivia.com/route66/dwight-il" style="color:var(--rust);">Dwight, Illinois</a> — 49 miles. The land opens up between here and there. The quarry lakes give way to corn and soybean fields, the road straightens, and you start to understand what Illinois actually is when you're not in the Chicago orbit. Dwight has one of the best-preserved Route 66 gas stations left standing. Don't skip it.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="site-footer">
+  <div class="footer-nav">
+    <a href="https://openroadtrivia.com/route66">Route 66 Home</a>
+    <a href="https://openroadtrivia.com/route66/chicago-il">← Chicago</a>
+    <a href="https://openroadtrivia.com/route66/dwight-il">Next: Dwight →</a>
+    <a href="https://openroadtrivia.com/route66/joliet-il/stops">All Joliet Stops</a>
+    <a href="https://openroadtrivia.com/route66/play?city=joliet-il">Play the Game</a>
+  </div>
+  <div class="footer-copy">
+    © 2026 Open Road Trivia · Joliet, Illinois — Route 66 Travel Guide · openroadtrivia.com/route66/joliet-il
+  </div>
+</div>
+
+<!-- STRUCTURED DATA -->
+<!--
+## Structured Data (for developer — paste into page head)
+
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "TouristDestination",
+    "name": "Joliet, Illinois",
+    "description": "Second stop on historic Route 66, known for limestone quarries, steel mills, the Joliet Correctional Center, and a deep blues tradition.",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.5250,
+      "longitude": -88.0817
+    },
+    "touristType": ["Route 66 travelers", "History enthusiasts", "Blues music fans"],
+    "url": "https://openroadtrivia.com/route66/joliet-il"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What year was the Rialto Square Theatre built?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Rialto Square Theatre opened in 1926 — the same year Route 66 was officially designated. It was built as a movie palace and performance venue for Joliet's working-class population and remains one of the most ornate theaters in the Midwest."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Was the Blues Brothers movie filmed at Joliet Prison?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. The 1980 Blues Brothers film starring John Belushi and Dan Aykroyd used the Joliet Correctional Center for key scenes. The prison opened in 1858 and closed in 2002; it now operates as a historic site with public tours."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is Joliet known for on Route 66?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Joliet is the second major stop on Route 66 out of Chicago, known for its limestone quarrying history, steel industry, the Joliet Correctional Center, the Rialto Square Theatre, and a significant African American blues tradition rooted in the Great Migration."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Open Road Trivia", "item": "https://openroadtrivia.com" },
+      { "@type": "ListItem", "position": 2, "name": "Route 66", "item": "https://openroadtrivia.com/route66" },
+      { "@type": "ListItem", "position": 3, "name": "Joliet, Illinois", "item": "https://openroadtrivia.com/route66/joliet-il" }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TravelGuide",
+    "headline": "Joliet, Illinois — Complete Route 66 Travel Guide",
+    "description": "Joliet hits you like a freight train. Steel mills, the blues, a famous prison, and the second city on Route 66 that Chicago pretends doesn't exist.",
+    "image": "https://openroadtrivia.com/images/cities/joliet-il.jpg",
+    "author": {
+      "@type": "Organization",
+      "name": "Open Road Trivia",
+      "url": "https://openroadtrivia.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Open Road Trivia",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://openroadtrivia.com/images/logo.png"
+      }
+    },
+    "datePublished": "2026-03-21",
+    "dateModified": "2026-03-21",
+    "about": {
+      "@type": "City",
+      "name": "Joliet",
+      "containedInPlace": { "@type": "State", "name": "Illinois" }
+    }
+  }
+]
+-->
+
+</body>
+</html>

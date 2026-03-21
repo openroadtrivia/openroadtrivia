@@ -51,7 +51,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_chicagoland_002",
@@ -86,7 +87,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_chicagoland_003",
@@ -121,7 +123,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 1
     },
     {
       "id": "r66_chicagoland_004",
@@ -156,7 +159,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 4
     },
     {
       "id": "r66_chicagoland_005",
@@ -190,7 +194,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "id": "r66_chicagoland_006",
@@ -224,7 +229,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_chicagoland_007",
@@ -258,7 +264,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_chicagoland_008",
@@ -291,7 +298,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_chicagoland_009",
@@ -325,7 +333,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_chicagoland_010",
@@ -358,7 +367,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "id": "r66_chicagoland_011",
@@ -392,7 +402,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_chicagoland_012",
@@ -426,7 +437,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 1
     },
     {
       "id": "r66_chicagoland_013",
@@ -460,7 +472,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "id": "r66_chicagoland_014",
@@ -495,7 +508,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_chicagoland_015",
@@ -530,7 +544,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_chicagoland_016",
@@ -564,7 +579,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 1
     },
     {
       "id": "r66_chicagoland_017",
@@ -598,7 +614,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_chicagoland_018",
@@ -632,7 +649,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_chicagoland_019",
@@ -666,7 +684,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 1
     },
     {
       "id": "r66_chicagoland_020",
@@ -701,7 +720,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_chicagoland_021",
@@ -714,12 +734,12 @@
       "age_level": "13-17",
       "difficulty": 2,
       "question_type": "multiple_choice",
-      "q": "The Great Migration brought millions of Black Americans to cities like Chicago. What decades defined its peak?",
+      "q": "The Great Migration (1910s-1970s) brought millions of Black Americans to northern cities. Which Route 66 starting city became one of its most important destinations?",
       "a": [
-        "1910s through 1970s",
-        "1860s through 1880s",
-        "1780s through 1810s",
-        "1990s through 2010s"
+        "Chicago",
+        "St. Louis",
+        "Oklahoma City",
+        "Los Angeles"
       ],
       "correct": 0,
       "bonus": "Chicago's Black population grew from 44,000 in 1910 to over 800,000 by 1970, transforming the South Side into a cultural powerhouse. Their stories are woven into the identity of every town along the road.",
@@ -735,7 +755,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_chicagoland_022",
@@ -769,7 +790,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_chicagoland_023",
@@ -804,7 +826,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "id": "r66_chicagoland_024",
@@ -839,7 +862,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 1
     },
     {
       "id": "r66_chicagoland_025",
@@ -873,7 +897,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "id": "r66_chicagoland_026",
@@ -908,7 +933,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_chicagoland_027",
@@ -943,7 +969,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_chicagoland_028",
@@ -977,7 +1004,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 4
     },
     {
       "id": "r66_chicagoland_029",
@@ -1011,7 +1039,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_chicagoland_030",
@@ -1044,7 +1073,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "id": "r66_chicagoland_031",
@@ -1077,7 +1107,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 1
     },
     {
       "id": "r66_chicagoland_032",
@@ -1111,7 +1142,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_chicagoland_033",
@@ -1144,7 +1176,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_illinois_prairi_001",
@@ -1179,7 +1212,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_illinois_prairi_002",
@@ -1213,7 +1247,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_illinois_prairi_003",
@@ -1247,7 +1282,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_illinois_prairi_004",
@@ -1281,7 +1317,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_illinois_prairi_005",
@@ -1315,7 +1352,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_illinois_prairi_006",
@@ -1349,7 +1387,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_illinois_prairi_007",
@@ -1383,7 +1422,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_illinois_prairi_008",
@@ -1417,7 +1457,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_illinois_prairi_009",
@@ -1451,7 +1492,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_illinois_prairi_010",
@@ -1486,7 +1528,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_illinois_prairi_011",
@@ -1520,7 +1563,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_illinois_prairi_012",
@@ -1554,7 +1598,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_illinois_prairi_013",
@@ -1588,7 +1633,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_illinois_prairi_014",
@@ -1623,7 +1669,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 4
     },
     {
       "id": "r66_illinois_prairi_015",
@@ -1657,7 +1704,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_illinois_prairi_016",
@@ -1691,7 +1739,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_illinois_prairi_017",
@@ -1725,7 +1774,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_illinois_prairi_018",
@@ -1759,7 +1809,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_illinois_prairi_019",
@@ -1793,7 +1844,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_illinois_prairi_020",
@@ -1827,7 +1879,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_illinois_prairi_021",
@@ -1861,7 +1914,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_illinois_prairi_022",
@@ -1895,7 +1949,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_st._louis_gatew_001",
@@ -1929,7 +1984,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_st._louis_gatew_002",
@@ -1963,7 +2019,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_st._louis_gatew_003",
@@ -1997,7 +2054,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 4
     },
     {
       "id": "r66_st._louis_gatew_004",
@@ -2031,7 +2089,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_st._louis_gatew_005",
@@ -2064,7 +2123,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_st._louis_gatew_006",
@@ -2098,7 +2158,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_st._louis_gatew_007",
@@ -2132,7 +2193,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_st._louis_gatew_008",
@@ -2166,7 +2228,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_st._louis_gatew_009",
@@ -2200,7 +2263,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_st._louis_gatew_010",
@@ -2234,7 +2298,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_st._louis_gatew_011",
@@ -2268,7 +2333,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_st._louis_gatew_012",
@@ -2302,7 +2368,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_st._louis_gatew_013",
@@ -2336,7 +2403,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 4
     },
     {
       "id": "r66_st._louis_gatew_014",
@@ -2370,7 +2438,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_st._louis_gatew_015",
@@ -2404,7 +2473,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_missouri_ozarks_001",
@@ -2438,7 +2508,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_missouri_ozarks_002",
@@ -2473,7 +2544,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_missouri_ozarks_003",
@@ -2507,7 +2579,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_missouri_ozarks_004",
@@ -2541,7 +2614,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_missouri_ozarks_005",
@@ -2575,7 +2649,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_missouri_ozarks_006",
@@ -2609,7 +2684,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_missouri_ozarks_007",
@@ -2643,7 +2719,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_missouri_ozarks_008",
@@ -2677,7 +2754,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_missouri_ozarks_009",
@@ -2711,7 +2789,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_missouri_ozarks_010",
@@ -2745,7 +2824,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_missouri_ozarks_011",
@@ -2779,7 +2859,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_missouri_ozarks_012",
@@ -2813,7 +2894,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_missouri_ozarks_013",
@@ -2847,7 +2929,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_missouri_ozarks_014",
@@ -2881,7 +2964,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_missouri_ozarks_015",
@@ -2915,7 +2999,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_missouri_ozarks_016",
@@ -2949,7 +3034,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_missouri_ozarks_017",
@@ -2983,7 +3069,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_missouri_ozarks_018",
@@ -3017,7 +3104,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_missouri_ozarks_019",
@@ -3051,7 +3139,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_oklahoma_crossr_001",
@@ -3085,7 +3174,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_oklahoma_crossr_002",
@@ -3120,7 +3210,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_oklahoma_crossr_003",
@@ -3154,7 +3245,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_oklahoma_crossr_004",
@@ -3188,7 +3280,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_oklahoma_crossr_005",
@@ -3222,7 +3315,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_oklahoma_crossr_006",
@@ -3256,7 +3350,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_oklahoma_crossr_007",
@@ -3290,7 +3385,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_oklahoma_crossr_008",
@@ -3324,7 +3420,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 4
     },
     {
       "id": "r66_oklahoma_crossr_009",
@@ -3358,7 +3455,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 4
     },
     {
       "id": "r66_oklahoma_crossr_010",
@@ -3392,7 +3490,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_oklahoma_crossr_011",
@@ -3426,7 +3525,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_oklahoma_crossr_012",
@@ -3460,7 +3560,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 4
     },
     {
       "id": "r66_oklahoma_crossr_013",
@@ -3494,7 +3595,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_oklahoma_crossr_014",
@@ -3528,7 +3630,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_oklahoma_crossr_015",
@@ -3562,7 +3665,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_oklahoma_crossr_016",
@@ -3596,7 +3700,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_oklahoma_crossr_017",
@@ -3630,7 +3735,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_oklahoma_crossr_018",
@@ -3664,7 +3770,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_oklahoma_crossr_019",
@@ -3698,7 +3805,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_oklahoma_crossr_020",
@@ -3732,7 +3840,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_oklahoma_crossr_021",
@@ -3766,7 +3875,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_oklahoma_crossr_022",
@@ -3801,7 +3911,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_oklahoma_crossr_023",
@@ -3835,7 +3946,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_oklahoma_crossr_024",
@@ -3869,7 +3981,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_oklahoma_crossr_025",
@@ -3903,7 +4016,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_oklahoma_crossr_026",
@@ -3936,7 +4050,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_oklahoma_crossr_027",
@@ -3970,7 +4085,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_texas_panhandle_001",
@@ -4005,7 +4121,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "id": "r66_texas_panhandle_002",
@@ -4039,7 +4156,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_texas_panhandle_003",
@@ -4073,7 +4191,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_texas_panhandle_004",
@@ -4107,7 +4226,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_texas_panhandle_005",
@@ -4142,7 +4262,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 4
     },
     {
       "id": "r66_texas_panhandle_006",
@@ -4176,7 +4297,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 1
     },
     {
       "id": "r66_texas_panhandle_007",
@@ -4210,7 +4332,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_texas_panhandle_008",
@@ -4244,7 +4367,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_texas_panhandle_009",
@@ -4278,7 +4402,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_texas_panhandle_010",
@@ -4312,7 +4437,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_texas_panhandle_011",
@@ -4346,7 +4472,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_texas_panhandle_012",
@@ -4380,7 +4507,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 4
     },
     {
       "id": "r66_texas_panhandle_013",
@@ -4414,7 +4542,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_texas_panhandle_014",
@@ -4448,7 +4577,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_eastern_new_mex_001",
@@ -4482,7 +4612,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_eastern_new_mex_002",
@@ -4517,7 +4648,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_eastern_new_mex_003",
@@ -4552,7 +4684,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_eastern_new_mex_004",
@@ -4586,7 +4719,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 4
     },
     {
       "id": "r66_eastern_new_mex_005",
@@ -4620,7 +4754,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_eastern_new_mex_006",
@@ -4654,7 +4789,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_eastern_new_mex_007",
@@ -4688,7 +4824,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_eastern_new_mex_009",
@@ -4722,7 +4859,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_eastern_new_mex_010",
@@ -4756,7 +4894,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_eastern_new_mex_011",
@@ -4790,7 +4929,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_eastern_new_mex_012",
@@ -4824,7 +4964,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_eastern_new_mex_013",
@@ -4859,7 +5000,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_santa_fe_001",
@@ -4872,12 +5014,12 @@
       "age_level": "all_ages",
       "difficulty": 2,
       "question_type": "multiple_choice",
-      "q": "Santa Fe is the oldest state capital in the United States. When was it founded?",
+      "q": "Santa Fe was founded in 1610, making it the oldest state capital in the US. What architectural material defines its historic downtown?",
       "a": [
-        "1610",
-        "1776",
-        "1680",
-        "1540"
+        "Adobe",
+        "Brick",
+        "Limestone",
+        "Marble"
       ],
       "correct": 0,
       "bonus": "Santa Fe was a provincial capital of New Spain for over 200 years before the United States existed. The Palace of the Governors has been in continuous use since 1610. The light, the adobe architecture, and the chile-scented air mark a dramatic shift in the journey.",
@@ -4893,7 +5035,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 4
     },
     {
       "id": "r66_santa_fe_002",
@@ -4928,7 +5071,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_santa_fe_003",
@@ -4962,7 +5106,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_santa_fe_004",
@@ -4996,7 +5141,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_santa_fe_005",
@@ -5030,7 +5176,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 4
     },
     {
       "id": "r66_santa_fe_006",
@@ -5064,7 +5211,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_santa_fe_007",
@@ -5098,7 +5246,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_santa_fe_008",
@@ -5132,7 +5281,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_santa_fe_009",
@@ -5166,7 +5316,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 4
     },
     {
       "id": "r66_santa_fe_010",
@@ -5200,7 +5351,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_santa_fe_011",
@@ -5234,7 +5386,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_santa_fe_012",
@@ -5268,7 +5421,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_santa_fe_013",
@@ -5302,7 +5456,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 4
     },
     {
       "id": "r66_santa_fe_014",
@@ -5337,7 +5492,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_painted_desert__001",
@@ -5371,7 +5527,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_painted_desert__002",
@@ -5405,7 +5562,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_painted_desert__003",
@@ -5439,7 +5597,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_painted_desert__004",
@@ -5473,7 +5632,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_painted_desert__005",
@@ -5507,7 +5667,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_painted_desert__006",
@@ -5541,7 +5702,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_painted_desert__007",
@@ -5576,7 +5738,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_painted_desert__008",
@@ -5610,7 +5773,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_painted_desert__009",
@@ -5644,7 +5808,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_painted_desert__010",
@@ -5678,7 +5843,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_painted_desert__011",
@@ -5712,7 +5878,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_painted_desert__012",
@@ -5746,7 +5913,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_painted_desert__013",
@@ -5780,7 +5948,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_painted_desert__014",
@@ -5814,7 +5983,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_painted_desert__015",
@@ -5848,7 +6018,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_painted_desert__016",
@@ -5882,7 +6053,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_flagstaff_willi_001",
@@ -5916,7 +6088,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 4
     },
     {
       "id": "r66_flagstaff_willi_002",
@@ -5950,7 +6123,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_flagstaff_willi_003",
@@ -5984,7 +6158,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_flagstaff_willi_004",
@@ -6018,7 +6193,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_flagstaff_willi_005",
@@ -6052,7 +6228,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_flagstaff_willi_006",
@@ -6086,7 +6263,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_flagstaff_willi_007",
@@ -6120,7 +6298,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_flagstaff_willi_008",
@@ -6154,7 +6333,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 4
     },
     {
       "id": "r66_flagstaff_willi_009",
@@ -6188,7 +6368,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_flagstaff_willi_010",
@@ -6223,7 +6404,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_flagstaff_willi_011",
@@ -6257,7 +6439,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_flagstaff_willi_012",
@@ -6291,7 +6474,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_kingman_western_001",
@@ -6325,7 +6509,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 1
     },
     {
       "id": "r66_kingman_western_002",
@@ -6359,7 +6544,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_kingman_western_003",
@@ -6393,7 +6579,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_kingman_western_004",
@@ -6427,7 +6614,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_kingman_western_005",
@@ -6461,7 +6649,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_kingman_western_006",
@@ -6495,7 +6684,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_kingman_western_007",
@@ -6529,7 +6719,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_kingman_western_008",
@@ -6563,7 +6754,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_kingman_western_009",
@@ -6597,7 +6789,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_kingman_western_010",
@@ -6632,7 +6825,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_kingman_western_011",
@@ -6667,7 +6861,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_kingman_western_012",
@@ -6701,7 +6896,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_mojave_crossing_001",
@@ -6735,7 +6931,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_mojave_crossing_002",
@@ -6770,7 +6967,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_mojave_crossing_003",
@@ -6804,7 +7002,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_mojave_crossing_004",
@@ -6838,7 +7037,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_mojave_crossing_005",
@@ -6873,7 +7073,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_mojave_crossing_006",
@@ -6907,7 +7108,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_mojave_crossing_007",
@@ -6941,7 +7143,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_mojave_crossing_008",
@@ -6975,7 +7178,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_mojave_crossing_009",
@@ -7009,7 +7213,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_mojave_crossing_010",
@@ -7043,7 +7248,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_mojave_crossing_011",
@@ -7077,7 +7283,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_mojave_crossing_012",
@@ -7112,7 +7319,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_mojave_crossing_013",
@@ -7145,7 +7353,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_mojave_crossing_014",
@@ -7180,7 +7389,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_mojave_crossing_015",
@@ -7215,7 +7425,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_los_angeles_san_001",
@@ -7249,7 +7460,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_los_angeles_san_002",
@@ -7283,7 +7495,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_los_angeles_san_003",
@@ -7296,12 +7509,12 @@
       "age_level": "all_ages",
       "difficulty": 2,
       "question_type": "multiple_choice",
-      "q": "Route 66 was officially removed from the US highway system in what year?",
+      "q": "When Route 66 was officially removed from the US highway system in 1985, what had replaced it?",
       "a": [
-        "1985",
-        "1970",
-        "1926",
-        "2000"
+        "The Interstate Highway System",
+        "State toll roads",
+        "A new US Highway numbering system",
+        "Railroad passenger service"
       ],
       "correct": 0,
       "bonus": "By 1985, every segment had been bypassed by the Interstate. The physical road didn't disappear \u2014 it lost its federal designation. Driving these stretches feels like stepping back in time.",
@@ -7317,7 +7530,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_los_angeles_san_004",
@@ -7351,7 +7565,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_los_angeles_san_005",
@@ -7364,12 +7579,12 @@
       "age_level": "13-17",
       "difficulty": 3,
       "question_type": "multiple_choice",
-      "q": "The Santa Monica Pier, where Route 66 ends, was originally built in what year?",
+      "q": "The Santa Monica Pier was built in 1909, nearly two decades before Route 66 existed. What famous amusement park now operates on the pier?",
       "a": [
-        "1909",
-        "1926",
-        "1885",
-        "1945"
+        "Pacific Park",
+        "Santa Monica Fun Zone",
+        "Pier Playground",
+        "Boardwalk Amusements"
       ],
       "correct": 0,
       "bonus": "The pier was almost demolished in the 1970s. A 'Save the Pier' campaign reversed the decision. Today it draws over 8 million visitors annually. Driving these stretches feels like stepping back in time.",
@@ -7385,7 +7600,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "id": "r66_los_angeles_san_006",
@@ -7419,7 +7635,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_los_angeles_san_007",
@@ -7452,7 +7669,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_los_angeles_san_008",
@@ -7486,7 +7704,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_los_angeles_san_009",
@@ -7519,7 +7738,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_los_angeles_san_010",
@@ -7553,7 +7773,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_los_angeles_san_011",
@@ -7587,7 +7808,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_los_angeles_san_012",
@@ -7621,7 +7843,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_los_angeles_san_013",
@@ -7655,7 +7878,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 1
     },
     {
       "id": "r66_los_angeles_san_014",
@@ -7689,7 +7913,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_los_angeles_san_015",
@@ -7723,7 +7948,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_los_angeles_san_016",
@@ -7736,12 +7962,12 @@
       "age_level": "all_ages",
       "difficulty": 3,
       "question_type": "multiple_choice",
-      "q": "The 'End of the Trail' sign on the Santa Monica Pier was installed in what year?",
+      "q": "The 'End of the Trail' sign installed on the Santa Monica Pier in 2009 marks what?",
       "a": [
-        "2009",
-        "1926",
-        "1966",
-        "1985"
+        "The western terminus of Route 66",
+        "The city's founding location",
+        "A historic lifeguard station",
+        "The original Muscle Beach site"
       ],
       "correct": 0,
       "bonus": "Before the sign, the official terminus was at the unglamorous intersection of Lincoln and Olympic Boulevards. The pier placement was deliberate myth-making.",
@@ -7757,7 +7983,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 1
     },
     {
       "id": "r66_flagstaff_willi_013",
@@ -7791,7 +8018,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_flagstaff_willi_014",
@@ -7825,7 +8053,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_flagstaff_willi_015",
@@ -7859,7 +8088,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_flagstaff_willi_016",
@@ -7893,7 +8123,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_flagstaff_willi_017",
@@ -7927,7 +8158,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_flagstaff_willi_018",
@@ -7962,7 +8194,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_flagstaff_willi_019",
@@ -7996,7 +8229,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_santa_fe_015",
@@ -8030,7 +8264,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_santa_fe_016",
@@ -8064,7 +8299,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 4
     },
     {
       "id": "r66_santa_fe_017",
@@ -8098,7 +8334,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_santa_fe_018",
@@ -8132,7 +8369,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_santa_fe_019",
@@ -8167,7 +8405,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_santa_fe_020",
@@ -8202,7 +8441,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_texas_panhandle_015",
@@ -8236,7 +8476,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_texas_panhandle_016",
@@ -8270,7 +8511,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_texas_panhandle_017",
@@ -8304,7 +8546,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 4
     },
     {
       "id": "r66_texas_panhandle_018",
@@ -8339,7 +8582,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_st._louis_gatew_016",
@@ -8373,7 +8617,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_st._louis_gatew_017",
@@ -8407,7 +8652,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_eastern_new_mex_014",
@@ -8441,7 +8687,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 4
     },
     {
       "id": "r66_eastern_new_mex_015",
@@ -8475,7 +8722,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_eastern_new_mex_016",
@@ -8509,7 +8757,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_painted_desert__017",
@@ -8544,7 +8793,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "id": "r66_painted_desert__018",
@@ -8578,7 +8828,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 2
     },
     {
       "id": "r66_painted_desert__019",
@@ -8612,7 +8863,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_mojave_crossing_016",
@@ -8647,7 +8899,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_mojave_crossing_017",
@@ -8681,7 +8934,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_mojave_crossing_018",
@@ -8716,7 +8970,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_los_angeles_san_017",
@@ -8750,7 +9005,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_los_angeles_san_018",
@@ -8785,7 +9041,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 1
     },
     {
       "id": "r66_los_angeles_san_019",
@@ -8820,7 +9077,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "id": "r66_illinois_prairi_023",
@@ -8855,7 +9113,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "id": "r66_illinois_prairi_024",
@@ -8889,7 +9148,8 @@
       "educational_goal": "",
       "player_mode": "general",
       "status": "approved",
-      "fun": true
+      "fun": true,
+      "skill": 2
     },
     {
       "q": "The name 'Chicago' comes from a Native American word for what plant?",
@@ -8905,7 +9165,8 @@
       "category": "History & Events",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Chicago is the third-most populous city in the U.S. What is its approximate population?",
@@ -8921,7 +9182,8 @@
       "category": "Landmarks & Places",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The Great Chicago Fire of 1871 left how many people homeless?",
@@ -8937,7 +9199,8 @@
       "category": "Transportation & Travel",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Chicago built the world's first skyscraper in 1885. What construction innovation made it possible?",
@@ -8953,7 +9216,8 @@
       "category": "Architecture & Buildings",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Who was the first known permanent settler of Chicago, commonly called the 'Founder of Chicago'?",
@@ -8969,7 +9233,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "In 1900, Chicago completed a major engineering feat \u2014 reversing the flow of what?",
@@ -8985,7 +9250,8 @@
       "category": "History & Events",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Chicago is the birthplace of what genre of electronic dance music?",
@@ -9001,7 +9267,8 @@
       "category": "Sports & Leisure",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The 1893 World's Columbian Exposition in Chicago drew how many visitors?",
@@ -9017,7 +9284,8 @@
       "category": "History & Events",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "O'Hare International Airport in Chicago is routinely ranked among what?",
@@ -9033,7 +9301,8 @@
       "category": "Transportation & Travel",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Jane Addams co-founded Hull House in Chicago in 1889 to help what population?",
@@ -9049,7 +9318,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Abraham Lincoln was nominated for president at the 1860 Republican National Convention held in Chicago in a building called what?",
@@ -9065,7 +9335,8 @@
       "category": "History & Events",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "The Great Migration brought African Americans from the Southern U.S. to Chicago. Between 1910 and 1930, Chicago's Black population grew from 44,000 to approximately what?",
@@ -9081,7 +9352,8 @@
       "category": "History & Events",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "Chicago's system of standardized time zones was developed in 1883 by managers in what industry?",
@@ -9097,7 +9369,8 @@
       "category": "Transportation & Travel",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Chicago has two Major League Baseball teams. Which two?",
@@ -9113,7 +9386,8 @@
       "category": "Sports & Leisure",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "What famous improvisational comedy tradition originated in Chicago?",
@@ -9129,7 +9403,8 @@
       "category": "Entertainment & Media",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The Chicago Board of Trade, established in 1848, listed the first-ever standardized what?",
@@ -9145,7 +9420,8 @@
       "category": "Economy & Industry",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "Before the Great Fire, Chicago solved its sanitation crisis by doing what to its downtown buildings?",
@@ -9161,7 +9437,8 @@
       "category": "History & Events",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "The term 'midway' \u2014 meaning the amusement area of a fair \u2014 originated at which Chicago event?",
@@ -9177,7 +9454,8 @@
       "category": "Pop Culture & Traditions",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Which of Chicago's nicknames refers to the labor and industrial strength of the city?",
@@ -9193,7 +9471,8 @@
       "category": "Transportation & Travel",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "The Haymarket affair of 1886 in Chicago was a pivotal event in the history of what movement?",
@@ -9209,7 +9488,8 @@
       "category": "History & Events",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "During Prohibition, which Chicago gangster was behind the St. Valentine's Day Massacre of 1929?",
@@ -9225,7 +9505,8 @@
       "category": "History & Events",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "On December 2, 1942, physicist Enrico Fermi achieved what first at the University of Chicago?",
@@ -9241,7 +9522,8 @@
       "category": "Science & Technology",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "During World War II, Chicago alone produced more steel than what entire country?",
@@ -9257,7 +9539,8 @@
       "category": "Economy & Industry",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "The Willis Tower (formerly Sears Tower) in Chicago is the third-tallest building in the Western Hemisphere. When it was completed in 1974, it held what title?",
@@ -9273,7 +9556,8 @@
       "category": "Landmarks & Places",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Chicago was the first American city to have a homosexual-rights organization. What was it called?",
@@ -9289,7 +9573,8 @@
       "category": "History & Events",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "Harold Washington, elected in 1983, was notable for being Chicago's first what?",
@@ -9305,7 +9590,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The tumultuous 1968 Democratic National Convention in Chicago featured confrontations between police and what group?",
@@ -9321,7 +9607,8 @@
       "category": "History & Events",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "In 1966, which civil rights leader led the Chicago Freedom Movement, focusing on housing discrimination?",
@@ -9337,7 +9624,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Chicago's Lincoln Park was created by closing what unusual site?",
@@ -9353,7 +9641,8 @@
       "category": "Landmarks & Places",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "In 1900, Chicago had more than 77% of its population either foreign-born or children of immigrants. Which groups made up the largest share?",
@@ -9369,7 +9658,8 @@
       "category": "Pop Culture & Traditions",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Jane Byrne, elected in 1979, was notable for being Chicago's first what?",
@@ -9385,7 +9675,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The Pullman Strike of 1894 in Chicago was a landmark event in the history of what?",
@@ -9401,7 +9692,8 @@
       "category": "Landmarks & Places",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "In 1992, the Chicago River breached into an abandoned freight tunnel system, flooding the downtown Loop. How much water poured in?",
@@ -9417,7 +9709,8 @@
       "category": "History & Events",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "Chicago sits on the shores of Lake Michigan. How many public beaches does the city have?",
@@ -9433,7 +9726,8 @@
       "category": "Nature & Environment",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "What is the name of Chicago's central business district, surrounded by elevated train tracks?",
@@ -9449,7 +9743,8 @@
       "category": "Landmarks & Places",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Chicago's Western Avenue holds what distinction among urban streets?",
@@ -9465,7 +9760,8 @@
       "category": "Landmarks & Places",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Chicago's 1933-1934 world's fair was called what?",
@@ -9481,7 +9777,8 @@
       "category": "History & Events",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "In the Great Depression, over 50% of what type of jobs in Chicago were lost?",
@@ -9497,7 +9794,8 @@
       "category": "Economy & Industry",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Navy Pier, one of Chicago's most popular attractions, extends into Lake Michigan on what?",
@@ -9513,7 +9811,8 @@
       "category": "Landmarks & Places",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "What was Fort Dearborn, built in Chicago in 1803?",
@@ -9529,7 +9828,8 @@
       "category": "History & Events",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The Chicago Marathon is classified as one of the World Marathon Majors. How many World Marathon Majors are there?",
@@ -9545,7 +9845,8 @@
       "category": "Entertainment & Media",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Richard M. Daley, son of Richard J. Daley, became Chicago's longest-serving mayor. He controversially destroyed the runways at what facility in the middle of the night?",
@@ -9561,7 +9862,8 @@
       "category": "Famous People",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "Chicago is divided into how many official community areas?",
@@ -9577,7 +9879,8 @@
       "category": "Pop Culture & Traditions",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "Chicago's economy ranks globally by GDP. Where does the Chicago area rank among world cities?",
@@ -9593,7 +9896,8 @@
       "category": "Economy & Industry",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The City Beautiful movement, which influenced urban planning across America, was developed partly in response to what Chicago event?",
@@ -9609,7 +9913,8 @@
       "category": "Pop Culture & Traditions",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "A Chicago-style hot dog has many toppings but one condiment is strictly forbidden. What is it?",
@@ -9625,7 +9930,8 @@
       "category": "Food & Drink",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Chicago-style deep dish pizza is distinctive because the chunky tomato sauce goes where?",
@@ -9641,7 +9947,8 @@
       "category": "Food & Drink",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Besides deep dish, Chicago is equally famous for what other style of pizza, cut into squares?",
@@ -9657,7 +9964,8 @@
       "category": "Food & Drink",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The Italian beef sandwich, a Chicago original, features thinly sliced beef simmered in a seasoned broth. What do locals call the broth?",
@@ -9673,7 +9981,8 @@
       "category": "Food & Drink",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The tradition of lighting saganaki cheese on fire tableside in Greek restaurants originated in which city?",
@@ -9689,7 +9998,8 @@
       "category": "Food & Drink",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "In 2016, the Chicago Cubs won the World Series, breaking a championship drought of how many years?",
@@ -9705,7 +10015,8 @@
       "category": "Sports & Leisure",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Wrigley Field, home of the Cubs, is famous for being one of the last MLB stadiums to install what?",
@@ -9721,7 +10032,8 @@
       "category": "Sports & Leisure",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The Chicago Bears play at Soldier Field. What was Soldier Field's formal dedication event in 1926?",
@@ -9737,7 +10049,8 @@
       "category": "Sports & Leisure",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "Which Chicago Bears running back, known as 'Sweetness,' held the NFL all-time rushing record for 18 years?",
@@ -9753,7 +10066,8 @@
       "category": "Sports & Leisure",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Frank Lloyd Wright's Prairie School of architecture originated in Chicago. How many of his designs are in the city and nearby Oak Park?",
@@ -9769,7 +10083,8 @@
       "category": "Architecture & Buildings",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "The Art Institute of Chicago houses one of the largest collections outside of Paris of what type of paintings?",
@@ -9785,7 +10100,8 @@
       "category": "Arts & Literature",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "The Chicago Cultural Center, built in 1897, contains the world's largest dome made from what material?",
@@ -9801,7 +10117,8 @@
       "category": "Architecture & Buildings",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Chicago's motto, 'urbs in horto,' is Latin for what?",
@@ -9817,7 +10134,8 @@
       "category": "Food & Drink",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The Field Museum of Natural History in Chicago is home to Sue. What is Sue?",
@@ -9833,7 +10151,8 @@
       "category": "Arts & Literature",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Which actor, star of Star Wars and Indiana Jones, grew up in Chicago?",
@@ -9849,7 +10168,8 @@
       "category": "Famous People",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Chicago resident Gwendolyn Brooks made history in 1950 as the first African American woman to win what?",
@@ -9865,7 +10185,8 @@
       "category": "Arts & Literature",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "In 1907, University of Chicago physicist Albert Michelson became the first American to receive what?",
@@ -9881,7 +10202,8 @@
       "category": "Science & Technology",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "Route 66 officially begins in Chicago at Grant Park, in front of what famous building?",
@@ -9897,7 +10219,8 @@
       "category": "Landmarks & Places",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Chicago is the birthplace of several music genres. Which of these was NOT born in Chicago?",
@@ -9913,7 +10236,8 @@
       "category": "Sports & Leisure",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Slam poetry, a competitive style of spoken word, was reportedly born in which Chicago neighborhood?",
@@ -9929,7 +10253,8 @@
       "category": "Arts & Literature",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "Barack Obama lived in which Chicago neighborhood before becoming president?",
@@ -9945,7 +10270,8 @@
       "category": "Arts & Literature",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "McCormick Place in Chicago holds what distinction among convention centers?",
@@ -9961,7 +10287,8 @@
       "category": "Economy & Industry",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Lincoln Park Zoo, on Chicago's North Side, is notable for being one of the few remaining what in the U.S.?",
@@ -9977,7 +10304,8 @@
       "category": "Landmarks & Places",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "St. Louis was named after King Louis IX of France. What was Louis IX famous for?",
@@ -9993,7 +10321,8 @@
       "category": "History & Events",
       "difficulty": "medium",
       "region": "St. Louis Gateway",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "The Gateway Arch in St. Louis is exactly as wide as it is tall. What is that measurement?",
@@ -10009,7 +10338,8 @@
       "category": "Landmarks & Places",
       "difficulty": "easy",
       "region": "St. Louis Gateway",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "In 1904, St. Louis hosted both a World's Fair AND what other major international event?",
@@ -10025,7 +10355,8 @@
       "category": "Sports & Leisure",
       "difficulty": "medium",
       "region": "St. Louis Gateway",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Forest Park in St. Louis is larger than which famous New York City park?",
@@ -10041,7 +10372,8 @@
       "category": "Landmarks & Places",
       "difficulty": "easy",
       "region": "St. Louis Gateway",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The Eads Bridge, completed in 1874, was significant for being the first bridge to do what?",
@@ -10057,7 +10389,8 @@
       "category": "Transportation & Travel",
       "difficulty": "medium",
       "region": "St. Louis Gateway",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The Old Courthouse in St. Louis was the site of the first trials of what landmark Supreme Court case?",
@@ -10073,7 +10406,8 @@
       "category": "Government & Civics",
       "difficulty": "medium",
       "region": "St. Louis Gateway",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "St. Louis is the birthplace of what unique sport that's like baseball without base running?",
@@ -10089,7 +10423,8 @@
       "category": "Sports & Leisure",
       "difficulty": "hard",
       "region": "St. Louis Gateway",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "The St. Louis Cardinals have won the second-most World Series titles in baseball history. How many?",
@@ -10105,7 +10440,8 @@
       "category": "Sports & Leisure",
       "difficulty": "medium",
       "region": "St. Louis Gateway",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Toasted ravioli, a breaded and deep-fried pasta dish, is a signature food of which city?",
@@ -10121,7 +10457,8 @@
       "category": "Food & Drink",
       "difficulty": "easy",
       "region": "St. Louis Gateway",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The Anheuser-Busch Brewery in St. Louis produces some of the world's most famous beers. What is its flagship brand?",
@@ -10137,7 +10474,8 @@
       "category": "Food & Drink",
       "difficulty": "easy",
       "region": "St. Louis Gateway",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "St. Louis served as the 'Gateway to the West' because it was the starting point for pioneers heading along which famous trails?",
@@ -10153,15 +10491,16 @@
       "category": "History & Events",
       "difficulty": "easy",
       "region": "St. Louis Gateway",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
-      "q": "The St. Louis Blues won their first Stanley Cup championship in what year?",
+      "q": "When the St. Louis Blues won their first Stanley Cup in 2019, they ended the longest championship drought in what sport?",
       "a": [
-        "2019",
-        "2004",
-        "1995",
-        "2012"
+        "Hockey \u2014 52 seasons without a Cup",
+        "Baseball \u2014 40 seasons without a pennant",
+        "Football \u2014 30 seasons without a title",
+        "Basketball \u2014 25 seasons without a ring"
       ],
       "correct": 0,
       "bonus": "The Blues were in last place in the NHL in January 2019, then went on an incredible run to win the Cup \u2014 one of the greatest turnarounds in sports history. The rhythm of Route 66 inspired an entire genre of American road music.",
@@ -10169,7 +10508,8 @@
       "category": "Sports & Leisure",
       "difficulty": "medium",
       "region": "St. Louis Gateway",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The Missouri Botanical Garden in St. Louis is one of the oldest in the country. How many acres of displays does it feature?",
@@ -10185,7 +10525,8 @@
       "category": "Landmarks & Places",
       "difficulty": "medium",
       "region": "St. Louis Gateway",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "St. Louis was the fourth-largest city in the United States during what period?",
@@ -10201,7 +10542,8 @@
       "category": "History & Events",
       "difficulty": "hard",
       "region": "St. Louis Gateway",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "St. Louis is home to the World Chess Hall of Fame and hosts the annual Sinquefield Cup. In 2014, the tournament held what record?",
@@ -10217,7 +10559,8 @@
       "category": "Pop Culture & Traditions",
       "difficulty": "hard",
       "region": "St. Louis Gateway",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "The Old Chain of Rocks Bridge near St. Louis is famous for what unusual feature?",
@@ -10233,7 +10576,8 @@
       "category": "Transportation & Travel",
       "difficulty": "medium",
       "region": "St. Louis Gateway",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Gooey butter cake, a famously rich dessert, originated in which city?",
@@ -10249,7 +10593,8 @@
       "category": "Food & Drink",
       "difficulty": "easy",
       "region": "St. Louis Gateway",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The Saint Louis Symphony Orchestra, founded in 1880, holds what distinction among American orchestras?",
@@ -10265,7 +10610,8 @@
       "category": "Entertainment & Media",
       "difficulty": "hard",
       "region": "St. Louis Gateway",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "Scott Joplin, the 'King of Ragtime,' lived and composed in St. Louis. His house is now a what?",
@@ -10281,7 +10627,8 @@
       "category": "Sports & Leisure",
       "difficulty": "medium",
       "region": "St. Louis Gateway",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "During World War II, St. Louis was a major center for producing what military equipment?",
@@ -10297,7 +10644,8 @@
       "category": "Economy & Industry",
       "difficulty": "medium",
       "region": "St. Louis Gateway",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Oklahoma City was born in a single day during the Land Run of 1889. Approximately how many people rushed to claim land?",
@@ -10313,7 +10661,8 @@
       "category": "Government & Civics",
       "difficulty": "medium",
       "region": "Oklahoma Crossroads",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The word 'Oklahoma' comes from the Choctaw language. What does it mean?",
@@ -10329,7 +10678,8 @@
       "category": "Pop Culture & Traditions",
       "difficulty": "easy",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The Oklahoma City National Memorial features 168 empty chairs. What does each chair represent?",
@@ -10345,7 +10695,8 @@
       "category": "History & Events",
       "difficulty": "easy",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The Oklahoma City Thunder NBA team was relocated from which city in 2008?",
@@ -10361,7 +10712,8 @@
       "category": "Sports & Leisure",
       "difficulty": "easy",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Oklahoma City will host events during the 2028 Summer Olympics, primarily held in Los Angeles. Which sports?",
@@ -10377,7 +10729,8 @@
       "category": "Sports & Leisure",
       "difficulty": "hard",
       "region": "Oklahoma Crossroads",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "The National Cowboy & Western Heritage Museum in Oklahoma City documents the heritage of what?",
@@ -10393,7 +10746,8 @@
       "category": "Landmarks & Places",
       "difficulty": "easy",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The Oklahoma State Capitol building is unique among state capitols for being built without what feature until 2002?",
@@ -10409,7 +10763,8 @@
       "category": "Government & Civics",
       "difficulty": "hard",
       "region": "Oklahoma Crossroads",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "Oklahoma's most famous athlete, Jim Thorpe, was a star in how many sports?",
@@ -10425,7 +10780,8 @@
       "category": "Sports & Leisure",
       "difficulty": "medium",
       "region": "Oklahoma Crossroads",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The Oklahoma City Museum of Art contains the world's most comprehensive collection of glass sculptures by which artist?",
@@ -10441,7 +10797,8 @@
       "category": "Entertainment & Media",
       "difficulty": "medium",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Cattlemen's Steakhouse in Oklahoma City's Stockyards district has operated since 1910. How did it famously change ownership in 1945?",
@@ -10457,7 +10814,8 @@
       "category": "Food & Drink",
       "difficulty": "medium",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Oklahoma designated chicken-fried steak as part of the official state meal. What else is on the plate?",
@@ -10473,7 +10831,8 @@
       "category": "Food & Drink",
       "difficulty": "medium",
       "region": "Oklahoma Crossroads",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The First Americans Museum, opened in Oklahoma City in 2021, focuses on the histories of how many tribal nations?",
@@ -10489,7 +10848,8 @@
       "category": "History & Events",
       "difficulty": "medium",
       "region": "Oklahoma Crossroads",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The Myriad Botanical Gardens in downtown OKC features a tropical conservatory designed by which famous architect?",
@@ -10505,7 +10865,8 @@
       "category": "Landmarks & Places",
       "difficulty": "hard",
       "region": "Oklahoma Crossroads",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "Mickey Mantle, one of baseball's greatest players, grew up in which Oklahoma town?",
@@ -10521,7 +10882,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Oklahoma Crossroads",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Tulsa's Art Deco downtown was built primarily with wealth from what industry?",
@@ -10537,7 +10899,8 @@
       "category": "Architecture & Buildings",
       "difficulty": "easy",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The Oklahoma Route 66 Museum is located in which small town along the highway?",
@@ -10553,7 +10916,8 @@
       "category": "Landmarks & Places",
       "difficulty": "medium",
       "region": "Oklahoma Crossroads",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The Albuquerque International Balloon Fiesta is the largest gathering of what in the world?",
@@ -10569,7 +10933,8 @@
       "category": "Pop Culture & Traditions",
       "difficulty": "easy",
       "region": "Eastern New Mexico",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Albuquerque was founded in 1706 and named after the Duke of Alburquerque. What happened to the first 'r' in the name?",
@@ -10585,7 +10950,8 @@
       "category": "History & Events",
       "difficulty": "easy",
       "region": "Eastern New Mexico",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Route 66 through Albuquerque runs along Central Avenue. How long is this stretch?",
@@ -10601,7 +10967,8 @@
       "category": "Landmarks & Places",
       "difficulty": "medium",
       "region": "Eastern New Mexico",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "The Gathering of Nations, held annually in Albuquerque, is the largest what in North America?",
@@ -10617,7 +10984,8 @@
       "category": "Pop Culture & Traditions",
       "difficulty": "medium",
       "region": "Eastern New Mexico",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Sandia National Laboratories in Albuquerque is one of three laboratories belonging to what federal agency?",
@@ -10633,7 +11001,8 @@
       "category": "Science & Technology",
       "difficulty": "hard",
       "region": "Eastern New Mexico",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "Old Town Albuquerque's San Felipe de Neri Church, built in 1793, is one of the oldest what in the city?",
@@ -10649,7 +11018,8 @@
       "category": "Architecture & Buildings",
       "difficulty": "medium",
       "region": "Eastern New Mexico",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Microsoft was co-founded in Albuquerque in 1975 by Bill Gates and whom?",
@@ -10665,7 +11035,8 @@
       "category": "Science & Technology",
       "difficulty": "easy",
       "region": "Eastern New Mexico",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Petroglyph National Monument in Albuquerque preserves ancient designs carved into volcanic rocks. Approximately how many petroglyphs are there?",
@@ -10681,7 +11052,8 @@
       "category": "History & Events",
       "difficulty": "medium",
       "region": "Eastern New Mexico",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "The famous question asked at every New Mexico restaurant is what?",
@@ -10697,7 +11069,8 @@
       "category": "Food & Drink",
       "difficulty": "easy",
       "region": "Eastern New Mexico",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The Indian Pueblo Cultural Center in Albuquerque represents how many Pueblo communities found in New Mexico?",
@@ -10713,7 +11086,8 @@
       "category": "Architecture & Buildings",
       "difficulty": "medium",
       "region": "Eastern New Mexico",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "The Sandia Peak Aerial Tramway near Albuquerque is the longest aerial tram in the Americas. It climbs to what elevation?",
@@ -10729,7 +11103,8 @@
       "category": "Transportation & Travel",
       "difficulty": "medium",
       "region": "Eastern New Mexico",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Francisco V\u00e1squez de Coronado's expedition reached the Albuquerque area in 1540 searching for what?",
@@ -10745,7 +11120,8 @@
       "category": "Architecture & Buildings",
       "difficulty": "medium",
       "region": "Eastern New Mexico",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Flagstaff, Arizona sits at nearly 7,000 feet elevation, making it one of the highest cities on Route 66. What surrounds it?",
@@ -10761,7 +11137,8 @@
       "category": "Nature & Environment",
       "difficulty": "easy",
       "region": "Flagstaff & Williams",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Flagstaff is home to Lowell Observatory, where astronomer Clyde Tombaugh discovered what in 1930?",
@@ -10777,7 +11154,8 @@
       "category": "Science & Technology",
       "difficulty": "easy",
       "region": "Flagstaff & Williams",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Flagstaff was the first city in the world to be designated what by the International Dark-Sky Association?",
@@ -10793,7 +11171,8 @@
       "category": "Science & Technology",
       "difficulty": "medium",
       "region": "Flagstaff & Williams",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "The Museum Club in Flagstaff, built in 1931 on Route 66, was originally constructed as what?",
@@ -10809,15 +11188,16 @@
       "category": "Landmarks & Places",
       "difficulty": "hard",
       "region": "Flagstaff & Williams",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
-      "q": "Williams, Arizona \u2014 just west of Flagstaff \u2014 was the last town on Route 66 to be bypassed by the Interstate. In what year?",
+      "q": "Williams, Arizona was the last town on Route 66 to be bypassed by the interstate in 1984. What nearby natural wonder draws most of its visitors today?",
       "a": [
-        "1984",
-        "1970",
-        "1992",
-        "1960"
+        "The Grand Canyon",
+        "Meteor Crater",
+        "Monument Valley",
+        "Petrified Forest"
       ],
       "correct": 0,
       "bonus": "When I-40 finally bypassed Williams on October 13, 1984, it marked the effective end of Route 66 as a major highway. The town was the last holdout. Driving these stretches feels like stepping back in time.",
@@ -10825,7 +11205,8 @@
       "category": "Transportation & Travel",
       "difficulty": "medium",
       "region": "Flagstaff & Williams",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The Grand Canyon Railway departs from Williams, Arizona and travels to the South Rim. How long has this train route operated?",
@@ -10841,7 +11222,8 @@
       "category": "Landmarks & Places",
       "difficulty": "medium",
       "region": "Flagstaff & Williams",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Cadillac Ranch near Amarillo features 10 Cadillacs buried nose-first in a field. Who created this art installation in 1974?",
@@ -10857,7 +11239,8 @@
       "category": "Entertainment & Media",
       "difficulty": "easy",
       "region": "Texas Panhandle",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The Texas Panhandle, where Amarillo sits, is responsible for producing what percentage of the nation's beef supply?",
@@ -10873,7 +11256,8 @@
       "category": "Economy & Industry",
       "difficulty": "medium",
       "region": "Texas Panhandle",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Palo Duro Canyon, 25 minutes south of Amarillo, is the second-largest canyon in the U.S. How deep is it?",
@@ -10889,7 +11273,8 @@
       "category": "Nature & Environment",
       "difficulty": "medium",
       "region": "Texas Panhandle",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Route 66 passes through the Texas Panhandle for 178 miles. What is the landscape like?",
@@ -10905,7 +11290,8 @@
       "category": "Nature & Environment",
       "difficulty": "easy",
       "region": "Texas Panhandle",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The Amarillo Helium Monument celebrates the fact that the Texas Panhandle contains what?",
@@ -10921,7 +11307,8 @@
       "category": "Science & Technology",
       "difficulty": "hard",
       "region": "Texas Panhandle",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "La Fonda on the Plaza in Santa Fe sits at the end of what famous 19th-century trade route?",
@@ -10937,7 +11324,8 @@
       "category": "Architecture & Buildings",
       "difficulty": "medium",
       "region": "Santa Fe",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Santa Fe's architecture is famous for its Pueblo Revival style. Buildings are required by law to be what color?",
@@ -10953,7 +11341,8 @@
       "category": "Architecture & Buildings",
       "difficulty": "medium",
       "region": "Santa Fe",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Santa Fe has one of the largest art markets in the United States. About how many galleries are in the city?",
@@ -10969,15 +11358,16 @@
       "category": "Entertainment & Media",
       "difficulty": "medium",
       "region": "Santa Fe",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
-      "q": "The Palace of the Governors on the Santa Fe Plaza is the oldest continuously used public building in the United States. Since what year?",
+      "q": "The Palace of the Governors on the Santa Fe Plaza has been in continuous use since 1610. What do Native artisans sell under its portal today?",
       "a": [
-        "1610",
-        "1706",
-        "1776",
-        "1492"
+        "Handmade jewelry and pottery",
+        "Woven blankets and rugs",
+        "Painted kachina dolls",
+        "Leather goods and saddles"
       ],
       "correct": 0,
       "bonus": "The building has served as the seat of government for Spanish, Pueblo, Mexican, Confederate, and American territorial authorities. The light, the adobe architecture, and the chile-scented air mark a dramatic shift in the journey.",
@@ -10985,7 +11375,8 @@
       "category": "Arts & Literature",
       "difficulty": "medium",
       "region": "Santa Fe",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Georgia O'Keeffe, one of America's most famous artists, made New Mexico her home. What was she known for painting?",
@@ -11001,7 +11392,8 @@
       "category": "Arts & Literature",
       "difficulty": "easy",
       "region": "Santa Fe",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Springfield, Missouri holds the title 'Birthplace of Route 66.' Why?",
@@ -11017,7 +11409,8 @@
       "category": "Transportation & Travel",
       "difficulty": "medium",
       "region": "Missouri Ozarks",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Joplin, Missouri was a boomtown built on mining what two metals?",
@@ -11033,7 +11426,8 @@
       "category": "Economy & Industry",
       "difficulty": "medium",
       "region": "Missouri Ozarks",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "In 1933, infamous outlaws Bonnie Parker and Clyde Barrow hid out in which Missouri Route 66 town for 13 days?",
@@ -11049,7 +11443,8 @@
       "category": "History & Events",
       "difficulty": "medium",
       "region": "Missouri Ozarks",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "The 66 Drive-In in Carthage, Missouri opened in 1949 and is listed on the National Register. What kind of attraction is it?",
@@ -11065,7 +11460,8 @@
       "category": "Transportation & Travel",
       "difficulty": "easy",
       "region": "Missouri Ozarks",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Before it was called Route 66, the road through the Missouri Ozarks was known by what nickname?",
@@ -11081,7 +11477,8 @@
       "category": "History & Events",
       "difficulty": "hard",
       "region": "Missouri Ozarks",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "Grand Falls near Joplin is notable for being what?",
@@ -11097,7 +11494,8 @@
       "category": "Nature & Environment",
       "difficulty": "medium",
       "region": "Missouri Ozarks",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "On May 22, 2011, Joplin was devastated by what type of natural disaster?",
@@ -11113,7 +11511,8 @@
       "category": "History & Events",
       "difficulty": "easy",
       "region": "Missouri Ozarks",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Red's Giant Hamburg in Springfield, Missouri is historically notable as what?",
@@ -11129,7 +11528,8 @@
       "category": "Pop Culture & Traditions",
       "difficulty": "hard",
       "region": "Missouri Ozarks",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "Winslow, Arizona became famous thanks to a 1972 Eagles song. Which song?",
@@ -11145,7 +11545,8 @@
       "category": "Entertainment & Media",
       "difficulty": "easy",
       "region": "Painted Desert & Canyon Country",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The Painted Desert in northeastern Arizona gets its name from what?",
@@ -11161,7 +11562,8 @@
       "category": "Sports & Leisure",
       "difficulty": "easy",
       "region": "Painted Desert & Canyon Country",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The Petrified Forest National Park in Arizona preserves ancient trees that have turned to what?",
@@ -11177,7 +11579,8 @@
       "category": "Landmarks & Places",
       "difficulty": "easy",
       "region": "Painted Desert & Canyon Country",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "El Rancho Hotel in Gallup, New Mexico was a favorite of Hollywood stars filming westerns. Who built it in 1937?",
@@ -11193,7 +11596,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Painted Desert & Canyon Country",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "The Wigwam Motel in Holbrook, Arizona features rooms shaped like what?",
@@ -11209,7 +11613,8 @@
       "category": "Food & Drink",
       "difficulty": "easy",
       "region": "Painted Desert & Canyon Country",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The Hubbell Trading Post near Ganado, Arizona has operated continuously since 1878. What is it?",
@@ -11225,15 +11630,16 @@
       "category": "History & Events",
       "difficulty": "hard",
       "region": "Painted Desert & Canyon Country",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
-      "q": "Route 66 ends at the Santa Monica Pier. What year was the pier originally built?",
+      "q": "The Santa Monica Pier, built in 1909, now serves as the endpoint for Route 66 travelers. What do they photograph when they arrive?",
       "a": [
-        "1909",
-        "1926",
-        "1885",
-        "1935"
+        "The 'End of the Trail' sign",
+        "A giant Route 66 shield painted on the pier",
+        "A bronze statue of a hitchhiker",
+        "The original Route 66 mile marker"
       ],
       "correct": 0,
       "bonus": "The pier was built as a municipal wharf. The amusement park rides were added on an adjacent pleasure pier built in 1916. Driving these stretches feels like stepping back in time.",
@@ -11241,7 +11647,8 @@
       "category": "Landmarks & Places",
       "difficulty": "medium",
       "region": "Los Angeles & Santa Monica",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The 'End of the Trail' sign marking the western terminus of Route 66 is located where on the Santa Monica Pier?",
@@ -11257,7 +11664,8 @@
       "category": "Landmarks & Places",
       "difficulty": "easy",
       "region": "Los Angeles & Santa Monica",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The original McDonald's restaurant site is located in which city on Route 66?",
@@ -11273,7 +11681,8 @@
       "category": "History & Events",
       "difficulty": "easy",
       "region": "Los Angeles & Santa Monica",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Route 66 through Los Angeles follows which famous boulevard for much of its path?",
@@ -11289,7 +11698,8 @@
       "category": "Landmarks & Places",
       "difficulty": "medium",
       "region": "Los Angeles & Santa Monica",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The Wigwam Motel in Rialto, California (near San Bernardino) is one of how many surviving Wigwam Motels on Route 66?",
@@ -11305,7 +11715,8 @@
       "category": "Landmarks & Places",
       "difficulty": "hard",
       "region": "Los Angeles & Santa Monica",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "Oatman, Arizona is a former gold mining ghost town on Route 66 famous for what animals roaming its streets?",
@@ -11321,7 +11732,8 @@
       "category": "Landmarks & Places",
       "difficulty": "easy",
       "region": "Kingman & Western Arizona",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Sitgreaves Pass between Kingman and Oatman is one of the most dramatic stretches of Route 66. Why was it feared by early motorists?",
@@ -11337,7 +11749,8 @@
       "category": "History & Events",
       "difficulty": "medium",
       "region": "Kingman & Western Arizona",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "The Mojave Desert crossing between Barstow and Needles was one of the most dangerous stretches of Route 66. What made it so treacherous?",
@@ -11353,7 +11766,8 @@
       "category": "Nature & Environment",
       "difficulty": "easy",
       "region": "Mojave Crossing",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Roy's Motel and Caf\u00e9 in Amboy, California sits on Route 66 in the Mojave Desert. What makes it famous?",
@@ -11369,7 +11783,8 @@
       "category": "Landmarks & Places",
       "difficulty": "medium",
       "region": "Mojave Crossing",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The Kelso Dunes in Mojave National Preserve are famous for producing what unusual sound?",
@@ -11385,7 +11800,8 @@
       "category": "Nature & Environment",
       "difficulty": "hard",
       "region": "Mojave Crossing",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "Kingman, Arizona was named after Lewis Kingman, who surveyed the route for what?",
@@ -11401,7 +11817,8 @@
       "category": "Transportation & Travel",
       "difficulty": "hard",
       "region": "Kingman & Western Arizona",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "The Hackberry General Store on Route 66 between Kingman and Seligman is famous for what?",
@@ -11417,7 +11834,8 @@
       "category": "Landmarks & Places",
       "difficulty": "medium",
       "region": "Kingman & Western Arizona",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Angel Delgadillo, known as the 'Guardian Angel of Route 66,' started the preservation movement from his barbershop in which Arizona town?",
@@ -11433,7 +11851,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Kingman & Western Arizona",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Walt Disney, creator of Mickey Mouse and Disneyland, was born in 1901 in which Route 66 city?",
@@ -11449,7 +11868,8 @@
       "category": "Famous People",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Robin Williams, the beloved comedian and actor known for 'Good Will Hunting' and 'Mrs. Doubtfire,' was born in which city?",
@@ -11465,7 +11885,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Hillary Clinton, the first woman nominated for president by a major party, was born in which Route 66 city?",
@@ -11481,7 +11902,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Michelle Obama, author of 'Becoming' and former First Lady, grew up on the South Side of which city?",
@@ -11497,7 +11919,8 @@
       "category": "Arts & Literature",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Hugh Hefner founded Playboy magazine in 1953 from his kitchen table in which city?",
@@ -11513,7 +11936,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Ray Kroc, the man who turned McDonald's into a global empire, was born in Oak Park \u2014 a suburb of which Route 66 city?",
@@ -11529,7 +11953,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Ernest Hemingway, author of 'The Old Man and the Sea' and winner of the Nobel Prize in Literature, was born in which Chicago suburb?",
@@ -11545,7 +11970,8 @@
       "category": "Architecture & Buildings",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Harrison Ford, star of 'Star Wars' and 'Indiana Jones,' grew up in the Chicago area. He attended which suburban high school?",
@@ -11561,7 +11987,8 @@
       "category": "Famous People",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Betty Ford, First Lady and founder of the Betty Ford Center for addiction treatment, was born in which city?",
@@ -11577,7 +12004,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Miles Davis, one of the most influential jazz musicians in history, was born in Alton, Illinois \u2014 near which major Route 66 city?",
@@ -11593,7 +12021,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Chuck Berry, widely considered the father of rock and roll, was born and raised in which Route 66 city?",
@@ -11609,7 +12038,8 @@
       "category": "Famous People",
       "difficulty": "easy",
       "region": "St. Louis Gateway",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Maya Angelou, author of 'I Know Why the Caged Bird Sings,' was born in which Route 66 city?",
@@ -11625,7 +12055,8 @@
       "category": "Arts & Literature",
       "difficulty": "medium",
       "region": "St. Louis Gateway",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Harry S. Truman, the 33rd President who made the decision to drop the atomic bomb, was born in which state?",
@@ -11641,7 +12072,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Missouri Ozarks",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Mark Twain, author of 'Adventures of Huckleberry Finn,' was born in Florida, Missouri \u2014 a tiny town in which state?",
@@ -11657,7 +12089,8 @@
       "category": "Arts & Literature",
       "difficulty": "medium",
       "region": "Missouri Ozarks",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Eminem, one of the best-selling music artists of all time, was born in St. Joseph \u2014 a city in which state?",
@@ -11673,7 +12106,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Missouri Ozarks",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Brad Pitt, Oscar-winning actor and producer, was born in Shawnee \u2014 a city in which Route 66 state?",
@@ -11689,7 +12123,8 @@
       "category": "Famous People",
       "difficulty": "easy",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Jim Thorpe, called 'the greatest athlete in the world' by the King of Sweden, was born near Prague in which state?",
@@ -11705,7 +12140,8 @@
       "category": "Sports & Leisure",
       "difficulty": "medium",
       "region": "Oklahoma Crossroads",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Garth Brooks, one of the best-selling solo artists in U.S. history with over 170 million albums sold, was born in which Route 66 city?",
@@ -11721,7 +12157,8 @@
       "category": "Famous People",
       "difficulty": "easy",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Reba McEntire, the 'Queen of Country,' was born in McAlester in which Route 66 state?",
@@ -11737,7 +12174,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Oklahoma Crossroads",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Sam Walton, founder of Walmart \u2014 the world's largest company by revenue \u2014 was born in Kingfisher in which state?",
@@ -11753,7 +12191,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Buddy Holly, the rock and roll pioneer who died at 22 in 'The Day the Music Died,' was born in Lubbock in which state?",
@@ -11769,7 +12208,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Texas Panhandle",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Jeff Bezos, founder of Amazon and one of the wealthiest people in history, was born in which Route 66 city?",
@@ -11785,7 +12225,8 @@
       "category": "Famous People",
       "difficulty": "easy",
       "region": "Eastern New Mexico",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Cesar Chavez, the civil rights and labor leader who co-founded the United Farm Workers, was born in Yuma in which state?",
@@ -11801,7 +12242,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Kingman & Western Arizona",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Linda Ronstadt, one of the best-selling female artists of the 1970s, was born in Tucson in which Route 66 state?",
@@ -11817,15 +12259,16 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Painted Desert & Canyon Country",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
-      "q": "Marilyn Monroe, one of the most iconic figures in American culture, was born in Los Angeles in what year?",
+      "q": "Marilyn Monroe was born in Los Angeles in 1926 \u2014 the same year something else famous was born. What?",
       "a": [
-        "1926 \u2014 the same year Route 66 was designated",
-        "1935",
-        "1942",
-        "1920"
+        "Route 66",
+        "Hollywood Boulevard's Walk of Fame",
+        "The Golden Gate Bridge",
+        "Disneyland"
       ],
       "correct": 0,
       "bonus": "Monroe was born Norma Jeane Mortenson at Los Angeles County Hospital. Route 66 and Marilyn Monroe were born the same year \u2014 both became American icons. For Dust Bowl refugees, it meant survival. For modern road-trippers, it means completion.",
@@ -11833,7 +12276,8 @@
       "category": "Famous People",
       "difficulty": "easy",
       "region": "Los Angeles & Santa Monica",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Leonardo DiCaprio, star of 'Titanic' and 'The Revenant,' was born in which city at the western end of Route 66?",
@@ -11849,7 +12293,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Los Angeles & Santa Monica",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Billie Eilish, the youngest artist to win all four major Grammy categories in one night, was born and raised in which city?",
@@ -11865,7 +12310,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Los Angeles & Santa Monica",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The Blues Brothers (1980), starring John Belushi and Dan Aykroyd, is set in which Route 66 city?",
@@ -11881,7 +12327,8 @@
       "category": "Sports & Leisure",
       "difficulty": "easy",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Walt Disney, born in Chicago in 1901, went on to create an entertainment empire. His first successful cartoon character was not Mickey Mouse \u2014 it was who?",
@@ -11897,7 +12344,8 @@
       "category": "Entertainment & Media",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "The Outsiders (1983), the coming-of-age film based on S.E. Hinton's novel, is set in which Route 66 city?",
@@ -11913,7 +12361,8 @@
       "category": "Landmarks & Places",
       "difficulty": "easy",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "In Rain Man (1988), Tom Cruise and Dustin Hoffman's cross-country road trip includes a pivotal scene at a motel in which Oklahoma Route 66 town?",
@@ -11929,7 +12378,8 @@
       "category": "Landmarks & Places",
       "difficulty": "hard",
       "region": "Oklahoma Crossroads",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "The Grapes of Wrath (1940), based on John Steinbeck's novel, follows the Joad family fleeing the Dust Bowl on Route 66. Which state were they leaving?",
@@ -11945,7 +12395,8 @@
       "category": "Transportation & Travel",
       "difficulty": "easy",
       "region": "Texas Panhandle",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Breaking Bad (2008-2013) is set in which Route 66 city, where Central Avenue follows the historic highway?",
@@ -11961,7 +12412,8 @@
       "category": "Landmarks & Places",
       "difficulty": "easy",
       "region": "Eastern New Mexico",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Better Call Saul, the Breaking Bad prequel, features Jimmy McGill's office in a strip mall on which Albuquerque street that was once Route 66?",
@@ -11977,7 +12429,8 @@
       "category": "Transportation & Travel",
       "difficulty": "medium",
       "region": "Eastern New Mexico",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "No Country for Old Men (2007) features a climactic motel scene filmed in Albuquerque. Who directed this Oscar-winning thriller?",
@@ -11993,7 +12446,8 @@
       "category": "Landmarks & Places",
       "difficulty": "medium",
       "region": "Eastern New Mexico",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Pixar's Cars (2006) features the fictional town of Radiator Springs. Which real Arizona Route 66 towns inspired it?",
@@ -12009,7 +12463,8 @@
       "category": "Landmarks & Places",
       "difficulty": "easy",
       "region": "Painted Desert & Canyon Country",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "In Forrest Gump (1994), during his famous cross-country run, Forrest passes the Twin Arrows Trading Post near which Arizona Route 66 city?",
@@ -12025,7 +12480,8 @@
       "category": "Landmarks & Places",
       "difficulty": "medium",
       "region": "Flagstaff & Williams",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Easy Rider (1969), the counterculture biker film with Peter Fonda and Dennis Hopper, includes scenes filmed near which Arizona Route 66 city?",
@@ -12041,7 +12497,8 @@
       "category": "Landmarks & Places",
       "difficulty": "medium",
       "region": "Flagstaff & Williams",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "National Lampoon's Vacation (1983) features the Griswold family driving through downtown Flagstaff, Arizona. What was their destination?",
@@ -12057,7 +12514,8 @@
       "category": "Entertainment & Media",
       "difficulty": "easy",
       "region": "Flagstaff & Williams",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Starman (1984) features Jeff Bridges as an alien who arranges a rendezvous at a real Route 66 landmark near Winslow, Arizona. Which one?",
@@ -12073,7 +12531,8 @@
       "category": "Entertainment & Media",
       "difficulty": "hard",
       "region": "Painted Desert & Canyon Country",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "Bagdad Cafe (1987) is set at a remote truck stop in the Mojave Desert on Route 66. The cafe scenes were filmed in which tiny California town?",
@@ -12089,7 +12548,8 @@
       "category": "Entertainment & Media",
       "difficulty": "hard",
       "region": "Mojave Crossing",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "Kalifornia (1993) and The Hitcher (1986) both feature scenes filmed at which iconic Mojave Desert Route 66 location?",
@@ -12105,7 +12565,8 @@
       "category": "Landmarks & Places",
       "difficulty": "hard",
       "region": "Mojave Crossing",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "The song '(Get Your Kicks on) Route 66' was written by Bobby Troup in 1946 during a drive from Pennsylvania to LA. Who first made it a hit?",
@@ -12121,7 +12582,8 @@
       "category": "Entertainment & Media",
       "difficulty": "medium",
       "region": "Illinois Prairie",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The CBS TV series Route 66 (1960-1964) featured two young men driving what type of car?",
@@ -12137,7 +12599,8 @@
       "category": "Transportation & Travel",
       "difficulty": "medium",
       "region": "Illinois Prairie",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Thelma & Louise (1991) features two women on the run through the American Southwest. The film's climactic scene takes place at what landmark?",
@@ -12153,7 +12616,8 @@
       "category": "Entertainment & Media",
       "difficulty": "easy",
       "region": "Kingman & Western Arizona",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "John Steinbeck's 'The Grapes of Wrath' gave Route 66 its most famous nickname. What did he call it?",
@@ -12169,7 +12633,8 @@
       "category": "Transportation & Travel",
       "difficulty": "easy",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "In 'The Grapes of Wrath,' the Joad family flees the Dust Bowl on Route 66 from their farm near Sallisaw. In which state is Sallisaw?",
@@ -12185,7 +12650,8 @@
       "category": "Arts & Literature",
       "difficulty": "medium",
       "region": "Oklahoma Crossroads",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Kristin Hannah's 2021 bestseller 'The Four Winds' follows a Dust Bowl family traveling Route 66 through which states?",
@@ -12201,7 +12667,8 @@
       "category": "Arts & Literature",
       "difficulty": "medium",
       "region": "Texas Panhandle",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Richard Paul Evans wrote a trilogy about a man walking the entire length of Route 66 as a journey of redemption. What is the first book called?",
@@ -12217,7 +12684,8 @@
       "category": "Arts & Literature",
       "difficulty": "hard",
       "region": "Illinois Prairie",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "'The Leisure Seeker' by Michael Zadoorian follows an elderly couple on an RV escape along Route 66. What is their destination?",
@@ -12233,7 +12701,8 @@
       "category": "Arts & Literature",
       "difficulty": "hard",
       "region": "Missouri Ozarks",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "Dorothy Garlock wrote a trilogy of historical novels set during the Depression era on Route 66. The first book, 'Mother Road,' is set in which state?",
@@ -12249,7 +12718,8 @@
       "category": "Transportation & Travel",
       "difficulty": "hard",
       "region": "Oklahoma Crossroads",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "Jack Kerouac's 'On the Road' (1957) is often associated with Route 66, but his characters actually traveled mostly on which routes?",
@@ -12265,7 +12735,8 @@
       "category": "Transportation & Travel",
       "difficulty": "hard",
       "region": "Santa Fe",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "Route 66 has inspired dozens of novels, but which genre is most commonly set on the highway?",
@@ -12281,7 +12752,8 @@
       "category": "Transportation & Travel",
       "difficulty": "easy",
       "region": "Mojave Crossing",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Bobby Troup wrote '(Get Your Kicks on) Route 66' in 1946 during a cross-country drive. His wife Cynthia suggested the title. What was her suggestion?",
@@ -12297,7 +12769,8 @@
       "category": "Entertainment & Media",
       "difficulty": "medium",
       "region": "Los Angeles & Santa Monica",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "San Felipe de Neri Church in Old Town Albuquerque, built in 1793, is dedicated to which Catholic saint?",
@@ -12313,7 +12786,8 @@
       "category": "Mythology / Religion",
       "difficulty": "hard",
       "region": "Eastern New Mexico",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "The Pueblo people of New Mexico maintain ancient spiritual traditions including ceremonial dances. These dances are often held on what occasion?",
@@ -12329,7 +12803,8 @@
       "category": "Mythology / Religion",
       "difficulty": "medium",
       "region": "Santa Fe",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The Spanish missions along the Route 66 corridor in the Southwest were established primarily by which Catholic religious order?",
@@ -12345,7 +12820,8 @@
       "category": "Mythology / Religion",
       "difficulty": "medium",
       "region": "Painted Desert & Canyon Country",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The Sandia Mountains east of Albuquerque get their name from the Spanish word for what fruit, because they glow pink at sunset?",
@@ -12361,7 +12837,8 @@
       "category": "Mythology / Religion",
       "difficulty": "easy",
       "region": "Eastern New Mexico",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Route 66 passes near Chimay\u00f3, New Mexico, home to a small chapel famous for what miraculous claim?",
@@ -12377,7 +12854,8 @@
       "category": "Mythology / Religion",
       "difficulty": "medium",
       "region": "Santa Fe",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Many Route 66 ghost towns in the Mojave Desert have inspired legends about what supernatural phenomenon?",
@@ -12393,15 +12871,16 @@
       "category": "Mythology / Religion",
       "difficulty": "easy",
       "region": "Mojave Crossing",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
-      "q": "Ambler's Texaco Gas Station in Dwight, Illinois was the longest-running service station on Route 66, selling gas until what year?",
+      "q": "Ambler's Texaco Gas Station in Dwight, Illinois pumped gas for decades until closing in 1999. What does it serve as today?",
       "a": [
-        "1999",
-        "1985",
-        "1970",
-        "2010"
+        "A Route 66 visitor center",
+        "A private residence",
+        "An antique shop",
+        "A craft brewery"
       ],
       "correct": 0,
       "bonus": "The station was built in 1933 in the domestic cottage style \u2014 designed to look like a house so it would blend into neighborhoods. Driving these stretches feels like stepping back in time.",
@@ -12409,7 +12888,8 @@
       "category": "Economy & Industry",
       "difficulty": "hard",
       "region": "Illinois Prairie",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "Soulsby's Service Station in Mount Olive, Illinois sold only Shell gasoline for 65 straight years. It's now on what?",
@@ -12425,7 +12905,8 @@
       "category": "Economy & Industry",
       "difficulty": "hard",
       "region": "Illinois Prairie",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "In Shamrock, Texas, what Art Deco Conoco station with a 100-foot tower inspired Ramone's body shop in Pixar's Cars?",
@@ -12441,7 +12922,8 @@
       "category": "Architecture & Buildings",
       "difficulty": "medium",
       "region": "Texas Panhandle",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "The rusty tow truck at Cars on the Route in Galena, Kansas directly inspired which Pixar character?",
@@ -12457,7 +12939,8 @@
       "category": "Entertainment & Media",
       "difficulty": "easy",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Lucille Hamons ran a gas station and roadhouse in Hydro, Oklahoma for 60 years. What nickname did she earn?",
@@ -12473,15 +12956,16 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
-      "q": "Roy's Motel & Cafe in Amboy, California started as a gas station oasis in the Mojave Desert. What year was it built?",
+      "q": "Roy's Motel & Cafe has served as a Mojave Desert oasis since 1938. In what tiny California ghost town does it sit?",
       "a": [
-        "1938",
-        "1925",
-        "1950",
-        "1960"
+        "Amboy",
+        "Bagdad",
+        "Ludlow",
+        "Newberry Springs"
       ],
       "correct": 0,
       "bonus": "Roy's iconic Googie-style neon arrow sign is one of the most photographed objects on Route 66. The cafe has been restored and serves travelers again. The property remains a popular stop for travelers retracing the historic route today.",
@@ -12489,7 +12973,8 @@
       "category": "Landmarks & Places",
       "difficulty": "medium",
       "region": "Mojave Crossing",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The Cozy Dog Drive-In in Springfield, Illinois claims to have invented what food item on a stick in 1946?",
@@ -12505,7 +12990,8 @@
       "category": "Food & Drink",
       "difficulty": "easy",
       "region": "Illinois Prairie",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The Ariston Cafe in Litchfield, Illinois has been operated by the same family since 1924, making it what?",
@@ -12521,7 +13007,8 @@
       "category": "Food & Drink",
       "difficulty": "medium",
       "region": "Illinois Prairie",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Delgadillo's Snow Cap Drive-In in Seligman, Arizona is famous for its prankster owner Juan Delgadillo. What did he do to customers?",
@@ -12537,7 +13024,8 @@
       "category": "Pop Culture & Traditions",
       "difficulty": "medium",
       "region": "Kingman & Western Arizona",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "The Big Texan Steak Ranch in Amarillo offers a free 72-ounce steak if you can eat it in under how long?",
@@ -12553,7 +13041,8 @@
       "category": "Food & Drink",
       "difficulty": "easy",
       "region": "Texas Panhandle",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The 66 Diner in Albuquerque was converted from what original Route 66 business?",
@@ -12569,15 +13058,16 @@
       "category": "Food & Drink",
       "difficulty": "medium",
       "region": "Eastern New Mexico",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
-      "q": "The Rock Cafe in Stroud, Oklahoma was built using rocks excavated during the original construction of Route 66. What year did it open?",
+      "q": "The Rock Cafe in Stroud, Oklahoma was built in 1939 using rocks excavated during Route 66 road construction. What Pixar character was partly inspired by its owner?",
       "a": [
-        "1939",
-        "1926",
-        "1950",
-        "1945"
+        "Sally Carrera from Cars",
+        "Lightning McQueen from Cars",
+        "Mater from Cars",
+        "Doc Hudson from Cars"
       ],
       "correct": 0,
       "bonus": "The cafe's owner Dawn Welch became friends with Pixar's creators and partly inspired the character Sally Carrera in Cars. The restaurant continues to serve travelers today, much as it has for decades. Locals and road-trippers share counter space in a tradition that goes back to the highway's golden age.",
@@ -12585,7 +13075,8 @@
       "category": "Landmarks & Places",
       "difficulty": "hard",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "The Midpoint Cafe in Adrian, Texas claims 'halfway' fame on Route 66. What are they famous for serving?",
@@ -12601,7 +13092,8 @@
       "category": "Food & Drink",
       "difficulty": "medium",
       "region": "Texas Panhandle",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The Wagon Wheel Motel in Cuba, Missouri claims what title on Route 66?",
@@ -12617,7 +13109,8 @@
       "category": "Landmarks & Places",
       "difficulty": "hard",
       "region": "Missouri Ozarks",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "The Boots Court motel in Carthage, Missouri (1939) once charged $2.50 a night. Which Hollywood star stayed there?",
@@ -12633,7 +13126,8 @@
       "category": "Landmarks & Places",
       "difficulty": "hard",
       "region": "Missouri Ozarks",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "The Blue Swallow Motel in Tucumcari, New Mexico is famous for what unique room feature?",
@@ -12649,7 +13143,8 @@
       "category": "Landmarks & Places",
       "difficulty": "medium",
       "region": "Eastern New Mexico",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "La Posada Hotel in Winslow, Arizona was designed by architect Mary Colter and originally served as what?",
@@ -12665,7 +13160,8 @@
       "category": "Landmarks & Places",
       "difficulty": "medium",
       "region": "Painted Desert & Canyon Country",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The Eisler Brothers Old Riverton Store in Riverton, Kansas has been open since 1925, making it what?",
@@ -12681,7 +13177,8 @@
       "category": "Economy & Industry",
       "difficulty": "hard",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "Pops 66 in Arcadia, Oklahoma features a giant 66-foot illuminated soda bottle. How many varieties of pop do they sell?",
@@ -12697,7 +13194,8 @@
       "category": "Landmarks & Places",
       "difficulty": "easy",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The Devil's Rope Museum in McLean, Texas combines Route 66 history with exhibits on what unexpected topic?",
@@ -12713,7 +13211,8 @@
       "category": "Pop Culture & Traditions",
       "difficulty": "medium",
       "region": "Texas Panhandle",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Route 66 is credited with helping popularize which new type of American roadside lodging in the 1930s-50s?",
@@ -12729,7 +13228,8 @@
       "category": "Economy & Industry",
       "difficulty": "easy",
       "region": "Missouri Ozarks",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Many small Route 66 towns lost up to 90% of their roadside businesses after what 1970s-80s development?",
@@ -12745,7 +13245,8 @@
       "category": "History & Events",
       "difficulty": "easy",
       "region": "Kingman & Western Arizona",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Cyrus Avery of Tulsa, known as the 'Father of Route 66,' promoted the highway as what?",
@@ -12761,7 +13262,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "The original McDonald's Speedee Service System in San Bernardino (1948) pioneered what fast-food model?",
@@ -12777,7 +13279,8 @@
       "category": "Economy & Industry",
       "difficulty": "medium",
       "region": "Los Angeles & Santa Monica",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "Gary's Gay Parita in Ash Grove, Missouri is a lovingly rebuilt replica of a 1930s Sinclair station. Why was it rebuilt in 2005?",
@@ -12793,7 +13296,8 @@
       "category": "Landmarks & Places",
       "difficulty": "hard",
       "region": "Missouri Ozarks",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "Cool Springs Station in Golden Valley, Arizona was a 1920s desert oasis that burned in the 1960s. What does it operate as today after restoration?",
@@ -12809,7 +13313,8 @@
       "category": "Landmarks & Places",
       "difficulty": "hard",
       "region": "Kingman & Western Arizona",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "The restored Phillips 66 station in Chandler, Oklahoma is near what famous neon sign that advertised dairy products along Route 66?",
@@ -12825,7 +13330,8 @@
       "category": "Landmarks & Places",
       "difficulty": "hard",
       "region": "Oklahoma Crossroads",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "Mr. D'z Route 66 Diner in Kingman, Arizona has a bright hot-pink-and-turquoise facade. What signature drink do travelers line up for?",
@@ -12841,7 +13347,8 @@
       "category": "Food & Drink",
       "difficulty": "easy",
       "region": "Kingman & Western Arizona",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The Luna Cafe in Mitchell, Illinois is one of the oldest surviving eateries on Route 66. What neon feature lights up its exterior?",
@@ -12857,7 +13364,8 @@
       "category": "Landmarks & Places",
       "difficulty": "medium",
       "region": "Illinois Prairie",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "The Palms Grill Cafe in Atlanta, Illinois opened in 1934 and is still famous for what Depression-era comfort food?",
@@ -12873,7 +13381,8 @@
       "category": "Food & Drink",
       "difficulty": "medium",
       "region": "Illinois Prairie",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "The Munger Moss Motel in Lebanon, Missouri had its iconic neon sign restored in 2010 thanks to what federal program?",
@@ -12889,7 +13398,8 @@
       "category": "Government & Civics",
       "difficulty": "hard",
       "region": "Missouri Ozarks",
-      "fun": false
+      "fun": false,
+      "skill": 5
     },
     {
       "q": "El Vado Motel in Albuquerque (opened 1937) is one of the few surviving adobe-style motor courts on Route 66. What unique amenity did it offer?",
@@ -12905,7 +13415,8 @@
       "category": "Architecture & Buildings",
       "difficulty": "medium",
       "region": "Eastern New Mexico",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The Motel Safari in Tucumcari, New Mexico (1959) was built in what flashy architectural style popular with 1950s motorists?",
@@ -12921,7 +13432,8 @@
       "category": "Architecture & Buildings",
       "difficulty": "medium",
       "region": "Eastern New Mexico",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The El Trovatore Motel in Kingman, Arizona (1930s) once hosted both Elvis Presley and Marilyn Monroe. What rooms did they stay in?",
@@ -12937,7 +13449,8 @@
       "category": "Landmarks & Places",
       "difficulty": "hard",
       "region": "Kingman & Western Arizona",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "Hotel Monte Vista in Flagstaff, Arizona hosted Hollywood stars filming nearby. What was painted on its exterior to attract Route 66 travelers?",
@@ -12953,7 +13466,8 @@
       "category": "Landmarks & Places",
       "difficulty": "medium",
       "region": "Flagstaff & Williams",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Tucumcari, New Mexico once promoted itself with roadside billboards promising what to attract overnight travelers?",
@@ -12969,7 +13483,8 @@
       "category": "Pop Culture & Traditions",
       "difficulty": "easy",
       "region": "Eastern New Mexico",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The Round Barn in Arcadia, Oklahoma originally served what purpose before becoming a Route 66 tourist icon?",
@@ -12985,15 +13500,16 @@
       "category": "Landmarks & Places",
       "difficulty": "easy",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
-      "q": "Route 66 was the first U.S. highway to be completely paved end-to-end. In what year was the final stretch paved?",
+      "q": "When Route 66 became the first fully paved transcontinental highway in 1938, what made this achievement revolutionary for American travel?",
       "a": [
-        "1938",
-        "1926",
-        "1945",
-        "1955"
+        "Year-round all-weather driving coast to coast",
+        "The first road with painted lane lines",
+        "Electric streetlights along the entire route",
+        "Gas stations every 50 miles guaranteed"
       ],
       "correct": 0,
       "bonus": "The last unpaved stretch was in Arizona. Complete paving made Route 66 the first all-weather transcontinental highway \u2014 you could drive Chicago to LA in any season. Driving these stretches feels like stepping back in time.",
@@ -13001,7 +13517,8 @@
       "category": "Transportation & Travel",
       "difficulty": "medium",
       "region": "Painted Desert & Canyon Country",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The 'Tucumcari Tonite' billboard campaign was an early example of what type of Route 66 commerce strategy?",
@@ -13017,7 +13534,8 @@
       "category": "Economy & Industry",
       "difficulty": "medium",
       "region": "Eastern New Mexico",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "World War II military convoys turned Route 66 into a vital supply route, causing what boom in small-town businesses?",
@@ -13033,7 +13551,8 @@
       "category": "History & Events",
       "difficulty": "medium",
       "region": "Oklahoma Crossroads",
-      "fun": false
+      "fun": false,
+      "skill": 3
     },
     {
       "q": "The rise of drive-in and drive-up businesses along Route 66 directly influenced the nationwide spread of what modern industry?",
@@ -13049,7 +13568,8 @@
       "category": "Economy & Industry",
       "difficulty": "easy",
       "region": "Illinois Prairie",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Chicago reversed the flow of an entire river so its sewage would stop polluting its drinking water. Which river?",
@@ -13065,7 +13585,8 @@
       "category": "Science & Technology",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Chicago once physically raised its entire downtown \u2014 buildings and all \u2014 by several feet. Why?",
@@ -13081,7 +13602,8 @@
       "category": "Science & Technology",
       "difficulty": "medium",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Oklahoma is the only U.S. state with an official state meal. What's on the plate?",
@@ -13097,7 +13619,8 @@
       "category": "Food & Drink",
       "difficulty": "easy",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "In Arcadia, Oklahoma, a gas station sells over 700 varieties of soda under a 66-foot glowing bottle. What's it called?",
@@ -13113,7 +13636,8 @@
       "category": "Landmarks & Places",
       "difficulty": "easy",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "At Cadillac Ranch near Amarillo, visitors are actually encouraged to do what to the buried cars?",
@@ -13129,7 +13653,8 @@
       "category": "Pop Culture & Traditions",
       "difficulty": "easy",
       "region": "Texas Panhandle",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "If you eat a 72-ounce steak in under an hour at the Big Texan in Amarillo, what do you get?",
@@ -13145,7 +13670,8 @@
       "category": "Food & Drink",
       "difficulty": "easy",
       "region": "Texas Panhandle",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "In New Mexico, if someone asks you 'Red or green?' at a restaurant, what are they asking about?",
@@ -13161,7 +13687,8 @@
       "category": "Food & Drink",
       "difficulty": "easy",
       "region": "Eastern New Mexico",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Jeff Bezos, the founder of Amazon and one of the richest people in history, was born in which unlikely city?",
@@ -13177,7 +13704,8 @@
       "category": "Famous People",
       "difficulty": "easy",
       "region": "Eastern New Mexico",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "In Oatman, Arizona, the main street is regularly blocked by what unexpected traffic hazard?",
@@ -13193,7 +13721,8 @@
       "category": "Nature & Environment",
       "difficulty": "easy",
       "region": "Kingman & Western Arizona",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The owner of Delgadillo's Snow Cap Drive-In in Seligman, Arizona was famous for doing what to customers?",
@@ -13209,7 +13738,8 @@
       "category": "Pop Culture & Traditions",
       "difficulty": "easy",
       "region": "Kingman & Western Arizona",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The ghost town of Amboy, California on Route 66 is so remote that it was once sold on eBay. What was the asking price?",
@@ -13225,7 +13755,8 @@
       "category": "Economy & Industry",
       "difficulty": "medium",
       "region": "Mojave Crossing",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Marilyn Monroe and Route 66 share what surprising connection?",
@@ -13241,7 +13772,8 @@
       "category": "Entertainment & Media",
       "difficulty": "easy",
       "region": "Los Angeles & Santa Monica",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Ted Drewes Frozen Custard in St. Louis serves a shake so thick they prove it by doing what?",
@@ -13257,7 +13789,8 @@
       "category": "Food & Drink",
       "difficulty": "easy",
       "region": "St. Louis Gateway",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "The City Museum in St. Louis includes caves, slides, and a school bus dangling off the roof. What is it made from?",
@@ -13273,7 +13806,8 @@
       "category": "Landmarks & Places",
       "difficulty": "easy",
       "region": "St. Louis Gateway",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Flagstaff, Arizona was the first city in the world to receive what unusual official designation in 2001?",
@@ -13289,7 +13823,8 @@
       "category": "Nature & Environment",
       "difficulty": "easy",
       "region": "Flagstaff & Williams",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Santa Fe, New Mexico is the oldest state capital in the U.S. It was founded a decade before what famous American event?",
@@ -13305,7 +13840,8 @@
       "category": "History & Events",
       "difficulty": "easy",
       "region": "Santa Fe",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Chicagoans know that beneath downtown lies a 40-block network of underground walkways called what?",
@@ -13321,7 +13857,8 @@
       "category": "Landmarks & Places",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "Real Chicagoans know the best skyline view isn't from Willis Tower or the Hancock \u2014 it's from the top floor of what free building?",
@@ -13337,7 +13874,8 @@
       "category": "Landmarks & Places",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "The Hideout, a tiny dive bar tucked in an industrial stretch of Goose Island, is beloved by Chicago locals for what?",
@@ -13353,7 +13891,8 @@
       "category": "Pop Culture & Traditions",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "Calumet Fisheries, a smokehouse shack next to the Calumet River on Chicago's Far South Side, is famous among locals for what?",
@@ -13369,7 +13908,8 @@
       "category": "Food & Drink",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "Chicago's Garfield Park Conservatory is one of the largest in the nation but most tourists miss it. Locals call the Fern Room what?",
@@ -13385,7 +13925,8 @@
       "category": "Nature & Environment",
       "difficulty": "hard",
       "region": "Chicagoland",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "St. Louis locals know the best frozen custard in the city comes from Ted Drewes \u2014 but what's the insider move when ordering?",
@@ -13401,7 +13942,8 @@
       "category": "Food & Drink",
       "difficulty": "easy",
       "region": "St. Louis Gateway",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Locals in St. Louis know the best view of the Gateway Arch is NOT from the front \u2014 it's from where?",
@@ -13417,7 +13959,8 @@
       "category": "Landmarks & Places",
       "difficulty": "medium",
       "region": "St. Louis Gateway",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "In Oklahoma City, locals line up at Nic's Grill \u2014 a tiny diner with only 14 seats \u2014 for what legendary menu item?",
@@ -13433,7 +13976,8 @@
       "category": "Food & Drink",
       "difficulty": "medium",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Tulsa locals know that Cherry Street is the best neighborhood for what kind of experience?",
@@ -13449,7 +13993,8 @@
       "category": "Pop Culture & Traditions",
       "difficulty": "hard",
       "region": "Oklahoma Crossroads",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "Albuquerque locals know the best green chile cheeseburger in the state comes from which unassuming chain?",
@@ -13465,7 +14010,8 @@
       "category": "Food & Drink",
       "difficulty": "medium",
       "region": "Eastern New Mexico",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Albuquerque locals escape the summer heat by riding what to the top of the Sandia Mountains?",
@@ -13481,7 +14027,8 @@
       "category": "Nature & Environment",
       "difficulty": "easy",
       "region": "Eastern New Mexico",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Santa Fe locals know the best art isn't in the galleries \u2014 it's on Canyon Road. How many galleries are packed into this half-mile street?",
@@ -13497,7 +14044,8 @@
       "category": "Arts & Literature",
       "difficulty": "medium",
       "region": "Santa Fe",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Flagstaff locals know that on a clear night, you can see something most Americans never see anymore. What?",
@@ -13513,7 +14061,8 @@
       "category": "Nature & Environment",
       "difficulty": "easy",
       "region": "Flagstaff & Williams",
-      "fun": true
+      "fun": true,
+      "skill": 1
     },
     {
       "q": "Locals in Flagstaff skip the tourist bars and head to the Museum Club on Route 66. What's its local nickname?",
@@ -13529,7 +14078,8 @@
       "category": "Pop Culture & Traditions",
       "difficulty": "medium",
       "region": "Flagstaff & Williams",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Locals in Seligman, Arizona say Angel Delgadillo saved their entire town. What did he do?",
@@ -13545,7 +14095,8 @@
       "category": "Famous People",
       "difficulty": "medium",
       "region": "Kingman & Western Arizona",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
       "q": "Locals in Santa Monica know the REAL end of Route 66 isn't the pier sign \u2014 it's the original terminus at what intersection?",
@@ -13561,7 +14112,8 @@
       "category": "Transportation & Travel",
       "difficulty": "hard",
       "region": "Los Angeles & Santa Monica",
-      "fun": true
+      "fun": true,
+      "skill": 5
     },
     {
       "q": "The entire ghost town of Amboy, California \u2014 including Roy's Motel & Cafe \u2014 was once listed for sale. How was it sold?",
@@ -13577,22 +14129,24 @@
       "category": "Economy & Industry",
       "difficulty": "medium",
       "region": "Mojave Crossing",
-      "fun": true
+      "fun": true,
+      "skill": 3
     },
     {
-      "q": "The Ambler's Texaco Gas Station in Dwight, Illinois is one of the best-preserved stations on Route 66. When was it built?",
+      "q": "Ambler's Texaco in Dwight, Illinois has stood since 1933. What domestic-style design feature was meant to make early motorists feel safe stopping?",
       "a": [
-        "1933",
-        "1926",
-        "1945",
-        "1955"
+        "A cottage-style peaked roof with shuttered windows",
+        "A white picket fence around the pumps",
+        "A front porch with rocking chairs",
+        "A fireplace visible through the window"
       ],
       "correct": 0,
       "bonus": "Ambler's is a rare surviving example of a domestic-style gas station \u2014 designed to look like a house rather than a commercial building. The Illinois Historic Preservation Division funded its restoration. It now serves as a Route 66 visitor center, welcoming travelers just as it did 90 years ago. The cottage-style architecture was meant to make motorists feel comfortable stopping in an era when gas stations were still a new concept.",
       "synopsis": "Ambler's Texaco represents a specific era of gas station design when oil companies wanted stations to blend into residential neighborhoods. The domestic style \u2014 peaked roof, shuttered windows, flower boxes \u2014 reassured early motorists that roadside commerce was safe and respectable. This approach to commercial architecture tells the story of how Americans learned to trust the roadside businesses that Route 66 brought to life.",
       "category": "Landmarks & Places",
       "region": "Illinois Prairie",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "skill": 3
     },
     {
       "q": "The Standard Oil Gasoline Station in Odell, Illinois was built in 1932. What makes it architecturally significant?",
@@ -13607,22 +14161,24 @@
       "synopsis": "Gas station architecture evolved rapidly in the 1930s as oil companies competed for motorists' attention. The canopy design at Odell solved a practical problem \u2014 protecting customers from rain and sun \u2014 while also creating a visual landmark visible from the road. Understanding these small architectural innovations helps explain why Route 66 spawned an entire visual culture of roadside design.",
       "category": "Landmarks & Places",
       "region": "Illinois Prairie",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "skill": 5
     },
     {
-      "q": "The Ariston Caf\u00e9 in Litchfield, Illinois has been serving travelers on Route 66 since what year?",
+      "q": "The Ariston Caf\u00e9 in Litchfield, Illinois has been serving travelers since 1924 \u2014 two years before Route 66 was even designated. How many generations of the same family have run it?",
       "a": [
-        "1924",
-        "1935",
-        "1946",
-        "1912"
+        "Four generations of the Adam family",
+        "Two generations of the Ariston family",
+        "Three generations of the Russo family",
+        "Five generations of the Clark family"
       ],
       "correct": 0,
       "bonus": "The Ariston Caf\u00e9 is one of the oldest continuously operating restaurants on Route 66, predating the highway's own 1926 designation by two years. Listed on the National Register of Historic Places, it has survived the Great Depression, World War II, the Interstate era, and the decline of Route 66. The Ariston proves that quality food and a welcoming atmosphere can outlast any economic shift. Four generations of the Adam family have kept it running.",
       "synopsis": "The Ariston Caf\u00e9's longevity is remarkable \u2014 it opened two years before Route 66 was even designated, meaning it served travelers on the road that would become the most famous highway in America before anyone knew what that road would become. Its survival through every era of American road travel makes it a living timeline of the roadside restaurant industry.",
       "category": "History & Events",
       "region": "Illinois Prairie",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "skill": 3
     },
     {
       "q": "The Old Chain of Rocks Bridge crossing the Mississippi River near St. Louis has what unusual feature?",
@@ -13637,7 +14193,8 @@
       "synopsis": "The Chain of Rocks Bridge's unusual bend makes it one of the most distinctive structures on all of Route 66. Engineers angled the bridge mid-span to align with a water intake tower on the river's Chain of Rocks \u2014 a rocky stretch that gave the bridge its name. The result is a driving experience unlike any other bridge in America, where the road suddenly shifts direction a hundred feet above the water.",
       "category": "Landmarks & Places",
       "region": "St. Louis Gateway",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "skill": 3
     },
     {
       "q": "Ed Galloway's Totem Pole Park near Foyil, Oklahoma features a folk art totem pole. How tall is it?",
@@ -13650,9 +14207,10 @@
       "correct": 0,
       "bonus": "Nathan Ed Galloway, a retired shop teacher, spent 11 years hand-building the totem pole from 1937 to 1948 using concrete, steel, rock, and sand. The pole features over 200 carved images including Native American motifs, animals, and geometric patterns. Galloway also built a fiddle-shaped house nearby. The site is listed on the National Register and maintained by the Rogers County Historical Society. It's one of the most remarkable examples of folk art in America.",
       "synopsis": "Totem Pole Park represents a uniquely American tradition of outsider art \u2014 individuals with no formal training creating monumental works through sheer determination and vision. Galloway wasn't Native American and had no connection to Pacific Northwest totem pole traditions, but his creation has become a beloved landmark. The SHPO documented and helped preserve the site as an example of vernacular roadside art.",
-      "category": "Arts & Entertainment",
+      "category": "Entertainment & Media",
       "region": "Oklahoma Crossroads",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "skill": 3
     },
     {
       "q": "The Rock Caf\u00e9 in Stroud, Oklahoma inspired a character in what Pixar film?",
@@ -13665,9 +14223,10 @@
       "correct": 0,
       "bonus": "Pixar animators traveled Route 66 researching the film Cars and stopped at the Rock Caf\u00e9, where owner Dawn Welch became the inspiration for Sally Carrera. The caf\u00e9 was built in 1939 from locally quarried sandstone \u2014 hence the name. A devastating fire in 2008 nearly destroyed it, but the community rebuilt it stone by stone. It's listed on the National Register and remains one of the most storied restaurants on Route 66.",
       "synopsis": "The Rock Caf\u00e9's connection to Pixar's Cars is one of the most famous examples of Route 66 influencing popular culture in the 21st century. The film brought global attention to a highway that many Americans had forgotten, driving a tourism revival along the entire route. Dawn Welch's personality and the caf\u00e9's character gave the animators exactly what they needed \u2014 a real place with a real story.",
-      "category": "Arts & Entertainment",
+      "category": "Entertainment & Media",
       "region": "Oklahoma Crossroads",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "skill": 1
     },
     {
       "q": "The Tower Station and U-Drop Inn in Shamrock, Texas is a masterpiece of what architectural style?",
@@ -13682,7 +14241,8 @@
       "synopsis": "The U-Drop Inn proves that even a gas station in a small Texas town could aspire to architectural greatness. Art Deco was the style of the modern age \u2014 skyscrapers, movie palaces, ocean liners \u2014 and applying it to a filling station was a bold statement that the automobile age deserved beautiful buildings too. The Texas Historical Commission recognized this by designating it a State Antiquities Landmark, providing even stronger protection than the National Register.",
       "category": "Landmarks & Places",
       "region": "Texas Panhandle",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "skill": 3
     },
     {
       "q": "The KiMo Theater in Albuquerque blends Art Deco architecture with design elements from what culture?",
@@ -13695,9 +14255,10 @@
       "correct": 0,
       "bonus": "Opened in 1927, the KiMo is the finest example of Pueblo Deco architecture in the world \u2014 a style found nowhere else. The exterior features Pueblo-inspired stepped forms and terra cotta details. Inside, steer skulls with glowing amber eyes line the walls, and painted ceiling beams reference traditional kiva designs. The theater was named by Isleta Pueblo elder Pablo Abeita \u2014 'KiMo' means 'king of its kind' in the Tiwa language. It's listed on the National Register.",
       "synopsis": "Pueblo Deco is an architectural style unique to New Mexico that merges the geometry of Art Deco with the organic forms of Pueblo culture. The KiMo Theater is its masterpiece \u2014 a building that could only exist in Albuquerque, at the intersection of Native American, Spanish, and American cultures. The New Mexico SHPO's State Register of Cultural Properties recognizes it as one of the most significant buildings in the state.",
-      "category": "Arts & Entertainment",
+      "category": "Entertainment & Media",
       "region": "Eastern New Mexico",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "skill": 3
     },
     {
       "q": "Wigwam Village #6 in Holbrook, Arizona lets travelers sleep in what type of structure?",
@@ -13712,7 +14273,8 @@
       "synopsis": "Wigwam Village represents a genre of roadside architecture called 'programmatic' or 'mimetic' \u2014 buildings shaped like the thing they sell. A hot dog stand shaped like a hot dog. A shoe store shaped like a shoe. A motel shaped like teepees. This tradition thrived on Route 66, where catching the eye of a passing motorist was the entire business model. The Arizona SHPO lists it as a significant example of mid-century commercial vernacular architecture.",
       "category": "Landmarks & Places",
       "region": "Painted Desert & Canyon Country",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "skill": 1
     },
     {
       "q": "Meramec Caverns near Stanton, Missouri was advertised across multiple states using what unusual method?",
@@ -13727,7 +14289,8 @@
       "synopsis": "Meramec Caverns' barn roof advertising campaign is one of the great marketing stories of the highway era. Before Interstates and before digital billboards, Lester Dill realized that barns along rural highways were the perfect billboard \u2014 visible, permanent, and cheap. He'd approach farmers with an offer: let me paint your roof and I'll give you free admission to the caves. The campaign created brand recognition across half the country.",
       "category": "History & Events",
       "region": "Missouri Ozarks",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "skill": 3
     }
   ]
 }

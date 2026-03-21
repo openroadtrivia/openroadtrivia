@@ -259,3 +259,106 @@
   85% { left: calc(100% - 140px); }
   100% { left: calc(100% - 140px); }
 }
+
+/* ============ CELEBRATION ANIMATIONS ============ */
+
+/* Confetti explosion — for 10+ streaks and milestones */
+@keyframes confetti-fall {
+  0% { transform: translateY(-100vh) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+}
+
+.confetti-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.confetti-piece {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: -20px;
+  animation: confetti-fall 2.5s ease-in forwards;
+}
+
+/* Streak fire glow — for 5+ streaks */
+@keyframes fire-pulse {
+  0% { box-shadow: 0 0 5px rgba(245, 158, 11, 0.4); }
+  50% { box-shadow: 0 0 25px rgba(239, 68, 68, 0.6), 0 0 50px rgba(245, 158, 11, 0.3); }
+  100% { box-shadow: 0 0 5px rgba(245, 158, 11, 0.4); }
+}
+
+.streak-fire {
+  animation: fire-pulse 0.8s ease-in-out infinite;
+  border-radius: 16px;
+}
+
+/* Big streak banner — slides in with bounce */
+@keyframes streak-bounce {
+  0% { transform: scale(0) rotate(-5deg); opacity: 0; }
+  60% { transform: scale(1.15) rotate(2deg); opacity: 1; }
+  80% { transform: scale(0.95) rotate(-1deg); }
+  100% { transform: scale(1) rotate(0deg); opacity: 1; }
+}
+
+.streak-mega {
+  animation: streak-bounce 0.5s ease-out;
+}
+
+/* Correct answer flash — brief green pulse on the whole screen */
+@keyframes correct-flash {
+  0% { background-color: rgba(16, 185, 129, 0.3); }
+  100% { background-color: transparent; }
+}
+
+.correct-flash {
+  animation: correct-flash 0.4s ease-out;
+}
+
+/* Points flying up */
+@keyframes points-fly {
+  0% { transform: translateY(0) scale(1); opacity: 1; }
+  100% { transform: translateY(-60px) scale(1.5); opacity: 0; }
+}
+
+.points-fly {
+  animation: points-fly 1s ease-out forwards;
+  position: absolute;
+  font-weight: 900;
+  font-size: 24px;
+  color: #f59e0b;
+  pointer-events: none;
+}
+
+/* Emoji burst — for milestones */
+@keyframes emoji-burst {
+  0% { transform: scale(0) rotate(0deg); opacity: 0; }
+  30% { transform: scale(1.5) rotate(15deg); opacity: 1; }
+  60% { transform: scale(1.2) rotate(-5deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0deg); opacity: 1; }
+}
+
+.emoji-burst {
+  animation: emoji-burst 0.6s ease-out;
+  font-size: 48px;
+  text-align: center;
+}
+
+/* Screen shake — for wrong answers (subtle) */
+@keyframes screen-shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-4px); }
+  40% { transform: translateX(4px); }
+  60% { transform: translateX(-2px); }
+  80% { transform: translateX(2px); }
+}
+
+.screen-shake {
+  animation: screen-shake 0.3s ease-out;
+}
